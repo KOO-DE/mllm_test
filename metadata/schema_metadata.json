@@ -1,0 +1,2271 @@
+{
+  "1_환자정보.xlsx": {
+    "n_rows": 2708,
+    "n_cols": 11,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 2708,
+        "unique_ratio": 1.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENC9739A45EC91",
+          "ENDC3BA77ACDA7",
+          "EN2E1BE80EF5E7"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 663,
+        "unique_ratio": 0.245,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT3540588F0ABA",
+          "PT05266D17987C",
+          "PTDC83B35EFE58"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 646,
+        "unique_ratio": 0.239,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM78A21BFCC3D1",
+          "NMEAA84FF16632",
+          "NM906EC77044AE"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "F",
+          "M"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 95,
+        "unique_ratio": 0.035,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1959",
+          "1949",
+          "1943"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "주소(시,도)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2704,
+        "non_null_ratio": 0.999,
+        "avg_len": 5.0,
+        "max_len": 7,
+        "unique_count": 20,
+        "unique_ratio": 0.007,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "세종특별자치시",
+          "전북특별자치도",
+          "대전광역시"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "주소(시,군,구)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2662,
+        "non_null_ratio": 0.983,
+        "avg_len": 2.7,
+        "max_len": 8,
+        "unique_count": 107,
+        "unique_ratio": 0.04,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "새롬중앙1로13",
+          "시청대로210",
+          "도움1로105"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "신장(cm)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2476,
+        "non_null_ratio": 0.914,
+        "avg_len": 4.3,
+        "max_len": 5,
+        "unique_count": 276,
+        "unique_ratio": 0.111,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "156.4",
+          "164.4",
+          "159.4"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "체중(kg)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2556,
+        "non_null_ratio": 0.944,
+        "avg_len": 3.5,
+        "max_len": 5,
+        "unique_count": 365,
+        "unique_ratio": 0.143,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "50.35",
+          "64.05",
+          "44.25"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "BMI(kg/m²)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2471,
+        "non_null_ratio": 0.912,
+        "avg_len": 4.9,
+        "max_len": 5,
+        "unique_count": 451,
+        "unique_ratio": 0.183,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "23.53",
+          "24.17",
+          "22.56"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "최초수진일",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 493,
+        "unique_ratio": 0.182,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2007-09-17",
+          "2000-01-20",
+          "2007-10-17"
+        ],
+        "category": "date"
+      }
+    ]
+  },
+  "2_수진정보.xlsx": {
+    "n_rows": 2708,
+    "n_cols": 15,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 2708,
+        "unique_ratio": 1.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENB885241BE844",
+          "ENAA213B6E133D",
+          "EN3702663C04B6"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 663,
+        "unique_ratio": 0.245,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT3C3C29A1B394",
+          "PT87B029CF941E",
+          "PT03FF36CCB92E"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 646,
+        "unique_ratio": 0.239,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM285E77A77F3B",
+          "NM280F865626BC",
+          "NMB043C05A56B0"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "M",
+          "F"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 95,
+        "unique_ratio": 0.035,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1974",
+          "1942",
+          "2006"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "수진(진료)일",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 32,
+        "unique_ratio": 0.012,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-01",
+          "2022-12-01",
+          "2022-12-05"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "병원명",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.0,
+        "max_len": 2,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "본원",
+          "세종"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "수진당시나이",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.0,
+        "max_len": 5,
+        "unique_count": 90,
+        "unique_ratio": 0.033,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "48yrs",
+          "80yrs",
+          "16yrs"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "입원시진료과",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 419,
+        "non_null_ratio": 0.155,
+        "avg_len": 4.6,
+        "max_len": 9,
+        "unique_count": 23,
+        "unique_ratio": 0.055,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "호흡기알레르기내과",
+          "심장혈관흉부외과",
+          "내분비대사내과"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "수진(퇴원포함)진료과",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.4,
+        "max_len": 25,
+        "unique_count": 63,
+        "unique_ratio": 0.023,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "노인센터 신경과(기억장애,치매,운동장애클리닉)",
+          "노인센터 재활의학과(재활클리닉)",
+          "노인센터 신경과(뇌졸중클리닉)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진료구분(초/재진/신환)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 1745,
+        "non_null_ratio": 0.644,
+        "avg_len": 2.1,
+        "max_len": 4,
+        "unique_count": 4,
+        "unique_ratio": 0.002,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "기간초진",
+          "초진",
+          "재진"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "환자구분",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 2708,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.0,
+        "max_len": 2,
+        "unique_count": 3,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "응급",
+          "외래",
+          "입원"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "입실시각(응급실)",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 818,
+        "non_null_ratio": 0.302,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 521,
+        "unique_ratio": 0.637,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-01 20:53:00",
+          "2022-12-27 12:40:00",
+          "2023-01-01 11:10:00"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "입원일",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 419,
+        "non_null_ratio": 0.155,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 32,
+        "unique_ratio": 0.076,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-01",
+          "2022-12-27",
+          "2022-12-31"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "진료결과",
+        "raw_dtype": "object",
+        "n_total": 2708,
+        "n_non_null": 681,
+        "non_null_ratio": 0.251,
+        "avg_len": 3.8,
+        "max_len": 18,
+        "unique_count": 8,
+        "unique_ratio": 0.012,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Hopeless Discharge",
+          "원병원으로 회송",
+          "타병으로 전원"
+        ],
+        "category": "categorical"
+      }
+    ]
+  },
+  "3_진단정보.xlsx": {
+    "n_rows": 2981,
+    "n_cols": 20,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 1546,
+        "unique_ratio": 0.519,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENFE62BD5C096C",
+          "ENAA213B6E133D",
+          "END409089131A5"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 622,
+        "unique_ratio": 0.209,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT00CEEFDFA630",
+          "PT87B029CF941E",
+          "PTB349B692E4E1"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 606,
+        "unique_ratio": 0.203,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM6EF81C9E90B6",
+          "NM280F865626BC",
+          "NM066C67EFD189"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "M",
+          "F"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 95,
+        "unique_ratio": 0.032,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1995",
+          "1942",
+          "2023"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "진단일자",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 100,
+        "unique_ratio": 0.034,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-02",
+          "2022-12-01",
+          "2023-01-01"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "첫 진단일자",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 424,
+        "unique_ratio": 0.142,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-02",
+          "2019-12-30",
+          "2021-03-09"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "진단진료과코드",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.5,
+        "max_len": 5,
+        "unique_count": 55,
+        "unique_ratio": 0.018,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "IM1CV",
+          "PEDPA",
+          "SHNR2"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진단 진료과",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.4,
+        "max_len": 25,
+        "unique_count": 57,
+        "unique_ratio": 0.019,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "노인센터 신경과(기억장애,치매,운동장애클리닉)",
+          "노인센터 재활의학과(재활클리닉)",
+          "노인센터 신경과(뇌졸중클리닉)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진단등록나이",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.0,
+        "max_len": 5,
+        "unique_count": 90,
+        "unique_ratio": 0.03,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "27yrs",
+          "80yrs",
+          "16yrs"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "첫 진단당시나이",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.0,
+        "max_len": 5,
+        "unique_count": 91,
+        "unique_ratio": 0.031,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "27yrs",
+          "77yrs",
+          "78yrs"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진단코드",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 9.0,
+        "max_len": 9,
+        "unique_count": 899,
+        "unique_ratio": 0.302,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "D00000068",
+          "D00010072",
+          "D00009540"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "진단명",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 33.3,
+        "max_len": 126,
+        "unique_count": 932,
+        "unique_ratio": 0.313,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Persons encountering health services for follow-up care involving removal of fra...",
+          "Poisoning by and exposure to nonopioid analgesics, antipyretics and antirheumati...",
+          "Premature rupture of membranes, onset of labour within 24 hours, unspecifiedlate..."
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "ICD10코드",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.2,
+        "max_len": 6,
+        "unique_count": 774,
+        "unique_ratio": 0.26,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "S72060",
+          "S52520",
+          "S52590"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "ICD10명",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 38.2,
+        "max_len": 143,
+        "unique_count": 746,
+        "unique_ratio": 0.25,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Localization-related (focal)(partial) idiopathic epilepsy and epileptic syndrome...",
+          "Persons encountering health services for follow-up care involving removal of fra...",
+          "Other specified neoplasms of uncertain or unknown behaviour of lymphoid, haemato..."
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "주상병여부",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Y",
+          "N"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "수술후진단여부",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "N",
+          "Y"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "확정상병여부",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Y",
+          "N"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "퇴원시점진단여부",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "N",
+          "Y"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진단보류여부",
+        "raw_dtype": "object",
+        "n_total": 2981,
+        "n_non_null": 2981,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 1,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "N"
+        ],
+        "category": "categorical"
+      }
+    ]
+  },
+  "4_의무기록.xlsx": {
+    "n_rows": 255462,
+    "n_cols": 19,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 1549,
+        "unique_ratio": 0.006,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENFE62BD5C096C",
+          "ENAA213B6E133D",
+          "EN3A487169C829"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 622,
+        "unique_ratio": 0.002,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT00CEEFDFA630",
+          "PT87B029CF941E",
+          "PT820224E63A8C"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 606,
+        "unique_ratio": 0.002,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM6EF81C9E90B6",
+          "NM280F865626BC",
+          "NMEB40E7D5FDA9"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "M",
+          "F"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 95,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1995",
+          "1942",
+          "1952"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "의무기록작성일",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 20575,
+        "unique_ratio": 0.081,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-02 00:39:15",
+          "2022-12-01 11:06:54",
+          "2023-01-01 23:50:09"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "수정기록일",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 192,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-02",
+          "2022-12-01",
+          "2023-01-01"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "의무기록작성 진료과코드",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.3,
+        "max_len": 5,
+        "unique_count": 80,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "DRAN1",
+          "PHCT1",
+          "PEDPA"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "의무기록작성 진료과",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 6.5,
+        "max_len": 19,
+        "unique_count": 83,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "통합외래부서4(신장/내분비/핵의학)",
+          "권역류마티스 및 퇴행성관절염센터",
+          "소아청소년센터(소아청소년과)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "의무기록 환자진료과코드",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.3,
+        "max_len": 5,
+        "unique_count": 56,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "IM2GI",
+          "IM6CC",
+          "IM1CV"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "의무기록 환자진료과",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.6,
+        "max_len": 25,
+        "unique_count": 57,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "노인센터 신경과(기억장애,치매,운동장애클리닉)",
+          "노인센터 재활의학과(재활클리닉)",
+          "노인센터 신경과(뇌졸중클리닉)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진료서식ID",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 6.8,
+        "max_len": 7,
+        "unique_count": 373,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "2004607",
+          "2003788",
+          "2004411"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "의무기록명",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 20.2,
+        "max_len": 71,
+        "unique_count": 381,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "정형외과_과별_(Spine)Modified Japanese Orthopaedic Association scoring system",
+          "재활의학과_과별_Standard neurological classification of spinal cord injury",
+          "재활의학과_과별_Orthostatic Hypotension Questionnaire (OHQ) 기립성저혈압 설문지"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "진료서식구성원소ID",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 36.3,
+        "max_len": 39,
+        "unique_count": 13659,
+        "unique_ratio": 0.053,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "264313343738346318569111148118429268751",
+          "104035650505075791194589330671115842739",
+          "180478679670458202318975031673839290262"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "의무기록항목명",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255461,
+        "non_null_ratio": 1.0,
+        "avg_len": 38.6,
+        "max_len": 310,
+        "unique_count": 8510,
+        "unique_ratio": 0.033,
+        "numeric_ratio": 0.0,
+        "samples": [
+          " 61 to 100 <- Laterality Quotient score: <- Classification: <- For each item: Al...",
+          "1. 전신상태가 ECOG performance status 3 이상인 경우    <- ⑨-1 조직학적ㆍ 세포학적 검사 미실시 사유       ※...",
+          "Rt. <- (elbow extended, shoulder 80 ~ 90) <- Forearm pronation/supination <- 4. ..."
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "의무기록내용-수치값",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 81353,
+        "non_null_ratio": 0.318,
+        "avg_len": 1.4,
+        "max_len": 11,
+        "unique_count": 2600,
+        "unique_ratio": 0.032,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "60009747711",
+          "80977260055",
+          "80459103875"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "의무기록내용",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 254764,
+        "non_null_ratio": 0.997,
+        "avg_len": 58.0,
+        "max_len": 7380,
+        "unique_count": 42424,
+        "unique_ratio": 0.167,
+        "numeric_ratio": 0.331,
+        "samples": [
+          "past medical Hx. : HF, COPD, AMI(failed PCI), AAA, CKD   - 1997년 MI 기왕력, PCI fai...",
+          "past medical Hx. : HF, COPD, AMI(failed PCI), AAA, CKD   - 1997년 MI 기왕력, PCI fai...",
+          "- 22.12.16 ICD 재세동, ICD 반응 없어 150J DCCV  - ST jude medical 연락 ICD analysis 시행   ..."
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "진료서식유형코드",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 26,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "D031",
+          "D002",
+          "D030"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "의무기록구분명",
+        "raw_dtype": "object",
+        "n_total": 255462,
+        "n_non_null": 255462,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.7,
+        "max_len": 20,
+        "unique_count": 26,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "입원경과 (수술(시술) 후 환자상태)",
+          "입원경과 (수술(시술) 전 치료계획)",
+          "입원경과 (입원재평가 31일이상)"
+        ],
+        "category": "categorical"
+      }
+    ]
+  },
+  "5_검사정보.xlsx": {
+    "n_rows": 509397,
+    "n_cols": 18,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 1499,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENFE62BD5C096C",
+          "ENDC3BA77ACDA7",
+          "EN3D1062A8D594"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 637,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT00CEEFDFA630",
+          "PT05266D17987C",
+          "PT529EB8867936"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 620,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM6EF81C9E90B6",
+          "NMEAA84FF16632",
+          "NM66F5CA873869"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "M",
+          "F"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 95,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1995",
+          "1949",
+          "1978"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "검사시행일",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 48239,
+        "unique_ratio": 0.095,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-01 23:49:47",
+          "2022-12-05 09:16:06",
+          "2022-12-05 09:09:07"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "검사코드",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 6.5,
+        "max_len": 12,
+        "unique_count": 1813,
+        "unique_ratio": 0.004,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "9EH4101N1IM6",
+          "HE101G13TDS",
+          "5H4101N1IM6"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "검사명",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 17.6,
+        "max_len": 86,
+        "unique_count": 1776,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Hemopoietic Cell Transplantation-Blood Derived Hemopoietic Progenitor cell(Autol...",
+          "CT, Chest, Lower Ribs, Enhanced (Requires Abdomen CT) (No charge for contrast)",
+          "$(기준외선별80%)Endoscopic Submucosal Dissection(1.Stomach)(Gascol,Beno,Algiron포함)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "검사세부항목명",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 508793,
+        "non_null_ratio": 0.999,
+        "avg_len": 17.9,
+        "max_len": 576,
+        "unique_count": 3133,
+        "unique_ratio": 0.006,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "중기 치매. 환자가 전적으로 의존하고 있는 배우자의 이름을 종종 잊음. 최근의 사건이나 경험들을 거의 기억하지 못함. 오래된 일은 일부 기억하기...",
+          "분명한 장애를 보이는 가장 초기 단계. 그러나 숙련된 임상가의 자세한 면담에 의해서만 객관적인 기억장애가 드러남. 새로이 소개받은 사람의 이름을...",
+          "초기 치매. 다른 사람의 도움없이는 더 이상 지낼 수 없음.  자신의 현재 일상 생활과 관련된 주요한 사항들을 기억하지 못함(예: 집 주소나 전..."
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "검사서식세부항목ID",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 15.7,
+        "max_len": 49,
+        "unique_count": 5322,
+        "unique_ratio": 0.01,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "FZ7331GNR:117096882949736601516581972019054662371",
+          "FZ73343NR:117096882949736601516581972019054662371",
+          "FZ73343NR:181463731539043613792576944168722264933"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "검사결과-수치값",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 337191,
+        "non_null_ratio": 0.662,
+        "avg_len": 3.1,
+        "max_len": 8,
+        "unique_count": 6816,
+        "unique_ratio": 0.02,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "178.2096",
+          "199.8896",
+          "1114.489"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "검사결과-음성양성",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 30745,
+        "non_null_ratio": 0.06,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 3,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "-",
+          "+",
+          "±"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "검사결과",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 410392,
+        "non_null_ratio": 0.806,
+        "avg_len": 16.0,
+        "max_len": 3577,
+        "unique_count": 20235,
+        "unique_ratio": 0.049,
+        "numeric_ratio": 0.819,
+        "samples": [
+          " ◎ 육 안 소 견  1) R/O Acute rejection, S/P Kidney transplantion due to DM-CKD (2022...",
+          " ◎ 육 안 소 견  1) AKI, R/O GVHD (due to MDS-HSCT, 2022.02.22)  2) H/O CMV colitis, ...",
+          "  Conclusion  NGS AML panel < NGS H22-510 >    Identified Variants  ============..."
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "검사처방일",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 208,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-01",
+          "2022-12-05",
+          "2022-05-04"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "검사유형",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 8.0,
+        "max_len": 9,
+        "unique_count": 4,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Pathology",
+          "Radiology",
+          "Specimen"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "처방전표분류",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509254,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 17,
+        "unique_count": 154,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Tumor marker(RIA)",
+          "약물,독물,유기용제및중금속검사",
+          "비부인과 세포병리(세침)검사"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "응급여부",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "N",
+          "Y"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "시행여부",
+        "raw_dtype": "object",
+        "n_total": 509397,
+        "n_non_null": 509397,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 1,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Y"
+        ],
+        "category": "categorical"
+      }
+    ]
+  },
+  "6_수술정보.xlsx": {
+    "n_rows": 176,
+    "n_cols": 22,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 148,
+        "unique_ratio": 0.841,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENEEBF6C024ED6",
+          "ENE6D34876B28D",
+          "EN199FEE0FDDAE"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 147,
+        "unique_ratio": 0.835,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT18C2305DF7E4",
+          "PT50D97739FAE9",
+          "PT20E3E1C66F9E"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 147,
+        "unique_ratio": 0.835,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NMFE23248EFEBE",
+          "NM77996B3493ED",
+          "NME624A3A95D4A"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.011,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "F",
+          "M"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 60,
+        "unique_ratio": 0.341,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1976",
+          "1954",
+          "1972"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "수술일자",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 45,
+        "unique_ratio": 0.256,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09",
+          "2022-12-02",
+          "2022-12-07"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "수술코드",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 9.0,
+        "max_len": 9,
+        "unique_count": 112,
+        "unique_ratio": 0.636,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "P00004245",
+          "P00000621",
+          "P00007816"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "수술명",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 34.1,
+        "max_len": 100,
+        "unique_count": 112,
+        "unique_ratio": 0.636,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "STA-MCA (superficial temporal artery to middle cerebral artery) bypass for acute...",
+          "Emergency cesarean section with lower uterine segment transverse incision (Twin,...",
+          "Emergency cesarean section with lower uterine segment transverse incision"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "ICD9CM코드",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.9,
+        "max_len": 5,
+        "unique_count": 86,
+        "unique_ratio": 0.489,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "86.70",
+          "41.31",
+          "14.74"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "ICD9CM명",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 43.5,
+        "max_len": 99,
+        "unique_count": 86,
+        "unique_ratio": 0.489,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Dorsal and dorsolumbar fusion, posterior technique, Arthrodesis of thoracic or t...",
+          "Lumbar and lumbosacral fusion, posterior technique, Arthrodesis of lumbar or lum...",
+          "Closed reduction of fracture without internal fixation, tibia and fibula,  Leg N..."
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "수술 진료과코드",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.0,
+        "max_len": 3,
+        "unique_count": 12,
+        "unique_ratio": 0.068,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "IM6",
+          "ENT",
+          "IM1"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "협진여부",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 0,
+        "non_null_ratio": 0.0,
+        "avg_len": 0.0,
+        "max_len": 0,
+        "unique_count": 0,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [],
+        "category": "empty"
+      },
+      {
+        "column": "마취종류코드",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 3,
+        "unique_ratio": 0.017,
+        "numeric_ratio": 0.994,
+        "samples": [
+          "1",
+          "0",
+          "E"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "마취종류",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 6.7,
+        "max_len": 7,
+        "unique_count": 3,
+        "unique_ratio": 0.017,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "General",
+          "Local",
+          "MAC"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "수술진단코드",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 9.0,
+        "max_len": 9,
+        "unique_count": 124,
+        "unique_ratio": 0.705,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "D00012750",
+          "D00005257",
+          "D00008729"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "수술진단명",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 176,
+        "non_null_ratio": 1.0,
+        "avg_len": 33.2,
+        "max_len": 126,
+        "unique_count": 124,
+        "unique_ratio": 0.705,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Persons encountering health services for follow-up care involving removal of fra...",
+          "Peripheral artery occlusive disease involving arteries of lower extremities",
+          "Persons encountering health services for chemotherapy session for neoplasm"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "입실일시",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 168,
+        "non_null_ratio": 0.955,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 162,
+        "unique_ratio": 0.964,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09 10:02:00",
+          "2022-12-02 14:44:00",
+          "2022-12-02 20:55:00"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "마취시작(간)",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 167,
+        "non_null_ratio": 0.949,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 45,
+        "unique_ratio": 0.269,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09",
+          "2022-12-02",
+          "2022-12-07"
+        ],
+        "category": "code_or_short_value"
+      },
+      {
+        "column": "수술시작시간",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 168,
+        "non_null_ratio": 0.955,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 165,
+        "unique_ratio": 0.982,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09 10:10:00",
+          "2022-12-02 14:47:00",
+          "2022-12-02 21:05:00"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "수술종료시간",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 168,
+        "non_null_ratio": 0.955,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 166,
+        "unique_ratio": 0.988,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09 11:05:00",
+          "2022-12-02 15:00:00",
+          "2022-12-02 22:55:00"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "마취종료(간)",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 167,
+        "non_null_ratio": 0.949,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 164,
+        "unique_ratio": 0.982,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09 11:05:00",
+          "2022-12-02 15:30:00",
+          "2022-12-02 23:05:00"
+        ],
+        "category": "free_text"
+      },
+      {
+        "column": "퇴실시간",
+        "raw_dtype": "object",
+        "n_total": 176,
+        "n_non_null": 168,
+        "non_null_ratio": 0.955,
+        "avg_len": 19.0,
+        "max_len": 19,
+        "unique_count": 165,
+        "unique_ratio": 0.982,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2022-12-09 11:05:00",
+          "2022-12-02 15:30:00",
+          "2022-12-02 23:05:00"
+        ],
+        "category": "date"
+      }
+    ]
+  },
+  "9_약품.xlsx": {
+    "n_rows": 190550,
+    "n_cols": 20,
+    "columns": [
+      {
+        "column": "원무접수ID",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 1227,
+        "unique_ratio": 0.006,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "ENFE62BD5C096C",
+          "ENDC3BA77ACDA7",
+          "EN2E1BE80EF5E7"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자번호",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 601,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "PT00CEEFDFA630",
+          "PT05266D17987C",
+          "PTDC83B35EFE58"
+        ],
+        "category": "identifier"
+      },
+      {
+        "column": "환자명",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 14.0,
+        "max_len": 14,
+        "unique_count": 589,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "NM6EF81C9E90B6",
+          "NMEAA84FF16632",
+          "NM906EC77044AE"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "성별",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "M",
+          "F"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "생년월일",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 4.0,
+        "max_len": 4,
+        "unique_count": 94,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "1995",
+          "1949",
+          "1943"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "약품처방일",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 10.0,
+        "max_len": 10,
+        "unique_count": 173,
+        "unique_ratio": 0.001,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "2023-01-02",
+          "2022-12-05",
+          "2022-12-15"
+        ],
+        "category": "date"
+      },
+      {
+        "column": "약품코드",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.5,
+        "max_len": 9,
+        "unique_count": 1284,
+        "unique_ratio": 0.007,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "JFENPM100",
+          "9AMXQ0510",
+          "HEMOSOLB"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "대표약품코드",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 5.5,
+        "max_len": 9,
+        "unique_count": 1284,
+        "unique_ratio": 0.007,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "JFENPM100",
+          "9AMXQ0510",
+          "HEMOSOLB"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "약품명(성분명)",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 28.6,
+        "max_len": 91,
+        "unique_count": 1228,
+        "unique_ratio": 0.006,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Bacillus subtilis 150mg, Clostridium butyricum Toa 150mg, Saccharomyces boulardi...",
+          "Fluticasone furoate 200mcg,Vilanterol trifenatate 40mcg(vilanterol 25mcg)/dose, ...",
+          "Neomycin sulfate 50mg, Polymyxin B sulfate 35,000unit, Nystatin 100,000unit/PIL"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "약품명(일반명)",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 17.8,
+        "max_len": 38,
+        "unique_count": 1356,
+        "unique_ratio": 0.007,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "셀레나제 티프로 1000mcg/20ml (Biosyn/휴온스) 비급여",
+          "대한 엘아르기닌염산염 주 10% 150ml(대한/라이트팜텍) 비급여",
+          "(근육주사)피디티예방접종(아다셀, 만11~64세)(사노피) 비급여"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "포장단위1일약품투여량",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 185832,
+        "non_null_ratio": 0.975,
+        "avg_len": 1.4,
+        "max_len": 21,
+        "unique_count": 644,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "0.0033333333333333335",
+          "0.023333333333333334",
+          "0.035555555555555556"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "포장단위1회약품투여량",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 12.4,
+        "max_len": 28,
+        "unique_count": 2757,
+        "unique_ratio": 0.014,
+        "numeric_ratio": 0.0,
+        "samples": [
+          ".125-.125-.125- - (.25mg/TA)",
+          ".125-.125-.25- - (.25mg/TA)",
+          "12-15-15- - (300unit/SYRN)"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "처방단위",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 185832,
+        "non_null_ratio": 0.975,
+        "avg_len": 2.0,
+        "max_len": 2,
+        "unique_count": 3,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "규격",
+          "포장",
+          "함량"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "1일처방량",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.2,
+        "max_len": 6,
+        "unique_count": 577,
+        "unique_ratio": 0.003,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "10.125",
+          "1764.6",
+          "0.0375"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "1회처방량",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 3.2,
+        "max_len": 18,
+        "unique_count": 768,
+        "unique_ratio": 0.004,
+        "numeric_ratio": 0.0,
+        "samples": [
+          ".125-.125-.125- - ",
+          ".125-.125-.25- - ",
+          ".125-.25- - - "
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "투약일수",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 3,
+        "unique_count": 55,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 1.0,
+        "samples": [
+          "180",
+          "105",
+          "120"
+        ],
+        "category": "numeric"
+      },
+      {
+        "column": "간호사 수행여부",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "N",
+          "Y"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "원내처방여부",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 1.0,
+        "max_len": 1,
+        "unique_count": 2,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "Y",
+          "N"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "투약위치",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 3.0,
+        "max_len": 5,
+        "unique_count": 4,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "주사처치실",
+          "집으로",
+          "진료과"
+        ],
+        "category": "categorical"
+      },
+      {
+        "column": "보험구분",
+        "raw_dtype": "object",
+        "n_total": 190550,
+        "n_non_null": 190550,
+        "non_null_ratio": 1.0,
+        "avg_len": 2.7,
+        "max_len": 8,
+        "unique_count": 3,
+        "unique_ratio": 0.0,
+        "numeric_ratio": 0.0,
+        "samples": [
+          "D(본인100)",
+          "S(비급여)",
+          "급여"
+        ],
+        "category": "categorical"
+      }
+    ]
+  }
+}
