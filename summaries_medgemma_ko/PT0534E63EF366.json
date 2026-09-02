@@ -1,0 +1,199 @@
+{
+  "patient_id": "PT0534E63EF366",
+  "status": "ok",
+  "n_evidence_available": 106,
+  "n_evidence_used_in_prompt": 55,
+  "cited_evidence_ids": [
+    "E0000024",
+    "E0000025",
+    "E0013480",
+    "E0013482",
+    "E0013483",
+    "E0013508",
+    "E0013526",
+    "E0013527",
+    "E0013529",
+    "E0016752",
+    "E0016753",
+    "E0016755",
+    "E0016756",
+    "E0016757",
+    "E0016758",
+    "E0016773",
+    "E0016774",
+    "E0016775"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Subarachnoid hemorrhage from anterior communicating artery",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0000024",
+        "E0000025"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Subarachnoid hemorrhage, unspecified",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0000024",
+        "E0000025"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chest PA or AP",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0013480"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Brain CT Angio 응급실조영증강",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0013482"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Brain CT 3D(응급실)",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0013483"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Brain CT(신경외과)",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0013508"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "#경두개 초음파 혈류검사(TCD)",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0013526",
+        "E0013527",
+        "E0013529"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Non specific X-ray finding",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016752"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Coil embolization",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016753"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Coil embolization of cerebral aneurysm",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016755"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Subarachnoid hemorrhage, unspecified {I60.9}",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016756"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Drain color check",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016757"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "ロス판정 80mg (phloroglucinol) 1T tid",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016758"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "work up",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016773"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "r/o CI",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016774"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "SAH",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0016775"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0001485",
+    "E0001486",
+    "E0001487",
+    "E0001488",
+    "E0001489",
+    "E0001490",
+    "E0001491",
+    "E0001492",
+    "E0001493",
+    "E0001494",
+    "E0001495",
+    "E0001496",
+    "E0001497",
+    "E0001498",
+    "E0001499",
+    "E0001500",
+    "E0001501",
+    "E0001502",
+    "E0001503",
+    "E0001504",
+    "E0001505",
+    "E0001506",
+    "E0001507",
+    "E0001508",
+    "E0001509",
+    "E0001510",
+    "E0001511",
+    "E0001512",
+    "E0001513",
+    "E0001514",
+    "E0001515",
+    "E0001516",
+    "E0013509",
+    "E0013519",
+    "E0013546",
+    "E0016754",
+    "E0016776"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "status": "ok",
+  "n_evidence_available": 40,
+  "n_evidence_used_in_prompt": 34,
+  "cited_evidence_ids": [
+    "E0000026",
+    "E0000027",
+    "E0000028",
+    "E0001517",
+    "E0001518",
+    "E0001519",
+    "E0001520",
+    "E0001521",
+    "E0001522",
+    "E0001523",
+    "E0001524",
+    "E0001525",
+    "E0001526",
+    "E0001527",
+    "E0001528",
+    "E0001529",
+    "E0001530",
+    "E0001531",
+    "E0008319",
+    "E0012074",
+    "E0016789",
+    "E0016790"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute lymphoblastic leukaemia [ALL]",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000026"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-07",
+          "evidence_ids": [
+            "E0001517"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "E0001519"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "E0001530"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "E0001531"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5% & NaCl 1000m/PA",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "E0001520"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Distilled water 1000ml/BT",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "E0001521"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "E0001522"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "E0001527"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium bicarbonate 500mg/TA",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "E0001529"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cytarabine 100mg/5ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001518"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine 50mg/TA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001524"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg/3ml/AM",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001525"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Palonosetron 0.25mg/5ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001526"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001528"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "E0001523"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Other specified disorders of white blood cells",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000027"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Persons encountering health services for chemotherapy session for neoplasm",
+      "onset_date": "2022-12-19",
+      "diagnosis_evidence_ids": [
+        "E0000028"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0016789",
+        "E0016790"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "B-ALL",
+      "onset_date": "2022-12-20",
+      "diagnosis_evidence_ids": [
+        "E0012074"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "α-hemolytic streptococci less than 10³CFU /mL",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0008319"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0008320",
+    "E0012071",
+    "E0012072",
+    "E0012073",
+    "E0016781",
+    "E0016787",
+    "E0016788",
+    "E0016791",
+    "E0016792",
+    "E0016793",
+    "E0016794",
+    "E0016795"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "patient_id": "PT0BCFBF5E2499",
+  "status": "ok",
+  "n_evidence_available": 8,
+  "n_evidence_used_in_prompt": 8,
+  "cited_evidence_ids": [
+    "E0000032",
+    "E0016853",
+    "E0016854",
+    "E0016855"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Anemia, unspecified",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "E0000032"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Aplastic Anemia",
+      "onset_date": "Unknown",
+      "diagnosis_evidence_ids": [
+        "E0016853",
+        "E0016854"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Hemolytic Anemia",
+      "onset_date": "Unknown",
+      "diagnosis_evidence_ids": [
+        "E0016855"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chronic Allergic Rhinitis",
+      "onset_date": "Unknown",
+      "diagnosis_evidence_ids": [
+        "E0016854",
+        "E0016855"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0016405",
+    "E0016406",
+    "E0016407",
+    "E0016852"
+  ]
+}

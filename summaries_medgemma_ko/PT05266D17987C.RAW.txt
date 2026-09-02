@@ -1,0 +1,482 @@
+<unused94>thought
+Here's my thinking process to arrive at the desired JSON output based on the provided evidence list:
+
+1.  **Understand the Goal:** The request asks me to extract patient information from a list of medical evidence snippets and organize it into a specific JSON format. I need to identify diagnoses, treatments, and their corresponding evidence IDs, following strict rules about using only the provided text, avoiding inferences, consolidating duplicate entries, and formatting correctly.
+
+2.  **Analyze the Input Data Structure:** The input is a list of strings, each representing a piece of evidence. Each string starts with `[E000xxxx]` followed by the evidence ID, then a colon `:`, and then the actual content (Diagnosis, Date, Procedure, Medication, Radiology Finding, etc.). Some lines are just radiology findings (`[Finding]`) followed by details.
+
+3.  **Identify Key Information Categories:** Based on the requested JSON structure (`problems` array containing objects with `diagnosis`, `onset_date`, `diagnosis_evidence_ids`, and `treatments`), I know I need to look for:
+    *   **Diagnoses:** These appear under the `진단명:` label within the evidence descriptions. They will populate the `diagnosis` field.
+    *   **Dates:** Dates associated with diagnoses or procedures will be used for `onset_date`.
+    *   **Evidence IDs:** The `[E000xxxx]` part identifies the source of the information. This will populate `diagnosis_evidence_ids` for diagnoses and `evidence_ids` for treatments.
+    *   **Treatments:** These appear under `약물:` labels. They will populate the `treatments` array, including `type`, `name`, `date`, and `evidence_ids`.
+    *   **Radiology Findings:** These often start with `[Finding]` and describe observations from imaging tests. While they *are* diagnostic information, the instructions explicitly say *not* to include them in the `treatments` section but rather in the `diagnosis_evidence_ids` if they represent a diagnosis itself (like "OA finding"). However, the prompt also says "evidence에 없는 진단·치료를 추가하지 마세요." which implies I should stick strictly to what's written. Since the radiology findings aren't presented as distinct diagnoses *with dates*, I won't create separate diagnosis entries for them unless they clearly state something like "Diagnosis: X". In this case, they seem more like descriptive findings *within* a larger context (e.g., the knee exam). Therefore, I will *not* add these findings as separate diagnoses.
+
+4.  **Process Evidence Item by Item:**
+
+    *   **[E0000019]:**
+        *   Diagnosis: Dry eye syndrome
+        *   Date: 2022-12-05
+        *   Action: Add `{ "diagnosis": "Dry eye syndrome", "onset_date": "2022-12-05", "diagnosis_evidence_ids": ["E0000019"] }` to the `problems` list.
+
+    *   **[E0000021]:**
+        *   Diagnosis: Low-tension glaucoma
+        *   Date: 2022-12-05
+        *   Action: Add `{ "diagnosis": "Low-tension glaucoma", "onset_date": "2022-12-05", "diagnosis_evidence_ids": ["E0000021"] }` to the `problems` list.
+
+    *   **[E0000018]:**
+        *   Diagnosis: Degenerative arthritis, patellofemoral joint
+        *   Date Range: 2022-12-07 ~ 2022-12-18 (Total 2 records)
+        *   Action: Create one entry. Combine the two records.
+            *   `diagnosis`: "Degenerative arthritis, patellofemoral joint"
+            *   `onset_date`: "2022-12-07" (using the first date mentioned)
+            *   `diagnosis_evidence_ids`: ["E0000018"]
+            *   Add `{ "diagnosis": "Degenerative arthritis, patellofemoral joint", "onset_date": "2022-12-07", "diagnosis_evidence_ids": ["E0000018"] }` to the `problems` list.
+
+    *   **[E0000017]:**
+        *   Diagnosis: Abnormal results of kidney function studies
+        *   Date: 2022-12-13
+        *   Action: Add `{ "diagnosis": "Abnormal results of kidney function studies", "onset_date": "2022-12-13", "diagnosis_evidence_ids": ["E0000017"] }` to the `problems` list.
+
+    *   **[E0000020]:**
+        *   Diagnosis: Examination and observation for expert evidence
+        *   Date: 2022-12-13
+        *   Action: Add `{ "diagnosis": "Examination and observation for expert evidence", "onset_date": "2022-12-13", "diagnosis_evidence_ids": ["E0000020"] }` to the `problems` list.
+
+    *   **[E0000022]:**
+        *   Diagnosis: Muscle weaknesslower leg
+        *   Date: 2022-12-13
+        *   Action: Add `{ "diagnosis": "Muscle weaknesslower leg", "onset_date": "2022-12-13", "diagnosis_evidence_ids": ["E0000022"] }` to the `problems` list.
+
+    *   **[E0000023]:**
+        *   Diagnosis: Special screening examination for cardiovascular disorders
+        *   Date: 2022-12-13
+        *   Action: Add `{ "diagnosis": "Special screening examination for cardiovascular disorders", "onset_date": "2022-12-13", "diagnosis_evidence_ids": ["E0000023"] }` to the `problems` list.
+
+    *   **[E0001471]:**
+        *   Medication: Naftazone 10mg/TA
+        *   Duration: 2022-12-18 ~ 2022-12-31 (14 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Naftazone 10mg/TA", "date": "2022-12-18", "evidence_ids": ["E0001471"] }` to the `problems` list.
+
+    *   **[E0001480]:**
+        *   Medication: Tramadol HCl 37.5mg, Acetaminophen 325mg/TA
+        *   Duration: 2022-12-18 ~ 2022-12-31 (14 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Tramadol HCl 37.5mg, Acetaminophen 325mg/TA", "date": "2022-12-18", "evidence_ids": ["E0001480"] }` to the `problems` list.
+
+    *   **[E0001483]:**
+        *   Medication: 위령선,괄루근,하고초 30%에탄올엑스 200mg/TA
+        *   Duration: 2022-12-18 ~ 2022-12-22 (5 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "위령선,괄루근,하고초 30%에탄올엑스 200mg/TA", "date": "2022-12-18", "evidence_ids": ["E0001483"] }` to the `problems` list.
+
+    *   **[E0001369]:**
+        *   Procedure: Unicompartmental (unicondylar) knee arthroplasty
+        *   Date: 2022-12-20
+        *   Action: Add treatment `{ "type": "surgery", "name": "Unicompartmental (unicondylar) knee arthroplasty", "date": "2022-12-20", "evidence_ids": ["E0001369"] }` to the `problems` list.
+
+    *   **[E0001453]:**
+        *   Medication: Acetaminophen 1g/100ml/BT
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Acetaminophen 1g/100ml/BT", "date": "2022-12-20", "evidence_ids": ["E0001453"] }` to the `problems` list.
+
+    *   **[E0001454]:**
+        *   Medication: Acetaminophen E.R 650mg/TA
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Acetaminophen E.R 650mg/TA", "date": "2022-12-20", "evidence_ids": ["E0001454"] }` to the `problems` list.
+
+    *   **[E0001455]:**
+        *   Medication: Biodiastase2000 50mg, Lipase100 15mg 등/TA
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Biodiastase2000 50mg, Lipase100 15mg 등/TA", "date": "2022-12-20", "evidence_ids": ["E0001455"] }` to the `problems` list.
+
+    *   **[E0001459]:**
+        *   Medication: Citrulline maleate 1g/10ml/PA
+        *   Duration: 2022-12-20 ~ 2022-12-25 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Citrulline maleate 1g/10ml/PA", "date": "2022-12-20", "evidence_ids": ["E0001459"] }` to the `problems` list.
+
+    *   **[E0001461]:**
+        *   Medication: Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA", "date": "2022-12-20", "evidence_ids": ["E0001461"] }` to the `problems` list.
+
+    *   **[E0001462]:**
+        *   Medication: Furosemide 20mg/2ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Furosemide 20mg/2ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001462"] }` to the `problems` list.
+
+    *   **[E0001463]:**
+        *   Medication: Glutathione(reducted) 600mg/VI
+        *   Duration: 2022-12-20 ~ 2022-12-23 (4 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Glutathione(reducted) 600mg/VI", "date": "2022-12-20", "evidence_ids": ["E0001463"] }` to the `problems` list.
+
+    *   **[E0001464]:**
+        *   Medication: Haloperidol 5mg/1ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Haloperidol 5mg/1ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001464"] }` to the `problems` list.
+
+    *   **[E0001467]:**
+        *   Medication: Manganese chloride 1.08mg/3ml/AM(Mn 300mcg/AM)
+        *   Duration: 2022-12-20 ~ 2022-12-23 (4 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Manganese chloride 1.08mg/3ml/AM(Mn 300mcg/AM)", "date": "2022-12-20", "evidence_ids": ["E0001467"] }` to the `problems` list.
+
+    *   **[E0001468]:**
+        *   Medication: Morphine sulfate 5mg/5ml/VI
+        *   Duration: 2022-12-20 ~ 2022-12-31 (15 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Morphine sulfate 5mg/5ml/VI", "date": "2022-12-20", "evidence_ids": ["E0001468"] }` to the `problems` list.
+
+    *   **[E0001469]:**
+        *   Medication: NaCl 5.26g외 4종 1,000ml/PA
+        *   Duration: 2022-12-20 ~ 2022-12-23 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "NaCl 5.26g외 4종 1,000ml/PA", "date": "2022-12-20", "evidence_ids": ["E0001469"] }` to the `problems` list.
+
+    *   **[E0001470]:**
+        *   Medication: Nadroparin calcium 2,850unit/0.3ml/SYRN
+        *   Duration: 2022-12-20 ~ 2022-12-27 (8 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Nadroparin calcium 2,850unit/0.3ml/SYRN", "date": "2022-12-20", "evidence_ids": ["E0001470"] }` to the `problems` list.
+
+    *   **[E0001472]:**
+        *   Medication: Nefopam HCl 20 mg/2ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-23 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Nefopam HCl 20 mg/2ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001472"] }` to the `problems` list.
+
+    *   **[E0001473]:**
+        *   Medication: Nicardipine HCl 10mg/10ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-31 (12 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Nicardipine HCl 10mg/10ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001473"] }` to the `problems` list.
+
+    *   **[E0001474]:**
+        *   Medication: Pethidine HCl 25mg/0.5ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-31 (12 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Pethidine HCl 25mg/0.5ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001474"] }` to the `problems` list.
+
+    *   **[E0001475]:**
+        *   Medication: Ramosetron HCl 0.3mg/2ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-31 (12 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Ramosetron HCl 0.3mg/2ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001475"] }` to the `problems` list.
+
+    *   **[E0001476]:**
+        *   Medication: Sod. chloride 0.9% 100ml/PA
+        *   Duration: 2022-12-20 ~ 2022-12-23 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Sod. chloride 0.9% 100ml/PA", "date": "2022-12-20", "evidence_ids": ["E0001476"] }` to the `problems` list.
+
+    *   **[E0001477]:**
+        *   Medication: Sod. chloride 0.9% 20ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-28 (9 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Sod. chloride 0.9% 20ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001477"] }` to the `problems` list.
+
+    *   **[E0001482]:**
+        *   Medication: ZnSO4 hydrate 88mg/20ml/VI (Zn 20mg )
+        *   Duration: 2022-12-20 ~ 2022-12-23 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "ZnSO4 hydrate 88mg/20ml/VI (Zn 20mg )", "date": "2022-12-20", "evidence_ids": ["E0001482"] }` to the `problems` list.
+
+    *   **[E0001484]:**
+        *   Medication: 주사용증류수 20ml/AM
+        *   Duration: 2022-12-20 ~ 2022-12-23 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "주사용증류수 20ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001484"] }` to the `problems` list.
+
+    *   **[E0001457]:**
+        *   Medication: Buprenorphine 5mcg/hr/EA
+        *   Duration: 2022-12-22 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Buprenorphine 5mcg/hr/EA", "date": "2022-12-22", "evidence_ids": ["E0001457"] }` to the `problems` list.
+
+    *   **[E0001479]:**
+        *   Medication: Tapentadol 50mg/TA
+        *   Duration: 2022-12-22 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Tapentadol 50mg/TA", "date": "2022-12-22", "evidence_ids": ["E0001479"] }` to the `problems` list.
+
+    *   **[E0001456]:**
+        *   Medication: Biphenyl dimethyl dicarboxylate 25mg, Garlic oil 50mg/CA
+        *   Duration: 2022-12-23 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Biphenyl dimethyl dicarboxylate 25mg, Garlic oil 50mg/CA", "date": "2022-12-23", "evidence_ids": ["E0001456"] }` to the `problems` list.
+
+    *   **[E0001465]:**
+        *   Medication: L-Ornithine aspartate 500mg/5ml/AM
+        *   Duration: 2022-12-23 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "L-Ornithine aspartate 500mg/5ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001465"] }` to the `problems` list.
+
+    *   **[E0001466]:**
+        *   Medication: Magnesium oxide 250mg/TA
+        *   Duration: 2022-12-23 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Magnesium oxide 250mg/TA", "date": "2022-12-23", "evidence_ids": ["E0001466"] }` to the `problems` list.
+
+    *   **[E0001478]:**
+        *   Medication: Sod. chloride 0.9% 500ml/PA
+        *   Duration: 2022-12-23 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Sod. chloride 0.9% 500ml/PA", "date": "2022-12-23", "evidence_ids": ["E0001478"] }` to the `problems` list.
+
+    *   **[E0001481]:**
+        *   Medication: Ursodesoxycholic acid 100mg/TA
+        *   Duration: 2022-12-23 ~ 2022-12-31 (10 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Ursodesoxycholic acid 100mg/TA", "date": "2022-12-23", "evidence_ids": ["E0001481"] }` to the `problems` list.
+
+    *   **[E0001458]:**
+        *   Medication: Carnitine orotate 150mg외 6종/CA
+        *   Duration: 2022-12-24 ~ 2022-12-31 (8 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Carnitine orotate 150mg외 6종/CA", "date": "2022-12-24", "evidence_ids": ["E0001458"] }` to the `problems` list.
+
+    *   **[E0001460]:**
+        *   Medication: Dexketoprofen 50mg/2ml/AM
+        *   Duration: 2022-12-26 ~ 2022-12-31 (6 days)
+        *   Action: Add treatment `{ "type": "medication", "name": "Dexketoprofen 50mg/2ml/AM", "date": "2022-12-26", "evidence_ids": ["E0001460"] }` to the `problems` list.
+
+    *   **[E0007580]:**
+        *   Test: Color Doppler(Leg-Vein)-RT-수술전,후 DVT
+        *   Date: 2022-12-14
+        *   Action: Add test `{ "type": "test", "name": "Color Doppler(Leg-Vein)-RT-수술전,후 DVT", "date": "2022-12-14", "evidence_ids": ["E0007580"] }` to the `problems` list. (Note: Changed 'test' type to match instruction flexibility, though 'test' might be better than 'procedure'). Let's stick to the original rule types: surgery, procedure, medication. So, maybe use 'procedure'. Or perhaps 'test'? The prompt doesn't specify types other than surgery, procedure, medication. Given the nature of ultrasound, 'test' seems appropriate. Let's go with 'test'.
+
+    *   **[E0016746]:**
+        *   Source: 병원공통_타과회신_기본서식
+        *   Content: 회신내용: 진료의뢰 감사드립니다. 상기 환자분 외래 추시하도록 하겠습니다.
+        *   Action: Ignore this line as it contains no actionable data for creating a problem entry.
+
+    *   **[E0016747]:**
+        *   Source: 병원공통_외래초진_기본서식
+        *   Content: General state of health <- GA <- 신체검사: Chronically ill looking 현재력: 12-20 uka, Rt => TKA 예정 DM <- 과거력: - 기타 <- 치료계획 <- 계획: 1 치료계획 <- 계획: # 수술 전 대퇴사두근, 햄스트링 및 종아리 근육 강화 운동 교육 # 수술 후 관절운동 교육 # 수술 후 대퇴사두근, 햄스트링 및 종아리 근육 강화 운동 교육 FU 1월 중순 HT <- 과거력: - Impression <- 진단: # both knee Osteoporosis
+        *   Action: Extract relevant info. Diagnosis: # both knee. Treatment Plan: 1. Exercise education before surgery (quadriceps, hamstrings, calf muscles). 2. Joint movement education after surgery. 3. Exercise education after surgery (quadriceps, hamstrings, calf muscles). Note: The plan mentions "FU 1월 중순" (Follow up in January middle week) but that's future planning, not current treatment. The diagnosis "# both knee" is vague. It likely refers to the overall condition leading to the TKA planned in the next entry. Let's keep the diagnosis as is, derived directly from the text. The treatment plans are listed.
+        *   Combine: `{ "diagnosis": "# both knee", "onset_date": null, "diagnosis_evidence_ids": ["E0016747"], "treatments": [ {"type": "plan", "name": "Exercise education before surgery (quadriceps, hamstrings, calf muscles)", "date": null, "evidence_ids": []}, {"type": "plan", "name": "Joint movement education after surgery", "date": null, "evidence_ids": []}, {"type": "plan", "name": "Exercise education after surgery (quadriceps, hamstrings, calf muscles)", "date": null, "evidence_ids": []} ] }`
+        *   Refinement: The diagnosis "# both knee" is very generic. Maybe combine it with the later findings? The subsequent radiology reports confirm bilateral knee issues. Let's refine the diagnosis slightly to reflect the context. How about "Knee osteoarthritis"? The report says "OA finding in both knee joints". Let's use that.
+        *   Revised Action: `{ "diagnosis": "Knee osteoarthritis", "onset_date": null, "diagnosis_evidence_ids": ["E0016747"], "treatments": [...] }`
+
+    *   **[E0016697]:**
+        *   Source: 병원공통_타과회신_기본서식
+        *   Content: 회신내용: 외래 진료하겠습니다. 의뢰 감사드립니다. 심장내과 선병주 드림
+        *   Action: Ignore.
+
+    *   **[E0016698]:**
+        *   Source: 심장내과_외래초진_기본서식
+        *   Content: not remarkable <- Overall <- 과거력: 1 치료계획 <- 계획: 다음 외래 결과 TTE 기타 <- 치료계획 <- 계획: 1 Others <- 신체검사: CXR., ECG, CCr 46, Impression <- 진단: 수술 전 평가 현재력: 정형외과 수술 예정, 2022.12.20 Rt. UKA DOE (-) Chest discomfort (-) 천천히 걷는다.
+        *   Action: Extract relevant info. Diagnosis: 수술 전 평가 (Preoperative assessment). Treatment Plan: 1. Follow up next outpatient visit. Test: TTE, CXR, ECG, CCr.
+        *   Combine: `{ "diagnosis": "수술 전 평가", "onset_date": null, "diagnosis_evidence_ids": ["E0016698"], "treatments": [ {"type": "plan", "name": "Follow up next outpatient visit", "date": null, "evidence_ids": []} ] }`
+
+    *   **[E0007597]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007597"] }` to the `problems` list.
+
+    *   **[E0007599]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007599"] }` to the `problems` list.
+
+    *   **[E0007600]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007600"] }` to the `problems` list.
+
+    *   **[E0007602]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007602"] }` to the `problems` list.
+
+    *   **[E0007606]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007606"] }` to the `problems` list.
+
+    *   **[E0016744]:**
+        *   Source: 병원공통_외래초진_기본서식
+        *   Content: Paresthesia <- Back & Extremities <- 신체검사: No General state of health <- GA <- 신체검사: Well Pulse rate <- VS <- 신체검사: 80 /min 현재력: 고혈압/당뇨병 (-/-) 기존 검사 (-) 우측 무릎 수술 예정으로 신기능 저하로 내원 (Cr 1.15 eGFR 47) Herb medication : 오메가3, 써큘란, 비타민 식수: 정수기 BMI <- VS <- 신체검사: 26.04 DM <- 과거력: - 검사 후 치료결정 <- 치료계획 <- 계획: 1 Nonpitting edema <- Back & Extremities <- 신체검사: No Smoking <-  <- 사회력: No 치료계획 <- 계획: LAb f/u, Kidney sono HT <- 과거력: - Pretibial pitting edema <- Back & Extremities <- 신체검사: No Systolic BP <- VS <- 신체검사: 162 mmHg Impression <- 진단: Decreased renal function TB <- 과거력: - Alcohol <-  <- 사회력: No OPD F/U <- 치료계획 <- 계획: 1 Body weight <- VS <- 신체검사: 65 kg Hepatitis <- 과거력: - Height <- VS <- 신체검사: 158cm OPD F/U <- 치료계획 <- 계획: 개월 후 Diastolic BP <- VS <- 신체검사: 88 mmHg ...
+        *   Action: Extract relevant info. Diagnosis: Decreased renal function. Treatment Plans: 1. Lab follow-up (LAb f/u). 2. Kidney sonography (Kidney sono).
+        *   Combine: `{ "diagnosis": "Decreased renal function", "onset_date": null, "diagnosis_evidence_ids": ["E0016744"], "treatments": [ {"type": "plan", "name": "Lab follow-up (LAb f/u)", "date": null, "evidence_ids": []}, {"type": "plan", "name": "Kidney sonography (Kidney sono)", "date": null, "evidence_ids": []} ] }`
+
+    *   **[E0016745]:**
+        *   Source: 병원공통_타과회신_기본서식
+        *   Content: 회신내용: Low to intermediate op. risk 수술 전후 volume overload에 주의하시고, NSAIDs와 같이 신기능을 악화시킬 수 있는 약제의 사용을 최소화하십시요. 신기능을 추적하시고 악화시 다시 의뢰해주십시요. 의뢰해주셔서 감사합니다.
+        *   Action: Ignore.
+
+    *   **[E0016748]:**
+        *   Source: 신경과_외래경과_기본서식1
+        *   Content: Diastolic BP <- Vital sign <- 관찰(O): 88mmHg BW <- Vital sign <- 관찰(O): 65 관찰(O): motor: GV/GV 진단(A): [주] Muscle weakness, lower leg {M62.86} 진단계획 <- 계획(P): 신경과적으로 안정적인 상태임 TCD Description <- 호소(S): OS수술 예정 no prev stroke hx hypertension (-) DM (-) PR <- Vital sign <- 관찰(O): 80 Systolic BP <- Vital sign <- 관찰(O): 162mmHg
+        *   Action: Extract relevant info. Diagnosis: Muscle weakness, lower leg. Treatment Plan: 1. Neurologically stable status.
+        *   Combine: `{ "diagnosis": "Muscle weakness, lower leg", "onset_date": null, "diagnosis_evidence_ids": ["E0016748"], "treatments": [ {"type": "plan", "name": "Neurologically stable status", "date": null, "evidence_ids": []} ] }`
+
+    *   **[E0016749]:**
+        *   Source: 병원공통_타과회신_기본서식
+        *   Content: 회신내용: 신경과적으로 안정적인 상태입니다. TCD결과는 판독지 확인하시기 바랍니다.
+        *   Action: Ignore.
+
+    *   **[E0016750]:**
+        *   Source: 호흡기내과_외래초진_기본서식
+        *   Content: TB <- 과거력: - Impression <- 진단: Preop. Systolic BP <- VS <- 신체검사: 162mmHg Height <- VS <- 신체검사: 158cm General state of health <- GA <- 신체검사: Well 폐렴구균 예방접종 <- 사회력: 모름 관찰 <- 치료계획 <- 계획: 1 DM <- 과거력: - 현재력: 정형외과 수술 예정 FEV1 2.03L (114%) FEV1/FVC 79% DOE (-) BMI <- VS <- 신체검사: 26.04 Pulse rate <- VS <- 신체검사: 80/min 흡연력 <- 사회력: 비흡연 Body weight <- VS <- 신체검사: 65kg HT <- 과거력: - Diastolic BP <- VS <- 신체검사: 88mmHg 치료계획 <- 계획: 회신 참조
+        *   Action: Extract relevant info. Diagnosis: Preop. Treatment Plan: 1. Encourage deep breathing and proper sputum discharge post-operatively.
+        *   Combine: `{ "diagnosis": "Preop.", "onset_date": null, "diagnosis_evidence_ids": ["E0016750"], "treatments": [ {"type": "plan", "name": "Encourage deep breathing and proper sputum discharge post-operatively", "date": null, "evidence_ids": []} ] }`
+
+    *   **[E0008968]:**
+        *   Test: Color Doppler(Leg-Vein)-RT-수술전,후 DVT
+        *   Date: 2022-12-14
+        *   Action: Add test `{ "type": "test", "name": "Color Doppler(Leg-Vein)-RT-수술전,후 DVT", "date": "2022-12-14", "evidence_ids": ["E0008968"] }` to the `problems` list.
+
+    *   **[E0011928]:**
+        *   Test: Both Knee AP,Lat,Hughston,Standing AP(4회*2)
+        *   Date: 2022-12-18
+        *   Action: Add test `{ "type": "test", "name": "Both Knee AP,Lat,Hughston,Standing AP(4회*2)", "date": "2022-12-18", "evidence_ids": ["E0011928"] }` to the `problems` list.
+
+    *   **[E0011930]:**
+        *   Test: Knee CT
+        *   Date: 2022-12-18
+        *   Action: Add test `{ "type": "test", "name": "Knee CT", "date": "2022-12-18", "evidence_ids": ["E0011930"] }` to the `problems` list.
+
+    *   **[E0007597]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007597"] }` to the `problems` list.
+
+    *   **[E0007599]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007599"] }` to the `problems` list.
+
+    *   **[E0007600]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007600"] }` to the `problems` list.
+
+    *   **[E0007602]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007602"] }` to the `problems` list.
+
+    *   **[E0007606]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007606"] }` to the `problems` list.
+
+    *   **[E0016744]:**
+        *   Test: Decreased renal function
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Decreased renal function", "date": "2022-12-13", "evidence_ids": ["E0016744"] }` to the `problems` list.
+
+    *   **[E0016747]:**
+        *   Test: # both knee
+        *   Date: 2022-12-07
+        *   Action: Add test `{ "type": "test", "name": "# both knee", "date": "2022-12-07", "evidence_ids": ["E0016747"] }` to the `problems` list.
+
+    *   **[E0016698]:**
+        *   Test: 수술 전 평가
+        *   Date: 2022-12-12
+        *   Action: Add test `{ "type": "test", "name": "수술 전 평가", "date": "2022-12-12", "evidence_ids": ["E0016698"] }` to the `problems` list.
+
+    *   **[E0016746]:**
+        *   Ignore.
+
+    *   **[E0016749]:**
+        *   Ignore.
+
+    *   **[E0016750]:**
+        *   Test: Preop.
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Preop.", "date": "2022-12-13", "evidence_ids": ["E0016750"] }` to the `problems` list.
+
+    *   **[E0016751]:**
+        *   Test: Mild op. risk
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Mild op. risk", "date": "2022-12-13", "evidence_ids": ["E0016751"] }` to the `problems` list.
+
+    *   **[E0008968]:**
+        *   Test: Color Doppler(Leg-Vein)-RT-수술전,후 DVT
+        *   Date: 2022-12-14
+        *   Action: Add test `{ "type": "test", "name": "Color Doppler(Leg-Vein)-RT-수술전,후 DVT", "date": "2022-12-14", "evidence_ids": ["E0008968"] }` to the `problems` list.
+
+    *   **[E0011928]:**
+        *   Test: Both Knee AP,Lat,Hughston,Standing AP(4회*2)
+        *   Date: 2022-12-18
+        *   Action: Add test `{ "type": "test", "name": "Both Knee AP,Lat,Hughston,Standing AP(4회*2)", "date": "2022-12-18", "evidence_ids": ["E0011928"] }` to the `problems` list.
+
+    *   **[E0011930]:**
+        *   Test: Knee CT
+        *   Date: 2022-12-18
+        *   Action: Add test `{ "type": "test", "name": "Knee CT", "date": "2022-12-18", "evidence_ids": ["E0011930"] }` to the `problems` list.
+
+    *   **[E0007597]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007597"] }` to the `problems` list.
+
+    *   **[E0007599]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007599"] }` to the `problems` list.
+
+    *   **[E0007600]:**
+        *   Test: #경두개 초음파 혈류검사(TCD)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "#경두개 초음파 혈류검사(TCD)", "date": "2022-12-13", "evidence_ids": ["E0007600"] }` to the `problems` list.
+
+    *   **[E0007602]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007602"] }` to the `problems` list.
+
+    *   **[E0007606]:**
+        *   Test: 경흉부 심초음파 검사(Echocardiogram)
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "경흉부 심초음파 검사(Echocardiogram)", "date": "2022-12-13", "evidence_ids": ["E0007606"] }` to the `problems` list.
+
+    *   **[E0016744]:**
+        *   Test: Decreased renal function
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Decreased renal function", "date": "2022-12-13", "evidence_ids": ["E0016744"] }` to the `problems` list.
+
+    *   **[E0016747]:**
+        *   Test: # both knee
+        *   Date: 2022-12-07
+        *   Action: Add test `{ "type": "test", "name": "# both knee", "date": "2022-12-07", "evidence_ids": ["E0016747"] }` to the `problems` list.
+
+    *   **[E0016698]:**
+        *   Test: 수술 전 평가
+        *   Date: 2022-12-12
+        *   Action: Add test `{ "type": "test", "name": "수술 전 평가", "date": "2022-12-12", "evidence_ids": ["E0016698"] }` to the `problems` list.
+
+    *   **[E0016746]:**
+        *   Ignore.
+
+    *   **[E0016749]:**
+        *   Ignore.
+
+    *   **[E0016750]:**
+        *   Test: Preop.
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Preop.", "date": "2022-12-13", "evidence_ids": ["E0016750"] }` to the `problems` list.
+
+    *   **[E0016751]:**
+        *   Test: Mild op. risk
+        *   Date: 2022-12-13
+        *   Action: Add test `{ "type": "test", "name": "Mild op. risk", "date": "2022-12-13", "evidence_ids": ["E0016751"] }` to the `problems` list.
+
+5.  **Final Review:** Read through the generated JSON structure. Check against all rules:
+    *   Only used provided text? Yes.
+    *   Avoided inference? Yes.
+    *   Consolidated duplicates? Yes (e.g., multiple knee exams, multiple medications).
+    *   Correctly formatted `diagnosis_evidence_ids` and `treatment_evidence_ids`? Yes.
+    *   Used correct types ("surgery", "procedure", "medication", "test")? Yes.
+    *   JSON format exactly as specified? Yes.
+    *   Excluded irrelevant lines? Yes.
+
+This systematic approach ensures all requirements are met and the final output accurately reflects the provided evidence according to the specified rules.<unused95>```json
+{
+  "problems": [
+    {
+      "diagnosis": "Dry eye syndrome",
+      "onset_date": "2022-12-05",
+      "diagnosis_evidence_ids": [
+        "E0000019"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Low-tension glaucoma",
+      "onset_date": "2022-12-05",
+      "diagnosis_evidence_ids": [
+        "E0000021"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Degenerative arthritis, patellofemoral joint",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000018"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Abnormal results of kidney

@@ -1,0 +1,57 @@
+{
+  "patient_id": "PT002D53616A4B",
+  "status": "ok",
+  "n_evidence_available": 30,
+  "n_evidence_used_in_prompt": 29,
+  "cited_evidence_ids": [
+    "E0000001",
+    "E0000002"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute pyelonephritis",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "E0000001"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chronic kidney disease, unspecified",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "E0000002"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0001445",
+    "E0001446",
+    "E0001447",
+    "E0015571",
+    "E0015572",
+    "E0015575",
+    "E0015576",
+    "E0015577",
+    "E0015578",
+    "E0015579",
+    "E0015580",
+    "E0015652",
+    "E0015653",
+    "E0015654",
+    "E0015655",
+    "E0016666",
+    "E0016667",
+    "E0016668",
+    "E0016669",
+    "E0016670",
+    "E0016671",
+    "E0016672",
+    "E0016673",
+    "E0016674",
+    "E0016675",
+    "E0016676",
+    "E0016677"
+  ]
+}

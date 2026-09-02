@@ -1,0 +1,34 @@
+{
+  "patient_id": "PT02C390F0E504",
+  "status": "ok",
+  "n_evidence_available": 8,
+  "n_evidence_used_in_prompt": 8,
+  "cited_evidence_ids": [
+    "E0000016",
+    "E0016490",
+    "E0016492",
+    "E0016493",
+    "E0016693",
+    "E0016694",
+    "E0016695"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Multiple fracture of ribs, other than first rib",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "E0000016",
+        "E0016490",
+        "E0016492",
+        "E0016493",
+        "E0016693",
+        "E0016694",
+        "E0016695"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0016696"
+  ]
+}
