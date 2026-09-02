@@ -1,0 +1,11 @@
+{
+  "patient_id": "PT00CAB6549305",
+  "source": "template_fallback",
+  "narrative": "Cervical myelopathy(2022-12-13 ~ 2022-12-21) 진단이 확인되었다. 이와 관련하여 수술 C3456 후방성형 및 감압술(2022-12-21)을 시행하였다. Peripheral vascular disease, unspecified(2022-12-13) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Spinal stenosismultiple site in spine(2022-12-13) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Other spondylosiscervical region(2022-12-13 ~ 2022-12-21) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Periopertive cardiovascular evaluation(2022-12-21 ~ 2022-12-28) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Hypertension(2022-12-21) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 MRI(C-Spine)조영제사용시(3테슬라)(2022-12-13), Chest PA & Rt Lat (2매)(2022-12-13) 및 경흉부 심초음파 검사(Echocardiogram)(2022-12-28) 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "Cervical myelopathy 진단이 있었고, C3456 후방성형 및 감압술이 2022년 12월 21일施行。请注意，这里的“施行”是根据中文习惯翻译的“施行”，在韩语背景下应使用对应的医学术语或直接使用英文手术名称。另外，“C3456 后方成型及减压术”是一个具体的医疗程序描述，在转换为自然语言时需要保持其准确性。\n\n修正后的版本如下：\n\nCervical myelopathy 진단이 있었고, C3456 후방성형 및 감압술이 2022년 12월 21일에 시행되었다. Peripheral vascular disease, unspecified와 Spinal stenosis multiple site in spine 진단이 2022년 12월 13일부터 있었다. Other spondylotic cervical region 진단도 동일 기간 내에서 확인되었으며, Perioperative cardiovascular evaluation은 수술 전후인 2022년 12월 21일부터 28일까지 이루어졌다. 또한 Hypertension 진단도 2022년 12월 21일에 있음을 확인하였다.",
+  "validation_issues": [
+    "진단명 누락/변형: 'Spinal stenosismultiple site in spine'",
+    "진단명 누락/변형: 'Other spondylosiscervical region'",
+    "진단명 누락/변형: 'Periopertive cardiovascular evaluation'"
+  ]
+}

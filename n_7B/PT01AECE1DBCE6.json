@@ -1,0 +1,18 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "source": "template_fallback",
+  "narrative": "General symptom and sign(2022-12-17 ~ 2022-12-29) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Urinary tract infection, site not specified(2022-12-17) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Vomiting alone(2022-12-17) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Acute gastroenteritis(2022-12-30) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Dehydration(2022-12-30) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Fecal impaction(2022-12-17 ~ 2022-12-30) 진단이 확인되었다. Abdomen Supine 시행 결과 'Fecal impaction in colon,  still suggested.' 소견이 확인되었다. Chest PA/AP 시행 결과 'No active lesion in the lung.  Mild  cardiomegaly.' 소견이 확인되었다. Other and unspecified constipation(2022-12-31) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. COVID-19(2022-12-17 ~ 2022-12-30) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Congenital hypothyroidism(N/A) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 Abdomen Supine(2022-12-17), Chest PA/AP(2022-12-17), Microorganism Culture,ID,Sensitivity(비뇨기,생식기 검체)(2022-12-19), Abdomen Supine(2022-12-30), Respiratory Virus PCR(Film Array)(Rapid)(2022-12-30) 외 1건 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "2022년 12월 17일부터 29일까지 일반 증상 및 징후가 있었습니다. 12월 17일에 발생한 소변 감염(위치 미정), 단독 구토, 그리고 12월 30일에 발생한 급성 위장관 염증과 저체온증이 있습니다. 12월 17일부터 30일까지 대장에서 배설물 경직이 있다고 여겨졌으며, 심장의 크기가 약간 커짐을 확인했습니다. 12월 31일에는 기타 또는 특정되지 않은 설사가 있었습니다. 또한 12월 17일부터 30일까지 코로나바이러스감염증-19(COVID-19)도 있었습니다. 유전적 갑상선 기능저하증은 정확한 발병일이 명시되어 있지 않습니다.",
+  "validation_issues": [
+    "진단명 누락/변형: 'General symptom and sign'",
+    "진단명 누락/변형: 'Urinary tract infection, site not specified'",
+    "진단명 누락/변형: 'Vomiting alone'",
+    "진단명 누락/변형: 'Acute gastroenteritis'",
+    "진단명 누락/변형: 'Dehydration'",
+    "진단명 누락/변형: 'Fecal impaction'",
+    "검사 인용문 누락/변형: 'Fecal impaction in colon,  still suggest'...",
+    "검사 인용문 누락/변형: 'No active lesion in the lung.  Mild  car'...",
+    "진단명 누락/변형: 'Other and unspecified constipation'",
+    "진단명 누락/변형: 'Congenital hypothyroidism'"
+  ]
+}

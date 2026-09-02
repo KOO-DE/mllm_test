@@ -1,0 +1,12 @@
+{
+  "patient_id": "PT0534E63EF366",
+  "source": "template_fallback",
+  "narrative": "Subarachnoid hemorrhage from anterior communicating artery(2022-12-23) 진단이 확인되었다. Brain CT Angio 응급실조영증강 시행 결과 '1. Acute diffuse SAH.  2. Acute IVH in posterior horn of both lateral ventricle....' 소견이 확인되었다. Brain CT 3D(응급실) 시행 결과 '1. Acute diffuse SAH.  2. Acute IVH in posterior horn of left lateral ventricle.' 소견이 확인되었다. Brain CT(신경외과) 시행 결과 'Usual post-coil embolization for ruptured a-com an. Lt CT findings' 소견이 확인되었다. 이 밖에 Chest PA or AP(1회)(2022-12-23), Microorganism Culture,ID,Sensitivity(감시배양/CRE)(2022-12-23), Microorganism Culture,ID,Sensitivity(감시배양/MRAB)(2022-12-23), #경두개 초음파 혈류검사(TCD)(2022-12-23), Cabapenemase Producing Enterobateriaceae Gene(2022-12-23) 외 27건 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "2022년 12월 23일에 발생한 전두통기저동맥분지에서의 수막하출혈(SAH) 진단이 있었고, 뇌 CT Angio 응급실조영증강에서는 급성 확산형 수막하출혈 및 양측 라테르럴 베뉴클리cus 후부 경피출혈이 확인되었습니다. 또한 CTA 결과에서는 기저동맥 꼭짓점에 3㎜ 크기의 동맥瘤가 발견되었습니다. 뇌 CT 3D(응급실)에서도 급성 확산형 수막하출혈 및 좌측 라테르럴 벤루클리cus 후부 경피출혈이 관찰되었으며, 뇌 CT(신경외과)에서는 동맥瘤 결NgModuleation术后，患者在2022年12月23日被诊断为前交通动脉处蛛网膜下腔出血（SAH）。急诊CT血管造影显示急性弥漫性蛛网膜下腔出血和双侧侧脑室后角急性硬膜外出血。CTA检查发现基底动脉顶端有一个3毫米大小的动脉瘤。急诊CT三维成像也显示出左侧侧脑室后角急性硬膜外出血。神经外科CT结果显示通常用于破裂前交通动脉动脉瘤栓塞后的影像学表现。",
+  "validation_issues": [
+    "진단명 누락/변형: 'Subarachnoid hemorrhage from anterior communicating artery'",
+    "검사 인용문 누락/변형: '1. Acute diffuse SAH.  2. Acute IVH in p'...",
+    "검사 인용문 누락/변형: '1. Acute diffuse SAH.  2. Acute IVH in p'...",
+    "검사 인용문 누락/변형: 'Usual post-coil embolization for rupture'..."
+  ]
+}

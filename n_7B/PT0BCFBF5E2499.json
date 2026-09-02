@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT0BCFBF5E2499",
+  "source": "template_fallback",
+  "narrative": "Anemia, unspecified(2022-12-31) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Presence of clinically important RBC antibodies(2022-12-31) 진단이 확인되었다. Irregular Ab Identification Test 시행 결과 'Conclusion  1. 비예기항체 선별검사  - I cell (LOT:8S981) : positive (3+)  - II cell (LOT:...' 소견이 확인되었다. Irregular Ab Screening Test 시행 결과 'POSITIVE    Conclusion  Antibody screening test    I cell : positive (3+)  II ce...' 소견이 확인되었다. Aplastic anemia(2022-12-31) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Chronic allergic rhinitis(2022-12-31) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 Chest PA(응급실)(2022-12-31) 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "안혈, 미분류와 함께 2022년 12월 31일에 진단되었습니다. 또한 같은 날 클리니컬하게 중요한 RBC 항체의 존재도 확인되었으며, 비예기항체 선별검사와 비예기항체 동정검사를 통해 양성이 판명되었습니다. 같은 날 aplastik anemia도 진단받았습니다. 마지막으로, 천식성 알레르기 비염도 2022년 12월 31일에 진단되었습니다.",
+  "validation_issues": [
+    "진단명 누락/변형: 'Anemia, unspecified'",
+    "진단명 누락/변형: 'Presence of clinically important RBC antibodies'",
+    "검사 인용문 누락/변형: 'Conclusion  1. 비예기항체 선별검사  - I cell (LOT'...",
+    "검사 인용문 누락/변형: 'POSITIVE    Conclusion  Antibody screeni'...",
+    "진단명 누락/변형: 'Aplastic anemia'",
+    "진단명 누락/변형: 'Chronic allergic rhinitis'"
+  ]
+}

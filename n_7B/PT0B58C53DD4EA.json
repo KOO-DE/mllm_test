@@ -1,0 +1,17 @@
+{
+  "patient_id": "PT0B58C53DD4EA",
+  "source": "template_fallback",
+  "narrative": "Acute aortic dissection, type 1, thoracic aorta, ascending(2022-12-23) 진단이 확인되었다. Aorta, Routine CT(응급실 조영증강) 시행 결과 'Aortic dissection(stanford type A) involving ascending thoracic aorta, aortic ar...' 소견이 확인되었다. Chest PA(응급실) 시행 결과 'Nonspecific.' 소견이 확인되었다. # 이동식 경흉부 심초음파-P 시행 결과 'Aortic dissection  Severe AR  Concentric LVH with normal LV contractility' 소견이 확인되었다. # 이동식 경흉부 심초음파-P 시행 결과 'Consider emergency surgical repair' 소견이 확인되었다. # 이동식 경흉부 심초음파-P 시행 결과 '* supine position, initial visit - shock state    Normal cardiac chamber size, i...' 소견이 확인되었다. 이와 관련하여 수술 Replacement of aorta(2022-12-23) 및 시술 Bleeding control(2022-12-24)을 시행하였다. Postoperative bleeding(2022-12-25) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 Chest PA or AP(1회)(2022-12-24), Microorganism Culture,ID,Sensitivity(감시배양/CRE)(2022-12-25), Microorganism Culture,ID,Sensitivity(감시배양/MRAB)(2022-12-25), Chest PA or AP(1회)(2022-12-25), Cabapenemase Producing Enterobateriaceae Gene(2022-12-26) 외 10건 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "2022년 12월 23일에 급성 협심 분리(type 1, 가슴 혈관), 상위 척추 혈관 발생하였습니다. 응급실에서 조영증강 평균선 CT 결과, 상위 척추 혈관, 혈류 관통 혈관, 하부 척추 혈관, 복부 혈관 모두 협심 분리를 보였습니다. 응급실에서의 심장 초음파에서는 중등도 AR, 정중형 LVH와 정상적인 LV 수축능력을 확인하였으며, 즉시 수술적 치료 필요성을 고려하였습니다. 초기 방문 시 누워있는 상태에서 충격 상태였으나, 정상적인 심장 크기와 정상적인 전체적 LV 수축능력을 보여주었습니다. 2022년 12월 23일에 상위 척추 혈관 교체 수술을施行了主动脉夹层（Stanford类型A，累及升主动脉、主动脉弓、降主动脉和腹主动脉），患者于2022年12月23日入院。急诊CT检查显示：主动脉夹层涉及整个胸主动脉段、主动脉弓以及部分降主动脉与腹主动脉；而胸部正位片则未见特异性异常表现。超声心动图发现重度主动脉瓣反流、左心室肥厚且收缩功能正常，并提示需紧急手术修复。初次就诊时患者处于休克状态，但心脏各腔大小正常，左心室壁厚度增加，整体左心室收缩功能无明显异常。\n\n随后在2022年12月24日进行了出血控制的介入治疗，在2022年12月25日出现术后出血的情况。",
+  "validation_issues": [
+    "진단명 누락/변형: 'Acute aortic dissection, type 1, thoracic aorta, ascending'",
+    "검사 인용문 누락/변형: 'Aortic dissection(stanford type A) invol'...",
+    "검사 인용문 누락/변형: 'Nonspecific.'...",
+    "검사 인용문 누락/변형: 'Aortic dissection  Severe AR  Concentric'...",
+    "검사 인용문 누락/변형: 'Consider emergency surgical repair'...",
+    "검사 인용문 누락/변형: '* supine position, initial visit - shock'...",
+    "치료명 누락/변형: 'Replacement of aorta'",
+    "치료명 누락/변형: 'Bleeding control'",
+    "진단명 누락/변형: 'Postoperative bleeding'"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "patient_id": "PT05266D17987C",
+  "source": "template_fallback",
+  "narrative": "Dry eye syndrome(2022-12-05) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Low-tension glaucoma(2022-12-05) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Degenerative arthritis, patellofemoral joint(2022-12-07 ~ 2022-12-18) 진단이 확인되었다. Both Knee AP,Lat,Hughston,Standing AP(4회*2) 시행 결과 'Rt.  knee    Meniscus tear of the MM  ; deg. tear of the posterior MRL  => Degen...' 소견이 확인되었다. Knee CT 시행 결과 'Rt.  knee    Meniscus tear of the MM  ; deg. tear of the posterior MRL  => Degen...' 소견이 확인되었다. Osteoarthritis, bilateral knees(2022-12-07 ~ 2022-12-18) 진단이 확인되었다. Both Knee AP,Lat,Var,Valg,ACL,PCL(6회) 시행 결과 'OA finding in both knee joints (KL grade 2 or 3)' 소견이 확인되었다. Rt Femur  Ap,lat (2회) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Rt Tibia Scanogram (1매) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Lt Lower Leg  Ap,lat (2회) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Lt Femur Scanogram (1매) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Lt Femur Ap,lat (2회) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Lt Tibia Scanogram (1매) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. L- Spine AP & Lat(2매) 시행 결과 'Degenerative spondylosis finding along spines.   Loss of lumbar curve.' 소견이 확인되었다. Chest PA & Rt Lat (2매) 시행 결과 'Nonspecific.' 소견이 확인되었다. Rt Lower Leg  Ap,lat (2회) 시행 결과 'OA finding at knee joint.   Otherwise unremarkable.' 소견이 확인되었다. Both Knee PA 45 Flexion Standing(1회*2) 시행 결과 'OA finding in both knee joints (KL grade 2 or 3)' 소견이 확인되었다. Both Knee AP,Lat,Hughston,Standing AP(4회*2) 소견(앞서 서술됨)이 본 진단과도 관련되어 있다. Knee CT 소견(앞서 서술됨)이 본 진단과도 관련되어 있다. Renal insufficiency(2022-12-13) 진단이 확인되었다. #경두개 초음파 혈류검사(TCD) 시행 결과 '검사된 뇌혈관에서 혈관협착을 의심할 수 있는 소견은 관찰되지 않습니다.' 소견이 확인되었다. #경두개 초음파 혈류검사(TCD) 시행 결과 'Left Transtemporal  approaches were not insonated  The CBFV of Right ICA(siphon)...' 소견이 확인되었다. #경두개 초음파 혈류검사(TCD) 시행 결과 'not insonated of Left MCA, TICA, ACA, PCA    Increased BFV of Right ICA(siphon) ...' 소견이 확인되었다. 경흉부 심초음파 검사(Echocardiogram) 시행 결과 'Normal cardiac chamber size & wall thickness :LA volume index= 29.1 ml/sqm   Nor...' 소견이 확인되었다. 경흉부 심초음파 검사(Echocardiogram) 시행 결과 'Normal LV contractility without RWMA  Mild degenerative AR with AV sclerosis' 소견이 확인되었다. Muscle weakness, lower leg(2022-12-13) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 Rt Femur Scanogram (1매)(2022-12-07), Color Doppler(Leg-Vein)-RT-수술전,후 DVT(2022-12-14), Orthoroentgenogram (3매)(2022-12-18), Both Knee AP,Lat(2회*2)(2022-12-18), Anti Nuclear Ab(ANA)(정밀)(2022-12-20) 외 13건 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "Dry eye syndrome와 Low-tension glaucoma는 2022년 12월 5일에 처음 진단되었습니다. 2022년 12월 7일부터 18일까지 Degenerative arthritis, patellofemoral joint와 Osteoarthritis, bilateral knees의 증상이 나타났습니다. 두 다리 무릎 관절에서 진행성 관절염(KL 등급 2 또는 3)의 증상이 확인되었으며, 특히 오른쪽 무릎에서는 내측半月板撕裂和后内侧缘部分撕裂，伴有退行性关节炎改变，KL等级为3。此外，在右膝还观察到关节边缘骨赘形成。\n\n肾功能不全在2022年12月13日被诊断出来，并进行了经颅多普勒血流检测（TCD）和心脏超声心动图检查。尽管没有发现脑血管狭窄的迹象，但右侧颈内动脉虹吸部血流量增加，而右侧大脑前动脉、椎基底动脉和其他部位的血流量减少。心脏超声心动图显示左房容积指数正常，左室射血分数为64%，二尖瓣轻度退行性关闭不全伴主动脉瓣硬化。小腿肌肉无力的症状也始于同一天。",
+  "validation_issues": [
+    "검사 인용문 누락/변형: 'Rt.  knee    Meniscus tear of the MM  ; '...",
+    "검사 인용문 누락/변형: 'Rt.  knee    Meniscus tear of the MM  ; '...",
+    "검사 인용문 누락/변형: 'OA finding in both knee joints (KL grade'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'Degenerative spondylosis finding along s'...",
+    "검사 인용문 누락/변형: 'Nonspecific.'...",
+    "검사 인용문 누락/변형: 'OA finding at knee joint.   Otherwise un'...",
+    "검사 인용문 누락/변형: 'OA finding in both knee joints (KL grade'...",
+    "검사 인용문 누락/변형: 'Rt.  knee    Meniscus tear of the MM  ; '...",
+    "검사 인용문 누락/변형: 'Rt.  knee    Meniscus tear of the MM  ; '...",
+    "진단명 누락/변형: 'Renal insufficiency'",
+    "검사 인용문 누락/변형: '검사된 뇌혈관에서 혈관협착을 의심할 수 있는 소견은 관찰되지 않습니다.'...",
+    "검사 인용문 누락/변형: 'Left Transtemporal  approaches were not '...",
+    "검사 인용문 누락/변형: 'not insonated of Left MCA, TICA, ACA, PC'...",
+    "검사 인용문 누락/변형: 'Normal cardiac chamber size & wall thick'...",
+    "검사 인용문 누락/변형: 'Normal LV contractility without RWMA  Mi'...",
+    "진단명 누락/변형: 'Muscle weakness, lower leg'"
+  ]
+}

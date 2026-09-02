@@ -1,0 +1,12 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "source": "template_fallback",
+  "narrative": "Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33(2022-12-01) 진단이 확인되었다. 이와 관련하여 약물 Dasatinib 100mg/TA(2022-12-16 ~ 2022-12-30), 약물 Mercaptopurine 50mg/TA(2022-12-20 ~ 2022-12-29), 약물 Cytarabine 100mg/5ml/VI(2022-12-20 ~ 2022-12-30), 약물 Palonosetron 0.25mg/5ml/VI(2022-12-20 ~ 2022-12-30), 약물 Propacetamol HCl 1g/VI (=Acetaminophen 500mg)(2022-12-19 ~ 2022-12-30) 외 9건을 시행하였다. Other specified disorders of white blood cells(2022-12-07 ~ 2022-12-16) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. Persons encountering health services for chemotherapy session for neoplasm(2022-12-19 ~ 2022-12-26) 진단이 확인되었다. 별도의 시행된 검사·처치 기록은 확인되지 않았다. 이 밖에 Chest PA & Lt Lat (2매)(2022-12-07), Microorganism Culture,ID,Sensitivity(비뇨기,생식기 검체)(2022-12-07), Chest PA & Lt Lat (2매)(2022-12-20), TPMT Mutation(외부)(2022-12-20), NUDT15 Genotyping(외부)(2022-12-20) 외 2건 등의 검사가 추가로 시행되었다.",
+  "llm_narrative_raw": "환자는 2022년 12월 1일 Acute B淋巴oblastic leukemia with aberrant expression of CD13和CD33被诊断。从2022年12月16日至2022年12月30日，患者接受了多种药物治疗，包括Dasatinib 100mg/TA、Mercaptopurine 50mg/TA、Cytarabine 100mg/5ml/VI、Palonosetron 0.25mg/5ml/VI、Propacetamol HCl 1g/VI（=Acetaminophen 500mg）、Sodium bicarbonate 500mg/TA、Distilled water 1000ml/BT、Furosemide 20mg/2ml/AM、Magnesium oxide 250mg/TA、Trimethoprim 80mg, Sulfamethoxazole 400mg/TA、Ursodesoxycholic acid 100mg/TA、Acetaminophen E.R 650mg/TA以及Dextrose 5% & NaCl 1000m/PA。此外，在同一时期内还使用了Sod. chloride 0.9% 50ml/BT。另有一次其他白血球障碍的诊断记录在案，时间为2022年12月7日至2022年12月16日，并且有化疗会诊的记录，时间是2022年12月19日至2022年12月26日。",
+  "validation_issues": [
+    "진단명 누락/변형: 'Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33'",
+    "치료명 누락/변형: 'Propacetamol HCl 1g/VI (=Acetaminophen 500mg)'",
+    "진단명 누락/변형: 'Other specified disorders of white blood cells'",
+    "진단명 누락/변형: 'Persons encountering health services for chemotherapy session for neoplasm'"
+  ]
+}
