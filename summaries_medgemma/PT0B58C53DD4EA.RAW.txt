@@ -1,0 +1,104 @@
+<unused94>thought
+The user wants me to extract diagnoses, treatments, and evidence IDs from a list of medical records and format them into a JSON object according to the provided rules.
+
+**Plan:**
+1.  Iterate through each evidence entry.
+2.  Identify the type of information (diagnosis, treatment, radiology, etc.).
+3.  Extract the relevant diagnosis name and date.
+4.  Extract the relevant treatment name, type, date, and evidence ID.
+5.  Create a JSON object for each diagnosis.
+6.  Create a JSON object for each treatment.
+7.  Combine the diagnosis and treatment objects into the final `problems` array.
+8.  Ensure all extracted information strictly adheres to the provided evidence.
+9.  Double-check against the rules:
+    *   Use only evidence content.
+    *   No inference or extrapolation.
+    *   Correctly map diagnoses to `diagnosis_evidence_ids` and treatments to `evidence_ids`.
+    *   Combine multiple entries for the same diagnosis.
+    *   Use "surgery", "procedure", "medication" for treatment types.
+    *   Do not include radiology/lab results in `treatments`.
+    *   Output only the JSON format.
+
+**Evidence Analysis:**
+
+*   **[E0000030]**: Diagnosis: Acute aortic dissection, type 1thoracic aorta, ascending. Date: 2022-12-23.
+*   **[E0001392]**: Treatment: Replacement of aorta. Date: 2022-12-23.
+*   **[E0001581]**: Treatment: Cefotetan 1g/VI. Date: 2022-12-23 ~ 2022-12-29.
+*   **[E0001583]**: Treatment: Dextrose 5% 1000ml/PA. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001584]**: Treatment: Fentanyl citrate 100mcg/2ml/AM. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001585]**: Treatment: Fibrinogen concentrate 외 4ml/SET. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001586]**: Treatment: Furosemide 20mg/2ml/AM. Date: 2022-12-23 ~ 2022-12-31.
+*   **[E0001588]**: Treatment: Gelatin Sponge 70*50*10mm/EA. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001589]**: Treatment: Gelatin건조제 706mg/SYRN, Thrombin건조제 2500unit/VI, CaCl2 5ml/VI. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001590]**: Treatment: Heparin sodium 25000unit/5ml/VI. Date: 2022-12-23 ~ 2022-12-23.
+*   **[E0001591]**: Treatment: Human thrombin 800-1200unit, Human clottable protein 50~90mg/ml, 2ml/SET. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001592]**: Treatment: Human thrombin 800-1200unit, Human clottable protein 50~90mg/ml, 4ml/SET. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001597]**: Treatment: NaCl 5.26g외 4종 1,000ml/PA. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001598]**: Treatment: Nicardipine HCl 10mg/10ml/AM. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001599]**: Treatment: Norepinephrine 4mg/4ml/AM. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001600]**: Treatment: Oxidized regenerated celluose 5*35cm2/EA. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001602]**: Treatment: Pethidine HCl 25mg/0.5ml/AM. Date: 2022-12-23 ~ 2022-12-31.
+*   **[E0001603]**: Treatment: Potassium chloride 3g/20ml/AM (40mEq). Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001606]**: Treatment: Sod. chloride 0.9% 50ml/BT. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001607]**: Treatment: Sod. chloride 0.9% 1000ml/PA. Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001608]**: Treatment: Sod. chloride 0.9% 100ml/PA. Date: 2022-12-23 ~ 2022-12-31.
+*   **[E0001609]**: Treatment: Sod. chloride 0.9% 20ml/AM. Date: 2022-12-23 ~ 2022-12-29.
+*   **[E0001610]**: Treatment: Sodium chloride 11.7% 20ml/AM (40mEq). Date: 2022-12-23 ~ 2022-12-25.
+*   **[E0001613]**: Treatment: Thrombin 5000unit/VI. Date: 2022-12-23 ~ 2022-12-24.
+*   **[E0001393]**: Treatment: Bleeding control. Date: 2022-12-24.
+*   **[E0001573]**: Treatment: Acetylcysteine 4ml/VI. Date: 2022-12-24 ~ 2022-12-29.
+*   **[E0001574]**: Treatment: Acetylcysteine 200mg/CA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001575]**: Treatment: Acetylsalicylic acid 100mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001579]**: Treatment: Bisacodyl 5mg/TA. Date: 2022-12-24 ~ 2022-12-28.
+*   **[E0001580]**: Treatment: Carnitine orotate 150mg외 6종/CA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001582]**: Treatment: Clopidogrel 75mg/TA. Date: 2022-12-24 ~ 2022-12-28.
+*   **[E0001587]**: Treatment: Furosemide 40mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001593]**: Treatment: Lafutidine 10mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001595]**: Treatment: Metoclopramide HCl 10mg/2ml/AM. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001596]**: Treatment: Mosapride citrate 5mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001601]**: Treatment: Oxycodone HCl 10mg, Naloxone HCl 5mg/TA. Date: 2022-12-24 ~ 2022-12-30.
+*   **[E0001605]**: Treatment: Rosuvastatin calcium 10mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001611]**: Treatment: Spironolactone 25mg/TA. Date: 2022-12-24 ~ 2022-12-31.
+*   **[E0001614]**: Treatment: Ursodesoxycholic acid 100mg/TA. Date: 2022-12-24 ~ 2022-12-29.
+*   **[E0000031]**: Diagnosis: Postoperative bleeding. Date: 2022-12-25.
+*   **[E0001576]**: Treatment: Atenolol 25mg/TA. Date: 2022-12-25 ~ 2022-12-28.
+*   **[E0001604]**: Treatment: Propacetamol HCl 1g/VI (=Acetaminophen 500mg). Date: 2022-12-25 ~ 2022-12-31.
+*   **[E0001612]**: Treatment: Tamsulosin HCl 0.2mg/TA. Date: 2022-12-25 ~ 2022-12-31.
+*   **[E0001577]**: Treatment: Benzydamine HCl 100ml/BT. Date: 2022-12-26 ~ 2022-12-29.
+*   **[E0001594]**: Treatment: Losartan potassium 50mg/TA. Date: 2022-12-26 ~ 2022-12-29.
+*   **[E0001578]**: Treatment: Bethanechol chloride 25mg/TA. Date: 2022-12-27 ~ 2022-12-31.
+*   **[E0001572]**: Treatment: Acetaminophen E.R 650mg/TA. Date: 2022-12-28 ~ 2022-12-31.
+*   **[E0013690]**: Radiology: Aorta, Routine CT(응급실 조영증강). Date: 2022-12-23.
+*   **[E0013692]**: Radiology: Chest PA(응급실). Date: 2022-12-23.
+*   **[E0013717]**: Radiology: # 이동식 경흉부 심초음파-P. Date: 2022-12-23.
+*   **[E0013718]**: Radiology: # 이동식 경흉부 심초음파-P. Date: 2022-12-23.
+*   **[E0013719]**: Radiology: # 이동식 경흉부 심초음파-P. Date: 2022-12-23.
+*   **[E0016819]**: Radiology: [병원공통_타과의뢰_기본서식] (2022-12-23).
+*   **[E0016820]**: Radiology: [마취통증의학과_마취유도전평가_마취 유도 전 평가] (2022-12-23).
+*   **[E0016821]**: Radiology: [병원공통_입원경과 (수술(시술) 전 치료계획)_기본서식] (2022-12-23).
+*   **[E0016822]**: Radiology: [흉부외과_과별_체외순환기록지2] (2022-12-23).
+*   **[E0016823]**: Radiology: [흉부외과_과별_체외순환기록지1] (2022-12-23).
+*   **[E0016848]**: Radiology: [응급의학과_과별_중증환자 진료기록지] (2022-12-23).
+*   **[E0016849]**: Radiology: [응급의학과_응급초진_기본서식] (2022-12-23).
+*   **[E0016850]**: Radiology: [마취통증의학과_마취전평가_마취 전 환자상태 평가 및 마취계획] (2022-12-23).
+
+**Consolidation:**
+
+*   **Diagnosis:** Acute aortic dissection, type 1thoracic aorta, ascending (E0000030)
+*   **Diagnosis:** Postoperative bleeding (E0000031)
+*   **Treatment:** Replacement of aorta (E0001392)
+*   **Treatment:** Cefotetan 1g/VI (E0001581)
+*   **Treatment:** Dextrose 5% 1000ml/PA (E0001583)
+*   **Treatment:** Fentanyl citrate 100mcg/2ml/AM (E0001584)
+*   **Treatment:** Fibrinogen concentrate 외 4ml/SET (E0001585)
+*   **Treatment:** Furosemide 20mg/2ml/AM (E0001586)
+*   **Treatment:** Gelatin Sponge 70*50*10mm/EA (E0001588)
+*   **Treatment:** Gelatin건조제 706mg/SYRN, Thrombin건조제 2500unit/VI, CaCl2 5ml/VI (E0001589)
+*   **Treatment:** Heparin sodium 25000unit/5ml/VI (E0001590)
+*   **Treatment:** Human thrombin 800-1200unit, Human clottable protein 50~90mg/ml, 2ml/SET (E0001591)
+*   **Treatment:** Human thrombin 800-1200unit, Human clottable protein 50~90mg/ml, 4ml/SET (E0001592)
+*   **Treatment:** NaCl 5.26g외 4종 1,000ml/PA (E0001597)
+*   **Treatment:** Nicardipine HCl 10mg/10ml/AM (E0001598)
+*   **Treatment:** Norepinephrine 4mg/4ml/AM (E0001599)
+*   **Treatment:** Oxidized regenerated celluose 5*35cm2/EA (E0001600)
+*   **Treatment:** Pethidine HCl 25mg/0.5ml

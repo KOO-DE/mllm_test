@@ -1,0 +1,170 @@
+<unused94>thought
+The user wants me to extract patient information from a list of evidence and structure it into a JSON format according to the provided rules.
+
+**Rules Checklist:**
+1.  **Use only provided evidence:** Yes.
+2.  **No inference/treatment:** Yes.
+3.  **Map diagnosis/treatment to evidence IDs:** Yes.
+4.  **Combine similar diagnoses:** Yes.
+5.  **Treatments as type (surgery, procedure, medication):** Yes.
+6.  **Other findings as diagnosis evidence IDs:** Yes.
+7.  **JSON format only:** Yes.
+
+**Evidence Breakdown and Mapping:**
+
+*   **[E000029] Fracture of femur, intertrochanter closed / 2022-12-24:**
+    *   Diagnosis: Fracture of femur, intertrochanter closed
+    *   Evidence ID: E000029
+*   **[E0001532] Acetaminophen 1g/100ml/BT / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Acetaminophen
+    *   Evidence ID: E0001532
+*   **[E0001533] Acetaminophen E.R 650mg/TA / 2022-12-24 ~ 2022-12-27:**
+    *   Treatment: Acetaminophen
+    *   Evidence ID: E0001533
+*   **[E0001538] Buprenorphine 5mcg/hr/EA / 2022-12-24 ~ 2022-12-27:**
+    *   Treatment: Buprenorphine
+    *   Evidence ID: E0001538
+*   **[E0001543] Dexketoprofen 50mg/2ml/AM / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Dexketoprofen
+    *   Evidence ID: E0001543
+*   **[E0001544] Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Dihydrocodeine bitartrate
+    *   Evidence ID: E0001544
+*   **[E0001545] Furosemide 20mg/2ml/AM / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Furosemide
+    *   Evidence ID: E0001545
+*   **[E0001547] Hydroxyethylstarch 6%, 500ml/PA / 2022-12-24 ~ 2022-12-28:**
+    *   Treatment: Hydroxyethylstarch
+    *   Evidence ID: E0001547
+*   **[E0001548] Insulin aspart 1000unit/10ml/VI / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Insulin aspart
+    *   Evidence ID: E0001548
+*   **[E0001551] Lactulose 1.34g/ml, 15ml/PA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Lactulose
+    *   Evidence ID: E0001551
+*   **[E0001552] Lafutidine 10mg/TA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Lafutidine
+    *   Evidence ID: E0001552
+*   **[E0001557] Nadroparin calcium 2,850unit/0.3ml/SYRN / 2022-12-24 ~ 2022-12-29:**
+    *   Treatment: Nadroparin calcium
+    *   Evidence ID: E0001557
+*   **[E0001559] Nicardipine HCl 10mg/10ml/AM / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Nicardipine HCl
+    *   Evidence ID: E0001559
+*   **[E0001560] Pethidine HCl 25mg/0.5ml/AM / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Pethidine HCl
+    *   Evidence ID: E0001560
+*   **[E0001561] Propacetamol HCl 1g/VI (=Acetaminophen 500mg) / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Propacetamol HCl
+    *   Evidence ID: E0001561
+*   **[E0001565] Sod. chloride 0.9% 1000ml/PA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Sod. chloride 0.9%
+    *   Evidence ID: E0001565
+*   **[E0001566] Sod. chloride 0.9% 100ml/PA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Sod. chloride 0.9%
+    *   Evidence ID: E0001566
+*   **[E0001568] Tramadol HCl 37.5mg, Acetaminophen 325mg/TA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: Tramadol HCl
+    *   Evidence ID: E0001568
+*   **[E0001570] Zolpidem tartrate 6.25mg/TA / 2022-12-24 ~ 2022-12-27:**
+    *   Treatment: Zolpidem tartrate
+    *   Evidence ID: E0001570
+*   **[E0001571] 위령선,괄루근,하고초 30%에탄올엑스 200mg/TA / 2022-12-24 ~ 2022-12-31:**
+    *   Treatment: 위령선,괄루근,하고초 30%에탄올엑스
+    *   Evidence ID: E0001571
+*   **[E0001540] Choline alfoscerate 400mg/CA / 2022-12-25 ~ 2022-12-31:**
+    *   Treatment: Choline alfoscerate
+    *   Evidence ID: E0001540
+*   **[E0001550] Lactitol 20g/PA / 2022-12-25 ~ 2022-12-31:**
+    *   Treatment: Lactitol
+    *   Evidence ID: E0001550
+*   **[E0001553] Losartan potassium 50mg/TA / 2022-12-25 ~ 2022-12-31:**
+    *   Treatment: Losartan potassium
+    *   Evidence ID: E0001553
+*   **[E0001563] Rivastigmine 9mg/EA / 2022-12-25 ~ 2022-12-31:**
+    *   Treatment: Rivastigmine
+    *   Evidence ID: E0001563
+*   **[E0001564] Rosuvastatin calcium 10mg/TA / 2022-12-25 ~ 2022-12-31:**
+    *   Treatment: Rosuvastatin calcium
+    *   Evidence ID: E0001564
+*   **[E0001537] Biodiastase2000 50mg, Lipase100 15mg 등/TA / 2022-12-26 ~ 2022-12-31:**
+    *   Treatment: Biodiastase2000
+    *   Evidence ID: E0001537
+*   **[E0001541] Ciprofloxacin HCl 400mg/200ml/PA / 2022-12-27 ~ 2022-12-31:**
+    *   Treatment: Ciprofloxacin HCl
+    *   Evidence ID: E0001541
+*   **[E0001549] Insulin glargine 10.9134mg (Human insulin 300unit/3ml/SYRN) / 2022-12-27 ~ 2022-12-31:**
+    *   Treatment: Insulin glargine
+    *   Evidence ID: E0001549
+*   **[E0001397] Closed reduction and internal fixation with gamma nail, femur / 2022-12-28:**
+    *   Treatment: Closed reduction and internal fixation with gamma nail
+    *   Evidence ID: E0001397
+*   **[E0001534] Acetylcysteine 600mg/6ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Acetylcysteine
+    *   Evidence ID: E0001534
+*   **[E0001535] Adenosine triphosphate disodium 20mg/2ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Adenosine triphosphate disodium
+    *   Evidence ID: E0001535
+*   **[E0001536] Al(OH)3 124.9mg, MgCO3 83.8mg, Oxethazaine 5mg/TA / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Al(OH)3
+    *   Evidence ID: E0001536
+*   **[E0001539] Ceftriaxone sodium 2g/VI / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Ceftriaxone sodium
+    *   Evidence ID: E0001539
+*   **[E0001542] Citrulline maleate 1g/10ml/PA / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Citrulline maleate
+    *   Evidence ID: E0001542
+*   **[E0001546] Haloperidol 5mg/1ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Haloperidol
+    *   Evidence ID: E0001546
+*   **[E0001554] Manganese chloride 1.08mg/3ml/AM(Mn 300mcg/AM) / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Manganese chloride
+    *   Evidence ID: E0001554
+*   **[E0001555] Metoclopramide HCl 10mg/2ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Metoclopramide HCl
+    *   Evidence ID: E0001555
+*   **[E0001556] Morphine sulfate 5mg/5ml/VI / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Morphine sulfate
+    *   Evidence ID: E0001556
+*   **[E0001558] Nefopam HCl 20 mg/2ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Nefopam HCl
+    *   Evidence ID: E0001558
+*   **[E0001562] Ramosetron HCl 0.3mg/2ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Ramosetron HCl
+    *   Evidence ID: E0001562
+*   **[E0001567] Sod. chloride 0.9% 20ml/AM / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: Sod. chloride 0.9%
+    *   Evidence ID: E0001567
+*   **[E0001569] ZnSO4 hydrate 88mg/20ml/VI (Zn 20mg ) / 2022-12-28 ~ 2022-12-31:**
+    *   Treatment: ZnSO4 hydrate
+    *   Evidence ID: E0001569
+*   **[E0013946] Chest PA or AP(1회) / 2022-12-24:**
+    *   Diagnosis: Chest PA or AP
+    *   Evidence ID: E0013946
+*   **[E0013947] Pelvis AP (1매) / 2022-12-24:**
+    *   Diagnosis: Pelvis AP
+    *   Evidence ID: E0013947
+*   **[E0013948] Both Knee AP,Lat,Obl(4회*2) / 2022-12-24:**
+    *   Diagnosis: Both Knee AP,Lat,Obl
+    *   Evidence ID: E0013948
+*   **[E0013949] C-Spine AP,Lat,Open Mouth(3회) / 2022-12-24:**
+    *   Diagnosis: C-Spine AP,Lat,Open Mouth
+    *   Evidence ID: E0013949
+*   **[E0013950] L- Spine AP & Lat(2매) / 2022-12-24:**
+    *   Diagnosis: L- Spine AP & Lat
+    *   Evidence ID: E0013950
+*   **[E0013951] Both Hip I/R,Scano,Lat(5회) / 2022-12-24:**
+    *   Diagnosis: Both Hip I/R,Scano,Lat
+    *   Evidence ID: E0013951
+*   **[E0016796] EKG / 2022-12-24:**
+    *   Diagnosis: EKG
+    *   Evidence ID: E0016796
+*   **[E0016797] PMHx) / 2022-12-24:**
+    *   Diagnosis: PMHx
+    *   Evidence ID: E0016797
+*   **[E0016798] PI) / 2022-12-24:**
+    *   Diagnosis: PI
+    *   Evidence ID: E0016798
+*   **[E0016799] [병원공통_응급경과_기본서식] (2022-12-24):**
+    *   Diagnosis: [병원공통_응급경과_기본서식]
+    *   Evidence ID

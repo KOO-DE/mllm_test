@@ -1,0 +1,98 @@
+<unused94>thought
+The user wants me to extract patient information from a list of evidence and structure it into a JSON format according to the provided rules.
+
+**Rules Checklist:**
+1.  **Use only provided evidence:** Yes.
+2.  **No inference:** Yes.
+3.  **Accurate evidence IDs:** Yes.
+4.  **Combine similar diagnoses:** Yes.
+5.  **Treatments as type (surgery, procedure, medication):** Yes.
+6.  **Diagnostics as diagnosis_evidence_ids:** Yes.
+7.  **JSON format only:** Yes.
+
+**Evidence Analysis:**
+
+*   **E0000024:** Diagnosis: Subarachnoid hemorrhage from anterior communicating artery / Date: 2022-12-23. This is a diagnosis.
+*   **E0000025:** Diagnosis: Subarachnoid hemorrhage, unspecified / Date: 2022-12-23. This is a diagnosis.
+*   **E0001487:** Medication: Acetaminophen E.R 650mg/TA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001488:** Medication: Acetylcysteine 4ml/VI / Date: 2022-12-23 ~ 2022-12-28. This is a medication.
+*   **E0001489:** Medication: Acetylcysteine 600mg/6ml/AM / Date: 2022-12-23 ~ 2022-12-27. This is a medication.
+*   **E0001491:** Medication: Ceftriaxone sodium 2g/VI / Date: 2022-12-23 ~ 2022-12-27. This is a medication.
+*   **E0001492:** Medication: Chlorhexidin digluconate 0.12% 100ml/BT / Date: 2022-12-23 ~ 2022-12-28. This is a medication.
+*   **E0001496:** Medication: Diclofenac-B-dimethylaminoethanol 90mg/2ml/AM / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001498:** Medication: Furosemide 20mg/2ml/AM / Date: 2022-12-23 ~ 2022-12-28. This is a medication.
+*   **E0001499:** Medication: Ipratropium bromide 500mcg/2ml/EA / Date: 2022-12-23 ~ 2022-12-28. This is a medication.
+*   **E0001501:** Medication: Magnesium oxide 250mg/TA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001502:** Medication: Magnesium sulfate 50% 10g/20ml/AM / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001503:** Medication: Mannitol 20% 100ml/PA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001504:** Medication: Metoclopramide HCl 10mg/2ml/AM / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001505:** Medication: Midazolam 3mg/3ml/AM / Date: 2022-12-23 ~ 2022-12-28. This is a medication.
+*   **E0001507:** Medication: Nicardipine HCl 10mg/10ml/AM / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001508:** Medication: Nimodipine 30mg/TA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001509:** Medication: Porcine brain peptide 215.2mg/ml, 10ml/AM / Date: 2022-12-23 ~ 2022-12-27. This is a medication.
+*   **E0001511:** Medication: Propacetamol HCl 1g/VI (=Acetaminophen 500mg) / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001512:** Medication: Ramosetron HCl 0.3mg/2ml/AM / Date: 2022-12-23 ~ 2022-12-27. This is a medication.
+*   **E0001513:** Medication: Sod. chloride 0.9% 1000ml/PA / Date: 2022-12-23 ~ 2022-12-29. This is a medication.
+*   **E0001514:** Medication: Sod. chloride 0.9% 100ml/PA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001515:** Medication: Sod. chloride 0.9% 20ml/AM / Date: 2022-12-23 ~ 2022-12-27. This is a medication.
+*   **E0001516:** Medication: Sod. chloride 0.9% 500ml/PA / Date: 2022-12-23 ~ 2022-12-31. This is a medication.
+*   **E0001490:** Medication: Acetylsalicylic acid enteric coated pellet 100mg/CA / Date: 2022-12-24 ~ 2022-12-30. This is a medication.
+*   **E0001494:** Medication: Clopidogrel 75mg/TA / Date: 2022-12-24 ~ 2022-12-30. This is a medication.
+*   **E0001495:** Medication: Dexmedetomidine 400mcg/100ml/BT / Date: 2022-12-24 ~ 2022-12-27. This is a medication.
+*   **E0001506:** Medication: NaCl 5.26g외 4종 1,000ml/PA / Date: 2022-12-24 ~ 2022-12-31. This is a medication.
+*   **E0001510:** Medication: Potassium chloride SR 600mg/TA / Date: 2022-12-25 ~ 2022-12-31. This is a medication.
+*   **E0001493:** Medication: Choline alfoscerate 400mg/10ml/PA / Date: 2022-12-28 ~ 2022-12-31. This is a medication.
+*   **E0001497:** Medication: Famotidine 20mg/TA / Date: 2022-12-28 ~ 2022-12-31. This is a medication.
+*   **E0001500:** Medication: Lactulose 1.34g/ml, 15ml/PA / Date: 2022-12-28 ~ 2022-12-31. This is a medication.
+*   **E0001485:** Medication: Acetaminophen 0.75g/75ml/PA / Date: 2022-12-29 ~ 2022-12-31. This is a medication.
+*   **E0001486:** Medication: Acetaminophen 1g/100ml/BT / Date: 2022-12-29 ~ 2022-12-31. This is a medication.
+*   **E0013480:** Radiology: Chest PA or AP(1회) / Date: 2022-12-23. This is a radiology finding.
+*   **E0013482:** Radiology: Brain CT Angio 응급실조영증강 / Date: 2022-12-23. This is a radiology finding.
+*   **E0013483:** Radiology: Brain CT 3D(응급실) / Date: 2022-12-23. This is a radiology finding.
+*   **E0013508:** Radiology: Brain CT(신경외과) / Date: 2022-12-23. This is a radiology finding.
+*   **E0013526:** Function: #경두개 초음파 혈류검사(TCD) / Date: 2022-12-23. This is a function test finding.
+*   **E0013527:** Function: #경두개 초음파 혈류검사(TCD) / Date: 2022-12-23. This is a function test finding.
+*   **E0013529:** Function: #경두개 초음파 혈류검사(TCD) / Date: 2022-12-23. This is a function test finding.
+*   **E0013546:** Specimen: Cabapenemase Producing Enterobateriaceae Gene / Date: 2022-12-23. This is a specimen test result.
+*   **E0016752:** [병원공통_입원경과 (수술(시술) 전 치료계획)_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016753:** [마취통증의학과_마취전평가_마취 전 환자상태 평가 및 마취계획] (2022-12-23). This is a treatment plan.
+*   **E0016754:** [신경외과_과별_(간호)TFCA + embolization] (2022-12-23). This is a treatment plan.
+*   **E0016755:** [병원공통_수술기록 (수술요약)_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016756:** [신경외과_입원초진_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016757:** [병원공통_입원경과 (수술(시술) 후 환자상태)_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016758:** [병원공통_수술기록_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016773:** [응급의학과_과별_중증환자 진료기록지] (2022-12-23). This is a treatment plan.
+*   **E0016774:** [응급의학과_응급초진_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016775:** [병원공통_응급경과_기본서식] (2022-12-23). This is a treatment plan.
+*   **E0016776:** [병원공통_응급경과_기본서식] (2022-12-23). This is a treatment plan.
+
+**Combining Diagnoses:**
+*   E0000024: Subarachnoid hemorrhage from anterior communicating artery
+*   E0000025: Subarachnoid hemorrhage, unspecified
+*   These are essentially the same diagnosis, just with different levels of detail. I will combine them into "Subarachnoid hemorrhage".
+
+**Structuring the JSON:**
+
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Subarachnoid hemorrhage",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": ["E0000024", "E0000025"],
+      "treatments": [
+        {"type": "medication", "name": "Acetaminophen E.R 650mg/TA", "date": "2022-12-23", "evidence_ids": ["E0001487"]},
+        {"type": "medication", "name": "Acetylcysteine 4ml/VI", "date": "2022-12-23", "evidence_ids": ["E0001488"]},
+        {"type": "medication", "name": "Acetylcysteine 600mg/6ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001489"]},
+        {"type": "medication", "name": "Ceftriaxone sodium 2g/VI", "date": "2022-12-23", "evidence_ids": ["E0001491"]},
+        {"type": "medication", "name": "Chlorhexidin digluconate 0.12% 100ml/BT", "date": "2022-12-23", "evidence_ids": ["E0001492"]},
+        {"type": "medication", "name": "Diclofenac-B-dimethylaminoethanol 90mg/2ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001496"]},
+        {"type": "medication", "name": "Furosemide 20mg/2ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001498"]},
+        {"type": "medication", "name": "Ipratropium bromide 500mcg/2ml/EA", "date": "2022-12-23", "evidence_ids": ["E0001499"]},
+        {"type": "medication", "name": "Magnesium oxide 250mg/TA", "date": "2022-12-23", "evidence_ids": ["E0001501"]},
+        {"type": "medication", "name": "Magnesium sulfate 50% 10g/20ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001502"]},
+        {"type": "medication", "name": "Mannitol 20% 100ml/PA", "date": "2022-12-23", "evidence_ids": ["E0001503"]},
+        {"type": "medication", "name": "Metoclopramide HCl 10mg/2ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001504"]},
+        {"type": "medication", "name": "Midazolam 3mg/3ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001505"]},
+        {"type": "medication", "name": "Nicardipine HCl 10mg/10ml/AM", "date": "2022-12-23", "evidence_ids": ["E0001507"]},
+        {"type": "medication",

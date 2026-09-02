@@ -1,0 +1,279 @@
+<unused94>thought
+The user wants me to extract information from a list of medical evidence and structure it into a JSON format according to the provided rules.
+
+**Rules Checklist:**
+1.  **Use only provided evidence:** Yes.
+2.  **No inference/reasoning:** Yes.
+3.  **Map diagnoses/treatments to evidence IDs:** Yes.
+4.  **Combine similar diagnoses:** Yes.
+5.  **Treatments as type (surgery, procedure, medication):** Yes.
+6.  **Other findings as diagnoses (evidence IDs):** Yes.
+7.  **JSON format only:** Yes.
+
+**Evidence Breakdown & Mapping:**
+
+*   **[E0001447]**
+    *   **Type:** 약물 (Medication)
+    *   **Name:** Sod. chloride 0.9% 1000ml/PA
+    *   **Date:** 2022-12-28 ~ 2022-12-31
+    *   **Evidence IDs:** ["E0001447"]
+*   **[E0000001]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** Acute pyelonephritis
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0000001"]
+*   **[E0000002]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** Chronic kidney disease, unspecified
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0000002"]
+*   **[E0001445]**
+    *   **Type:** 약물 (Medication)
+    *   **Name:** Ferrous sulfate 256mg/TA(Fe 80mg)
+    *   **Date:** 2022-12-29 ~ 2022-12-31
+    *   **Evidence IDs:** ["E0001445"]
+*   **[E0001446]**
+    *   **Type:** 약물 (Medication)
+    *   **Name:** Propacetamol HCl 1g/VI (=Acetaminophen 500mg)
+    *   **Date:** 2022-12-29 ~ 2022-12-31
+    *   **Evidence IDs:** ["E0001446"]
+*   **[E0015571]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** Chest PA(응급실)
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0015571"]
+*   **[E0015572]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** L- Spine AP & Lat & Ext & Flex(4매)
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0015572"]
+*   **[E0015575]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** T- Spine AP & Lat(2매)
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0015575"]
+*   **[E0015580]**
+    *   **Type:** 검사결과 (Specimen)
+    *   **Name:** Microorganism Culture,ID,Sensitivity(혈액,체액;혐기성배양 포함)
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0015580"]
+*   **[E0016666]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** r/o spondylitis
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0016666"]
+*   **[E0016667]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** .
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0016667"]
+*   **[E0016668]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** known AF
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0016668"]
+*   **[E0016669]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** r/o CKD
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0016669"]
+*   **[E0016670]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** r/o multiple L-spine fx
+    *   **Date:** 2022-12-28
+    *   **Evidence IDs:** ["E0016670"]
+*   **[E0015576]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** Abd & Pelvis Delay CT (GU) 응급실 조영증강
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015576"]
+*   **[E0015577]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** Chest CT(조영제미사용)
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015577"]
+*   **[E0015578]**
+    *   **Type:** 검사결과 (Specimen)
+    *   **Name:** Blood Cell Morphology(PB Smear)
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015578"]
+*   **[E0015579]**
+    *   **Type:** 검사결과 (Specimen)
+    *   **Name:** Microorganism Culture,ID,Sensitivity(비뇨기,생식기 검체)
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015579"]
+*   **[E0015653]**
+    *   **Type:** 검사결과 (Pathology)
+    *   **Name:** 액상세포검사-체액 세포병리검사
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015653"]
+*   **[E0015654]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** Chest PA or AP(1회)
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0015654"]
+*   **[E0016673]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** r/o multiple L-spine fx
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0016673"]
+*   **[E0016674]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** known A fib
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0016674"]
+*   **[E0016675]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** # APN, Rt.
+    *   **Date:** 2022-12-29
+    *   **Evidence IDs:** ["E0016675"]
+*   **[E0016676]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** # APN, Rt.
+    *   **Date:** 2022-12-30
+    *   **Evidence IDs:** ["E0016676"]
+*   **[E0016677]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** # APN, Rt.
+    *   **Date:** 2022-12-30
+    *   **Evidence IDs:** ["E0016677"]
+*   **[E0015652]**
+    *   **Type:** 검사결과 (Pathology)
+    *   **Name:** 액상세포검사-체액 세포병리검사
+    *   **Date:** 2022-12-30
+    *   **Evidence IDs:** ["E0015652"]
+*   **[E0016678]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** # APN, Rt.
+    *   **Date:** 2022-12-30
+    *   **Evidence IDs:** ["E0016678"]
+*   **[E0016679]**
+    *   **Type:** 진단 (Diagnosis)
+    *   **Name:** # APN, Rt.
+    *   **Date:** 2022-12-30
+    *   **Evidence IDs:** ["E0016679"]
+*   **[E0015655]**
+    *   **Type:** 검사결과 (Radiology)
+    *   **Name:** Chest PA or AP(1회)
+    *   **Date:** 2022-12-31
+    *   **Evidence IDs:** ["E0015655"]
+
+**Consolidation:**
+
+*   **Acute pyelonephritis:** E0000001
+*   **Chronic kidney disease, unspecified:** E0000002
+*   **Sod. chloride 0.9% 1000ml/PA:** E0001447
+*   **Ferrous sulfate 256mg/TA(Fe 80mg):** E0001445
+*   **Propacetamol HCl 1g/VI (=Acetaminophen 500mg):** E0001446
+*   **Chest PA(응급실):** E0015571
+*   **L- Spine AP & Lat & Ext & Flex(4매):** E0015572
+*   **T- Spine AP & Lat(2매):** E0015575
+*   **Microorganism Culture,ID,Sensitivity(혈액,체액;혐기성배양 포함):** E0015580
+*   **r/o spondylitis:** E0016666
+*   **known AF:** E0016668
+*   **r/o CKD:** E0016669
+*   **Abd & Pelvis Delay CT (GU) 응급실 조영증강:** E0015576
+*   **Chest CT(조영제미사용):** E0015577
+*   **Blood Cell Morphology(PB Smear):** E0015578
+*   **Microorganism Culture,ID,Sensitivity(비뇨기,생식기 검체):** E0015579
+*   **액상세포검사-체액 세포병리검사:** E0015653
+*   **Chest PA or AP(1회):** E0015654
+*   **r/o multiple L-spine fx:** E0016670, E0016673
+*   **known A fib:** E0016674
+*   **# APN, Rt.:** E0016675, E0016676, E0016677, E0016678, E0016679
+
+**Final JSON Structure:**
+
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Acute pyelonephritis",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0000001"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chronic kidney disease, unspecified",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0000002"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Sod. chloride 0.9% 1000ml/PA",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0001447"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Ferrous sulfate 256mg/TA(Fe 80mg)",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0001445"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0001446"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chest PA(응급실)",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0015571"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "L- Spine AP & Lat & Ext & Flex(4매)",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0015572"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "T- Spine AP & Lat(2매)",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0015575"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Microorganism Culture,ID,Sensitivity(혈액,체액;혐기성배양 포함)",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0015580"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "r/o spondylitis",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0016666"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "known AF",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0016668"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "r/o CKD",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": ["E0016669"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Abd & Pelvis Delay CT (GU) 응급실 조영증강",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0015576"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Chest CT(조영제미사용)",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0015577"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Blood Cell Morphology(PB Smear)",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": ["E0015578"],
+      "treatments": []
+    

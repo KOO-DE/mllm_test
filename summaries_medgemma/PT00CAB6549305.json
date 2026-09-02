@@ -1,0 +1,42 @@
+{
+  "patient_id": "PT00CAB6549305",
+  "status": "ok",
+  "n_evidence_available": 16,
+  "n_evidence_used_in_prompt": 16,
+  "cited_evidence_ids": [
+    "E0000003",
+    "E0000005",
+    "E0000007",
+    "E0000008",
+    "E0016680",
+    "E0016681",
+    "E0016682"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Cervical myelopathy",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "E0000003",
+        "E0000005",
+        "E0000007",
+        "E0000008",
+        "E0016681",
+        "E0016682",
+        "E0016680"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0000004",
+    "E0000006",
+    "E0001448",
+    "E0007484",
+    "E0007488",
+    "E0012828",
+    "E0012830",
+    "E0016679",
+    "E0016683"
+  ]
+}

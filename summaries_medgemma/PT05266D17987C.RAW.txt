@@ -1,0 +1,80 @@
+<unused94>thought
+The user wants me to extract patient information from a list of evidence and structure it into a JSON format according to the provided rules.
+
+**Rules Checklist:**
+1.  **Use only provided evidence:** Yes.
+2.  **No inference/treatment:** Yes.
+3.  **Map diagnosis/treatment to evidence IDs:** Yes.
+4.  **Combine similar diagnoses:** Yes.
+5.  **Treatments as type (surgery, procedure, medication):** Yes.
+6.  **Keep other evidence as diagnosis_evidence_ids:** Yes.
+7.  **JSON format only:** Yes.
+
+**Evidence Breakdown and Mapping:**
+
+*   **[E0000019] Dry eye syndrome / 2022-12-05:** Diagnosis. Add to `problems`.
+*   **[E0000021] Low-tension glaucoma / 2022-12-05:** Diagnosis. Add to `problems`.
+*   **[E0000018] Degenerative arthritis, patellofemoral joint / 2022-12-07 ~ 2022-12-18 (2회):** Diagnosis. Add to `problems`.
+*   **[E0000017] Abnormal results of kidney function studies / 2022-12-13:** Diagnosis. Add to `problems`.
+*   **[E0000020] Examination and observation for expert evidence / 2022-12-13:** Diagnosis. Add to `problems`.
+*   **[E0000022] Muscle weaknesslower leg / 2022-12-13:** Diagnosis. Add to `problems`.
+*   **[E0000023] Special screening examination for cardiovascular disorders / 2022-12-13:** Diagnosis. Add to `problems`.
+*   **[E0001471] 약물: Naftazone 10mg/TA / 2022-12-18 ~ 2022-12-31 (14회):** Treatment (Medication). Add to `problems`.
+*   **[E0001480] 약물: Tramadol HCl 37.5mg, Acetaminophen 325mg/TA / 2022-12-18 ~ 2022-12-31 (14회):** Treatment (Medication). Add to `problems`.
+*   **[E0001483] 약물: 위령선,괄루근,하고초 30%에탄올엑스 200mg/TA / 2022-12-18 ~ 2022-12-22 (5회):** Treatment (Medication). Add to `problems`.
+*   **[E0001369] 수술/시술명: Unicompartmental (unicondylar) knee arthroplasty / 2022-12-20:** Treatment (Surgery). Add to `problems`.
+*   **[E0001453] 약물: Acetaminophen 1g/100ml/BT / 2022-12-20 ~ 2022-12-31 (15회):** Treatment (Medication). Add to `problems`.
+*   **[E0001454] 약물: Acetaminophen E.R 650mg/TA / 2022-12-20 ~ 2022-12-31 (12회):** Treatment (Medication). Add to `problems`.
+*   **[E0001455] 약물: Biodiastase2000 50mg, Lipase100 15mg 등/TA / 2022-12-20 ~ 2022-12-31 (16회):** Treatment (Medication). Add to `problems`.
+*   **[E0001459] 약물: Citrulline maleate 1g/10ml/PA / 2022-12-20 ~ 2022-12-25 (6회):** Treatment (Medication). Add to `problems`.
+*   **[E0001461] 약물: Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA / 2022-12-20 ~ 2022-12-31 (19회):** Treatment (Medication). Add to `problems`.
+*   **[E0001462] 약물: Furosemide 20mg/2ml/AM / 2022-12-20 ~ 2022-12-31 (27회):** Treatment (Medication). Add to `problems`.
+*   **[E0001463] 약물: Glutathione(reducted) 600mg/VI / 2022-12-20 ~ 2022-12-23 (4회):** Treatment (Medication). Add to `problems`.
+*   **[E0001464] 약물: Haloperidol 5mg/1ml/AM / 2022-12-20 ~ 2022-12-31 (12회):** Treatment (Medication). Add to `problems`.
+*   **[E0001467] 약물: Manganese chloride 1.08mg/3ml/AM(Mn 300mcg/AM) / 2022-12-20 ~ 2022-12-23 (4회):** Treatment (Medication). Add to `problems`.
+*   **[E0001468] 약물: Morphine sulfate 5mg/5ml/VI / 2022-12-20 ~ 2022-12-31 (13회):** Treatment (Medication). Add to `problems`.
+*   **[E0001469] 약물: NaCl 5.26g외 4종 1,000ml/PA / 2022-12-20 ~ 2022-12-23 (5회):** Treatment (Medication). Add to `problems`.
+*   **[E0001470] 약물: Nadroparin calcium 2,850unit/0.3ml/SYRN / 2022-12-20 ~ 2022-12-27 (8회):** Treatment (Medication). Add to `problems`.
+*   **[E0001472] 약물: Nefopam HCl 20 mg/2ml/AM / 2022-12-20 ~ 2022-12-23 (5회):** Treatment (Medication). Add to `problems`.
+*   **[E0001473] 약물: Nicardipine HCl 10mg/10ml/AM / 2022-12-20 ~ 2022-12-31 (12회):** Treatment (Medication). Add to `problems`.
+*   **[E0001474] 약물: Pethidine HCl 25mg/0.5ml/AM / 2022-12-20 ~ 2022-12-31 (16회):** Treatment (Medication). Add to `problems`.
+*   **[E0001475] 약물: Ramosetron HCl 0.3mg/2ml/AM / 2022-12-20 ~ 2022-12-31 (13회):** Treatment (Medication). Add to `problems`.
+*   **[E0001476] 약물: Sod. chloride 0.9% 100ml/PA / 2022-12-20 ~ 2022-12-23 (8회):** Treatment (Medication). Add to `problems`.
+*   **[E0001477] 약물: Sod. chloride 0.9% 20ml/AM / 2022-12-20 ~ 2022-12-28 (12회):** Treatment (Medication). Add to `problems`.
+*   **[E0001482] 약물: ZnSO4 hydrate 88mg/20ml/VI (Zn 20mg ) / 2022-12-20 ~ 2022-12-23 (4회):** Treatment (Medication). Add to `problems`.
+*   **[E0001484] 약물: 주사용증류수 20ml/AM / 2022-12-20 ~ 2022-12-23 (4회):** Treatment (Medication). Add to `problems`.
+*   **[E0001457] 약물: Buprenorphine 5mcg/hr/EA / 2022-12-22 ~ 2022-12-31 (10회):** Treatment (Medication). Add to `problems`.
+*   **[E0001479] 약물: Tapentadol 50mg/TA / 2022-12-22 ~ 2022-12-31 (10회):** Treatment (Medication). Add to `problems`.
+*   **[E0001456] 약물: Biphenyl dimethyl dicarboxylate 25mg, Garlic oil 50mg/CA / 2022-12-23 ~ 2022-12-31 (10회):** Treatment (Medication). Add to `problems`.
+*   **[E0001465] 약물: L-Ornithine aspartate 500mg/5ml/AM / 2022-12-23 ~ 2022-12-31 (9회):** Treatment (Medication). Add to `problems`.
+*   **[E0001466] 약물: Magnesium oxide 250mg/TA / 2022-12-23 ~ 2022-12-31 (9회):** Treatment (Medication). Add to `problems`.
+*   **[E0001478] 약물: Sod. chloride 0.9% 500ml/PA / 2022-12-23 ~ 2022-12-31 (9회):** Treatment (Medication). Add to `problems`.
+*   **[E0001481] 약물: Ursodesoxycholic acid 100mg/TA / 2022-12-23 ~ 2022-12-31 (11회):** Treatment (Medication). Add to `problems`.
+*   **[E0001458] 약물: Carnitine orotate 150mg외 6종/CA / 2022-12-24 ~ 2022-12-31 (9회):** Treatment (Medication). Add to `problems`.
+*   **[E0001460] 약물: Dexketoprofen 50mg/2ml/AM / 2022-12-26 ~ 2022-12-31 (7회):** Treatment (Medication). Add to `problems`.
+
+*   **[E0007580] [검사결과-Radiology] Both Knee AP,Lat,Var,Valg,ACL,PCL(6회) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007581] [검사결과-Radiology] Rt Femur Ap,lat (2회) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007582] [검사결과-Radiology] Rt Tibia Scanogram (1매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007583] [검사결과-Radiology] Lt Lower Leg Ap,lat (2회) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007584] [검사결과-Radiology] Lt Femur Scanogram (1매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007585] [검사결과-Radiology] Lt Femur Ap,lat (2회) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007586] [검사결과-Radiology] Lt Tibia Scanogram (1매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007587] [검사결과-Radiology] L- Spine AP & Lat(2매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007588] [검사결과-Radiology] Chest PA & Rt Lat (2매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007589] [검사결과-Radiology] Rt Lower Leg Ap,lat (2회) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007590] [검사결과-Radiology] Both Knee PA 45 Flexion Standing(1회*2) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+*   **[E0007591] [검사결과-Radiology] Rt Femur Scanogram (1매) / 2022-12-07:** Radiology. Add to `diagnosis_evidence_ids`.
+
+*   **[E0016746] [병원공통_타과회신_기본서식] (2022-12-07):** Communication. Ignore.
+*   **[E0016747] [병원공통_외래초진_기본서식] (2022-12-07):** Communication. Ignore.
+*   **[E0016697] [병원공통_타과회신_기본서식] (2022-12-12):** Communication. Ignore.
+*   **[E0016698] [심장내과_외래초진_기본서식] (2022-12-12):** Communication. Ignore.
+*   **[E0007597] [검사결과-Function] #경두개 초음파 혈류검사(TCD) / 2022-12-13:** Function. Add to `diagnosis_evidence_ids`.
+*   **[E0007599] [검사결과-Function] #경두개 초음파 혈류검사(TCD) / 2022-12-13:** Function. Add to `diagnosis_evidence_ids`.
+*   **[E0007600] [검사결과-Function] #경두개 초음파 혈류검사(TCD) / 2022-12-13:** Function. Add to `diagnosis_evidence_ids`.
+*   **[E0007602] [검사결과-Function] 경흉부 심초음파 검사(Echocardiogram) / 2022-12-13:** Function. Add to `diagnosis_evidence_ids`.
+*   **[E0007606] [검사결과-Function] 경흉부 심초음파 검사(Echocardiogram) / 2022-12-13:** Function. Add to `diagnosis_evidence_ids`.
+*   **[E0016744] [병원공통_외래초진_기본서식] (2022-12-13):** Communication. Ignore.
+*   **[E0016745] [병원공통_타과회신_기본서식] (2022-12-13):** Communication. Ignore.
+*   **[E0016748] [신경과_외래경과_기본서

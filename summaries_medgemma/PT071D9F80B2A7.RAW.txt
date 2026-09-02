@@ -1,0 +1,193 @@
+<unused94>thought
+The user wants me to extract patient information from a list of evidence and structure it into a JSON format according to the provided rules.
+
+**Rules Checklist:**
+1.  **Use only provided evidence:** Yes.
+2.  **No inference/treatment:** Yes.
+3.  **Map diagnoses/treatments to evidence IDs:** Yes.
+4.  **Combine similar diagnoses:** Yes.
+5.  **Treatments as type (surgery, procedure, medication):** Yes.
+6.  **Keep only treatments in `treatments` array:** Yes.
+7.  **JSON format only:** Yes.
+
+**Evidence Breakdown and Mapping:**
+
+*   **[E0000026]**:
+    *   Diagnosis: Acute lymphoblastic leukaemia [ALL]
+    *   Onset Date: 2022-12-07 ~ 2022-12-26
+    *   Evidence ID: E0000026
+*   **[E0000027]**:
+    *   Diagnosis: Other specified disorders of white blood cells
+    *   Onset Date: 2022-12-07 ~ 2022-12-16
+    *   Evidence ID: E0000027
+*   **[E0001517]**:
+    *   Medication: Acetaminophen E.R 650mg/TA
+    *   Duration: 2022-12-07 ~ 2022-12-30
+    *   Evidence ID: E0001517
+*   **[E0001519]**:
+    *   Medication: Dasatinib 100mg/TA
+    *   Duration: 2022-12-16 ~ 2022-12-30
+    *   Evidence ID: E0001519
+*   **[E0001530]**:
+    *   Medication: Trimethoprim 80mg, Sulfamethoxazole 400mg/TA
+    *   Duration: 2022-12-16 ~ 2022-12-30
+    *   Evidence ID: E0001530
+*   **[E0001531]**:
+    *   Medication: Ursodesoxycholic acid 100mg/TA
+    *   Duration: 2022-12-16 ~ 2022-12-30
+    *   Evidence ID: E0001531
+*   **[E0000028]**:
+    *   Diagnosis: Persons encountering health services for chemotherapy session for neoplasm
+    *   Onset Date: 2022-12-19 ~ 2022-12-26
+    *   Evidence ID: E0000028
+*   **[E0001520]**:
+    *   Medication: Dextrose 5% & NaCl 1000m/PA
+    *   Duration: 2022-12-19 ~ 2022-12-30
+    *   Evidence ID: E0001520
+*   **[E0001521]**:
+    *   Medication: Distilled water 1000ml/BT
+    *   Duration: 2022-12-19 ~ 2022-12-30
+    *   Evidence ID: E0001521
+*   **[E0001522]**:
+    *   Medication: Furosemide 20mg/2ml/AM
+    *   Duration: 2022-12-19 ~ 2022-12-30
+    *   Evidence ID: E0001522
+*   **[E0001527]**:
+    *   Medication: Propacetamol HCl 1g/VI (=Acetaminophen 500mg)
+    *   Duration: 2022-12-19 ~ 2022-12-30
+    *   Evidence ID: E0001527
+*   **[E0001529]**:
+    *   Medication: Sodium bicarbonate 500mg/TA
+    *   Duration: 2022-12-19 ~ 2022-12-30
+    *   Evidence ID: E0001529
+*   **[E0001518]**:
+    *   Medication: Cytarabine 100mg/5ml/VI
+    *   Duration: 2022-12-20 ~ 2022-12-30
+    *   Evidence ID: E0001518
+*   **[E0001524]**:
+    *   Medication: Mercaptopurine 50mg/TA
+    *   Duration: 2022-12-20 ~ 2022-12-29
+    *   Evidence ID: E0001524
+*   **[E0001525]**:
+    *   Medication: Midazolam 3mg/3ml/AM
+    *   Duration: 2022-12-20 ~ 2022-12-27
+    *   Evidence ID: E0001525
+*   **[E0001526]**:
+    *   Medication: Palonosetron 0.25mg/5ml/VI
+    *   Duration: 2022-12-20 ~ 2022-12-30
+    *   Evidence ID: E0001526
+*   **[E0001528]**:
+    *   Medication: Sod. chloride 0.9% 50ml/BT
+    *   Duration: 2022-12-20 ~ 2022-12-30
+    *   Evidence ID: E0001528
+*   **[E0001523]**:
+    *   Medication: Magnesium oxide 250mg/TA
+    *   Duration: 2022-12-29 ~ 2022-12-30
+    *   Evidence ID: E0001523
+*   **[E0016787]**:
+    *   No diagnosis or treatment information.
+*   **[E0008319]**:
+    *   No diagnosis or treatment information.
+*   **[E0008320]**:
+    *   No diagnosis or treatment information.
+*   **[E0016788]**:
+    *   No diagnosis or treatment information.
+*   **[E0016789]**:
+    *   No diagnosis or treatment information.
+*   **[E0012071]**:
+    *   No diagnosis or treatment information.
+*   **[E0012072]**:
+    *   No diagnosis or treatment information.
+*   **[E0012073]**:
+    *   No diagnosis or treatment information.
+*   **[E0012074]**:
+    *   Diagnosis: B-ALL
+    *   Specimen: CSF
+    *   Evidence ID: E0012074
+*   **[E0016790]**:
+    *   Diagnosis: Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33
+    *   Evidence ID: E0016790
+*   **[E0016791]**:
+    *   Medication: HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib
+    *   Duration: 2022-12-20 ~ 2022-12-27
+    *   Evidence ID: E0016791
+*   **[E0016792]**:
+    *   Medication: HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib
+    *   Duration: 2022-12-21 ~ 2022-12-27
+    *   Evidence ID: E0016792
+*   **[E0016793]**:
+    *   Medication: HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib
+    *   Duration: 2022-12-22 ~ 2022-12-27
+    *   Evidence ID: E0016793
+*   **[E0016794]**:
+    *   Medication: HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib
+    *   Duration: 2022-12-22 ~ 2022-12-27
+    *   Evidence ID: E0016794
+*   **[E0016795]**:
+    *   Medication: HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib
+    *   Duration: 2022-12-23 ~ 2022-12-27
+    *   Evidence ID: E0016795
+*   **[E0016781]**:
+    *   No diagnosis or treatment information.
+*   **[E0016782]**:
+    *   No diagnosis or treatment information.
+*   **[E0016783]**:
+    *   No diagnosis or treatment information.
+*   **[E0016784]**:
+    *   No diagnosis or treatment information.
+*   **[E0016785]**:
+    *   No diagnosis or treatment information.
+*   **[E0016786]**:
+    *   No diagnosis or treatment information.
+
+**Consolidate Diagnoses:**
+1.  Acute lymphoblastic leukaemia [ALL] (E0000026)
+2.  Other specified disorders of white blood cells (E0000027)
+3.  Persons encountering health services for chemotherapy session for neoplasm (E0000028)
+4.  Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33 (E0016790)
+
+**Consolidate Treatments:**
+1.  Acetaminophen E.R 650mg/TA (E0001517)
+2.  Dasatinib 100mg/TA (E0001519)
+3.  Trimethoprim 80mg, Sulfamethoxazole 400mg/TA (E0001530)
+4.  Ursodesoxycholic acid 100mg/TA (E0001531)
+5.  Dextrose 5% & NaCl 1000m/PA (E0001520)
+6.  Distilled water 1000ml/BT (E0001521)
+7.  Furosemide 20mg/2ml/AM (E0001522)
+8.  Propacetamol HCl 1g/VI (=Acetaminophen 500mg) (E0001527)
+9.  Sodium bicarbonate 500mg/TA (E0001529)
+10. Cytarabine 100mg/5ml/VI (E0001518)
+11. Mercaptopurine 50mg/TA (E0001524)
+12. Midazolam 3mg/3ml/AM (E0001525)
+13. Palonosetron 0.25mg/5ml/VI (E0001526)
+14. Sod. chloride 0.9% 50ml/BT (E0001528)
+15. Magnesium oxide 250mg/TA (E0001523)
+16. HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib (E0016791, E0016792, E0016793, E0016794, E0016795)
+
+**Final JSON Structure:**
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Acute lymphoblastic leukaemia [ALL]",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": ["E0000026"],
+      "treatments": [
+        {"type": "medication", "name": "Acetaminophen E.R 650mg/TA", "date": "2022-12-07", "evidence_ids": ["E0001517"]},
+        {"type": "medication", "name": "Dasatinib 100mg/TA", "date": "2022-12-16", "evidence_ids": ["E0001519"]},
+        {"type": "medication", "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA", "date": "2022-12-16", "evidence_ids": ["E0001530"]},
+        {"type": "medication", "name": "Ursodesoxycholic acid 100mg/TA", "date": "2022-12-16", "evidence_ids": ["E0001531"]},
+        {"type": "medication", "name": "Dextrose 5% & NaCl 1000m/PA", "date": "2022-12-19", "evidence_ids": ["E0001520"]},
+        {"type": "medication", "name": "Distilled water 1000ml/BT", "date": "2022-12-19", "evidence_ids": ["E0001521"]},
+        {"type": "medication", "name": "Furosemide 20mg/2ml/AM", "date": "2022-12-19", "evidence_ids": ["E0001522"]},
+        {"type": "medication", "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)", "date": "2022-12-19", "evidence_ids": ["E0001527"]},
+        {"type": "medication", "name": "Sodium bicarbonate 500mg/TA", "date": "2022-12-19", "evidence_ids": ["E0001529"]},
+        {"type": "medication", "name": "Cytarabine 100mg/5ml/VI", "date": "2022-12-20", "evidence_ids": ["E0001518"]},
+        {"type": "medication", "name": "Mercaptopurine 50mg/TA", "date": "2022-12-20", "evidence_ids": ["E0001524"]},
+        {"type": "medication", "name": "Midazolam 3mg/3ml/AM", "date": "2022-12-20", "evidence_ids": ["E0001525"]},
+        {"type": "medication", "name": "Palonosetron 0.25mg/5ml/VI", "date": "2022-12-20", "evidence_ids": ["E0001526"]},
+        {"type": "medication", "name": "Sod. chloride 0.9% 50ml/BT", "date": "2022-12-20", "evidence_ids": ["E0001528"]},
+        {"type": "medication", "name": "Magnesium oxide 250mg/TA", "date": "2022-12-29", "evidence_ids": ["E0001523"]},
+        {"type": "medication", "name": "HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib", "date": "2022-12-20", "evidence_ids": ["E0016791"]},
+        {"type": "medication", "name": "HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib", "date": "2022-12-21", "evidence_ids": ["E0016792"]},
+        {"type": "medication", "name": "HD#2 IT-MTX ,CPM,6MP,Ara-C. Dasatinib", "date": "2022-12-22", "evidence_ids": ["
