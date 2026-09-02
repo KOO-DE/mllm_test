@@ -1,0 +1,340 @@
+{
+  "patient_id": "PT0534E63EF366",
+  "status": "ok",
+  "n_evidence_available": 106,
+  "n_evidence_used_in_prompt": 55,
+  "cited_evidence_ids": [
+    "E0000024",
+    "E0000025",
+    "E0001485",
+    "E0001486",
+    "E0001487",
+    "E0001488",
+    "E0001489",
+    "E0001490",
+    "E0001491",
+    "E0001492",
+    "E0001493",
+    "E0001494",
+    "E0001495",
+    "E0001496",
+    "E0001497",
+    "E0001498",
+    "E0001499",
+    "E0001500",
+    "E0001501",
+    "E0001502",
+    "E0001503",
+    "E0001504",
+    "E0001505",
+    "E0001506",
+    "E0001507",
+    "E0001508",
+    "E0001509",
+    "E0001510",
+    "E0001511",
+    "E0001512",
+    "E0001513",
+    "E0001514",
+    "E0001515",
+    "E0001516"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Subarachnoid hemorrhage from anterior communicating artery",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0000024"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001487"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 4ml/VI",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001488"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 600mg/6ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001489"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ceftriaxone sodium 2g/VI",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001491"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Chlorhexidin digluconate 0.12% 100ml/BT",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001492"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Diclofenac-B-dimethylaminoethanol 90mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001496"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001498"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ipratropium bromide 500mcg/2ml/EA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001499"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001501"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium sulfate 50% 10g/20ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001502"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mannitol 20% 100ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001503"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl 10mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001504"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg/3ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001505"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl 10mg/10ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001507"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nimodipine 30mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001508"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Porcine brain peptide 215.2mg/ml, 10ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001509"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001511"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ramosetron HCl 0.3mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001512"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 1000ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001513"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001514"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 20ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001515"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 500ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001516"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylsalicylic acid enteric coated pellet 100mg/CA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001490"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Clopidogrel 75mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001494"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dexmedetomidine 400mcg/100ml/BT",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001495"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "NaCl 5.26g외 4종 1,000ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001506"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride SR 600mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001510"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Choline alfoscerate 400mg/10ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001493"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/TA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001497"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001500"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen 0.75g/75ml/PA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "E0001485"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen 1g/100ml/BT",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "E0001486"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Subarachnoid hemorrhage, unspecified",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "E0000025"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0013480",
+    "E0013482",
+    "E0013483",
+    "E0013508",
+    "E0013509",
+    "E0013519",
+    "E0013526",
+    "E0013527",
+    "E0013529",
+    "E0013546",
+    "E0016752",
+    "E0016753",
+    "E0016754",
+    "E0016755",
+    "E0016756",
+    "E0016757",
+    "E0016758",
+    "E0016773",
+    "E0016774",
+    "E0016775",
+    "E0016776"
+  ]
+}

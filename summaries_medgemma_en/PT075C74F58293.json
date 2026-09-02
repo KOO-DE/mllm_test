@@ -1,0 +1,400 @@
+{
+  "patient_id": "PT075C74F58293",
+  "status": "ok",
+  "n_evidence_available": 83,
+  "n_evidence_used_in_prompt": 58,
+  "cited_evidence_ids": [
+    "E0000029",
+    "E0001397",
+    "E0001532",
+    "E0001533",
+    "E0001534",
+    "E0001535",
+    "E0001536",
+    "E0001537",
+    "E0001538",
+    "E0001539",
+    "E0001540",
+    "E0001541",
+    "E0001542",
+    "E0001543",
+    "E0001544",
+    "E0001545",
+    "E0001546",
+    "E0001547",
+    "E0001548",
+    "E0001549",
+    "E0001550",
+    "E0001551",
+    "E0001552",
+    "E0001553",
+    "E0001554",
+    "E0001555",
+    "E0001556",
+    "E0001557",
+    "E0001558",
+    "E0001559",
+    "E0001560",
+    "E0001561",
+    "E0001562",
+    "E0001563",
+    "E0001564",
+    "E0001565",
+    "E0001566",
+    "E0001567",
+    "E0001568",
+    "E0001569",
+    "E0001570",
+    "E0001571"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Fracture of femur, intertrochanter closed",
+      "onset_date": "2022-12-24",
+      "diagnosis_evidence_ids": [
+        "E0000029",
+        "E0001397"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Acetaminophen",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001532"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001533"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Buprenorphine 5mcg/hr/EA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001538"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dexketoprofen 50mg/2ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001543"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001544"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001545"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Hydroxyethylstarch 6%, 500ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001547"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Insulin aspart 1000unit/10ml/VI",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001548"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001551"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lafutidine 10mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001552"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nadroparin calcium 2,850unit/0.3ml/SYRN",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001557"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl 10mg/10ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001559"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Pethidine HCl 25mg/0.5ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001560"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001561"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 1000ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001565"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001566"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Tramadol HCl 37.5mg, Acetaminophen 325mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001568"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Zolpidem tartrate 6.25mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001570"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "위령선,괄루근,하고초 30%에탄올엑스 200mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001571"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Choline alfoscerate 400mg/CA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001540"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lactitol 20g/PA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001550"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Losartan potassium 50mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001553"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Rivastigmine 9mg/EA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001563"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Rosuvastatin calcium 10mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": [
+            "E0001564"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Biodiastase2000 50mg, Lipase100 15mg 등/TA",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "E0001537"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ciprofloxacin HCl 400mg/200ml/PA",
+          "date": "2022-12-27",
+          "evidence_ids": [
+            "E0001541"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Insulin glargine 10.9134mg (Human insulin 300unit/3ml/SYRN)",
+          "date": "2022-12-27",
+          "evidence_ids": [
+            "E0001549"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 600mg/6ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001534"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Adenosine triphosphate disodium 20mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001535"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Al(OH)3 124.9mg, MgCO3 83.8mg, Oxethazaine 5mg/TA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001536"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ceftriaxone sodium 2g/VI",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001539"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Citrulline maleate 1g/10ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001542"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Haloperidol 5mg/1ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001546"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Manganese chloride 1.08mg/3ml/AM(Mn 300mcg/AM)",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001554"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl 10mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001555"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Morphine sulfate 5mg/5ml/VI",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001556"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nefopam HCl 20 mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001558"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ramosetron HCl 0.3mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001562"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 20ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001567"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "ZnSO4 hydrate 88mg/20ml/VI (Zn 20mg )",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "E0001569"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0013946",
+    "E0013947",
+    "E0013948",
+    "E0013949",
+    "E0013950",
+    "E0013951",
+    "E0014060",
+    "E0016796",
+    "E0016797",
+    "E0016798",
+    "E0016799",
+    "E0016800",
+    "E0016801",
+    "E0016802",
+    "E0016803",
+    "E0016804"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "patient_id": "PT05266D17987C",
+  "status": "ok",
+  "n_evidence_available": 131,
+  "n_evidence_used_in_prompt": 70,
+  "cited_evidence_ids": [
+    "E0000017",
+    "E0000018",
+    "E0000019",
+    "E0000020",
+    "E0000021",
+    "E0000022",
+    "E0000023",
+    "E0001369"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Dry eye syndrome",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "E0000019"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Low-tension glaucoma",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "E0000021"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Degenerative arthritis, patellofemoral joint",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000018"
+      ],
+      "treatments": [
+        {
+          "type": "surgery",
+          "name": "Unicompartmental (unicondylar) knee arthroplasty",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "E0001369"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Abnormal results of kidney function studies",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "E0000017"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Examination and observation for expert evidence",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "E0000020"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Muscle weaknesslower leg",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "E0000022"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Special screening examination for cardiovascular disorders",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "E0000023"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0001453",
+    "E0001454",
+    "E0001455",
+    "E0001456",
+    "E0001457",
+    "E0001458",
+    "E0001459",
+    "E0001460",
+    "E0001461",
+    "E0001462",
+    "E0001463",
+    "E0001464",
+    "E0001465",
+    "E0001466",
+    "E0001467",
+    "E0001468",
+    "E0001469",
+    "E0001470",
+    "E0001471",
+    "E0001472",
+    "E0001473",
+    "E0001474",
+    "E0001475",
+    "E0001476",
+    "E0001477",
+    "E0001478",
+    "E0001479",
+    "E0001480",
+    "E0001481",
+    "E0001482",
+    "E0001483",
+    "E0001484",
+    "E0007580",
+    "E0007581",
+    "E0007582",
+    "E0007583",
+    "E0007584",
+    "E0007585",
+    "E0007586",
+    "E0007587",
+    "E0007588",
+    "E0007589",
+    "E0007590",
+    "E0007591",
+    "E0007597",
+    "E0007599",
+    "E0007600",
+    "E0007602",
+    "E0007606",
+    "E0008968",
+    "E0011928",
+    "E0011930",
+    "E0016697",
+    "E0016698",
+    "E0016744",
+    "E0016745",
+    "E0016746",
+    "E0016747",
+    "E0016748",
+    "E0016749",
+    "E0016750",
+    "E0016751"
+  ]
+}

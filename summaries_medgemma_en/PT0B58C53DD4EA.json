@@ -1,0 +1,105 @@
+{
+  "patient_id": "PT0B58C53DD4EA",
+  "status": "ok",
+  "n_evidence_available": 102,
+  "n_evidence_used_in_prompt": 60,
+  "cited_evidence_ids": [
+    "E0000030",
+    "E0000031",
+    "E0001392",
+    "E0001393"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute aortic dissection, type 1thoracic aorta, ascending",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "E0000030"
+      ],
+      "treatments": [
+        {
+          "type": "surgery",
+          "name": "Replacement of aorta",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "E0001392"
+          ]
+        },
+        {
+          "type": "procedure",
+          "name": "Bleeding control",
+          "date": "2022-12-24",
+          "evidence_ids": [
+            "E0001393"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Postoperative bleeding",
+      "onset_date": "2022-12-25",
+      "diagnosis_evidence_ids": [
+        "E0000031"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0001572",
+    "E0001573",
+    "E0001574",
+    "E0001575",
+    "E0001576",
+    "E0001577",
+    "E0001578",
+    "E0001579",
+    "E0001580",
+    "E0001581",
+    "E0001582",
+    "E0001583",
+    "E0001584",
+    "E0001585",
+    "E0001586",
+    "E0001587",
+    "E0001588",
+    "E0001589",
+    "E0001590",
+    "E0001591",
+    "E0001592",
+    "E0001593",
+    "E0001594",
+    "E0001595",
+    "E0001596",
+    "E0001597",
+    "E0001598",
+    "E0001599",
+    "E0001600",
+    "E0001601",
+    "E0001602",
+    "E0001603",
+    "E0001604",
+    "E0001605",
+    "E0001606",
+    "E0001607",
+    "E0001608",
+    "E0001609",
+    "E0001610",
+    "E0001611",
+    "E0001612",
+    "E0001613",
+    "E0001614",
+    "E0013690",
+    "E0013692",
+    "E0013717",
+    "E0013718",
+    "E0013719",
+    "E0016819",
+    "E0016820",
+    "E0016821",
+    "E0016822",
+    "E0016823",
+    "E0016848",
+    "E0016849",
+    "E0016850"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "status": "ok",
+  "n_evidence_available": 40,
+  "n_evidence_used_in_prompt": 34,
+  "cited_evidence_ids": [
+    "E0000026",
+    "E0000027",
+    "E0000028"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute lymphoblastic leukaemia [ALL]",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000026"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other specified disorders of white blood cells",
+      "onset_date": "2022-12-07",
+      "diagnosis_evidence_ids": [
+        "E0000027"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Persons encountering health services for chemotherapy session for neoplasm",
+      "onset_date": "2022-12-19",
+      "diagnosis_evidence_ids": [
+        "E0000028"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0001517",
+    "E0001518",
+    "E0001519",
+    "E0001520",
+    "E0001521",
+    "E0001522",
+    "E0001523",
+    "E0001524",
+    "E0001525",
+    "E0001526",
+    "E0001527",
+    "E0001528",
+    "E0001529",
+    "E0001530",
+    "E0001531",
+    "E0008319",
+    "E0008320",
+    "E0012071",
+    "E0012072",
+    "E0012073",
+    "E0012074",
+    "E0016781",
+    "E0016787",
+    "E0016788",
+    "E0016789",
+    "E0016790",
+    "E0016791",
+    "E0016792",
+    "E0016793",
+    "E0016794",
+    "E0016795"
+  ]
+}

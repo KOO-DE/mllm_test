@@ -1,0 +1,123 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "status": "ok",
+  "n_evidence_available": 30,
+  "n_evidence_used_in_prompt": 30,
+  "cited_evidence_ids": [
+    "E0000009",
+    "E0000010",
+    "E0000011",
+    "E0000012",
+    "E0000013",
+    "E0000014",
+    "E0001449",
+    "E0001450",
+    "E0001451",
+    "E0001452"
+  ],
+  "problems": [
+    {
+      "diagnosis": "General symptom and sign",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "E0000012"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "E0000014"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Acetaminophen",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "E0001449"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Glucose 50g, Na 77mEq, K 20mEq, Cl 97mEq/1L/PA",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "E0001450"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "E0001451"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "E0001452"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Acute gastroenteritis",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "E0000009"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "E0000010"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Fecal impaction",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "E0000011"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other and unspecified constipation",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "E0000013"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "E0000015",
+    "E0011718",
+    "E0011719",
+    "E0011720",
+    "E0011721",
+    "E0016048",
+    "E0016049",
+    "E0016262",
+    "E0016263",
+    "E0016264",
+    "E0016377",
+    "E0016684",
+    "E0016685",
+    "E0016686",
+    "E0016687",
+    "E0016688",
+    "E0016689",
+    "E0016690",
+    "E0016691",
+    "E0016692"
+  ]
+}

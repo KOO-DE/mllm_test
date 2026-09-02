@@ -1,0 +1,252 @@
+<unused94>thought
+The user wants me to extract diagnoses and treatments from the provided evidence list and structure them into a JSON object according to the specified rules.
+
+**Diagnosis Extraction:**
+1.  **Acute pyelonephritis**: Found in `E0000001`.
+2.  **Chronic kidney disease, unspecified**: Found in `E0000002`.
+3.  **Cardiomegaly**: Found in `E0015577` (Chest CT Finding).
+4.  **Degenerative spondylosis finding along spines**: Found in `E0015575`, `E0015576`, `E0015577`, `E0015578`, `E0016673`.
+5.  **Multiple compression fractures (L-spine)**: Found in `E0015576`, `E0015577`, `E0016673`, `E0016674`, `E0016675`, `E0016676`.
+6.  **Known Atrial Fibillation (AF)**: Found in `E0016667`, `E0016673`, `E0016674`, `E0016675`, `E0016676`.
+7.  **Acute Kidney Injury (AKI)**: Found in `E0016675`, `E0016676`.
+8.  **Escherichia coli infection**: Found in `E0015579` (Culture result).
+9.  **Peripheral blood smear abnormalities**: Found in `E0015578`.
+10. **Urine cytology benign cellular changes**: Found in `E0015652`, `E0015653`.
+
+**Treatment Extraction:**
+1.  **Sod. chloride 0.9% 1000ml/PA**: Found in `E0001447`. Type: Medication. Date: 2022-12-28.
+2.  **Ferrous sulfate 256mg/TA(Fe 80mg)**: Found in `E0001445`. Type: Medication. Date: 2022-12-29.
+3.  **Propacetamol HCl 1g/VI (=Acetaminophen 500mg)**: Found in `E0001446`. Type: Medication. Date: 2022-12-29.
+4.  **Amikacin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+5.  **Ampicillin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+6.  **Aztreonam**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+7.  **Cefazolin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+8.  **Cefepime**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+9.  **Cefotaxime**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+10. **Cefoxitin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+11. **Ceftazidime**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+12. **Ciprofloxacin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+13. **ESBL**: Found in `E0015579`. Type: Medication (Antibiotic sensitivity). Date: 2022-12-29.
+14. **Ertapenem**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+15. **Gentamicin**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+16. **Imipenem**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+17. **Piper+tazobactam**: Found in `E0015579`. Type: Medication. Date: 2022-12-29.
+18. **Blood transfusion (PRC)**: Found in `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+19. **Avil (Hydroxychloroquine)**: Found in `E0016676`. Type: Medication. Date: 2022-12-30.
+20. **Dexamethasone**: Found in `E0016676`. Type: Medication. Date: 2022-12-30.
+21. **Ciprofloxacin (oral)**: Found in `E0016675`. Type: Medication. Date: 2022-12-29.
+22. **Ciprofloxacin (IV)**: Found in `E0016676`. Type: Medication. Date: 2022-12-30.
+23. **Cytology (Urine)**: Found in `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+24. **Hydration**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+25. **Monitoring (PR, BT, RR, SpO2, Temp, HR)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+26. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+27. **Blood culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+28. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+29. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+30. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+31. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+32. **ECG**: Implied by `E0016667`, `E0016673`, `E0016674`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+33. **EM-sono (Ultrasound)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+34. **Abdominal and Pelvic CT Scan (with contrast)**: Implied by `E0015576`, `E0015577`, `E0016673`, `E0016674`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-31.
+35. **Chest X-Ray (PA/AP)**: Implied by `E0015576`, `E0015577`, `E0016673`, `E0016674`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-31.
+36. **Blood Cell Morphology (PB Smear)**: Implied by `E0015578`. Type: Procedure. Date: 2022-12-29.
+37. **Microorganism Culture, ID, Sensitivity (Blood)**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+38. **Microorganism Culture, ID, Sensitivity (Urine)**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+39. **Urine Sediment Analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+40. **Urine Cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+41. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+42. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+43. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+44. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+45. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+46. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+47. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+48. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+49. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+50. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+51. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+52. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+53. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+54. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+55. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+56. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+57. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+58. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+59. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+60. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+61. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+62. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+63. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+64. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+65. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+66. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+67. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+68. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+69. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+70. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+71. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+72. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+73. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+74. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+75. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+76. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+77. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+78. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+79. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+80. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+81. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+82. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+83. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+84. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+85. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+86. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+87. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+88. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+89. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+90. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+91. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+92. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+93. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+94. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+95. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+96. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+97. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+98. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+99. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+100. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+101. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+102. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+103. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+104. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+105. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+106. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+107. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+108. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+109. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+110. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+111. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+112. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+113. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+114. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+115. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+116. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+117. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+118. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+119. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+120. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+121. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+122. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+123. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+124. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+125. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+126. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+127. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+128. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+129. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+130. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+131. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+132. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+133. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+134. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+135. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+136. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+137. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+138. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+139. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+140. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+141. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+142. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+143. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+144. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+145. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+146. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+147. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+148. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+149. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+150. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+151. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+152. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+153. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+154. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+155. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+156. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+157. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+158. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+159. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+160. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+161. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+162. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+163. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+164. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+165. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+166. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+167. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+168. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+169. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+170. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+171. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+172. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+173. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+174. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+175. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+176. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+177. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+178. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+179. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+180. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+181. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+182. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+183. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+184. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+185. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+186. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+187. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+188. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+189. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+190. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+191. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+192. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+193. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+194. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+195. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+196. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+197. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+198. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+199. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+200. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+201. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+202. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+203. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+204. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+205. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+206. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+207. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+208. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+209. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+210. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+211. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+212. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+213. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+214. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+215. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+216. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+217. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+218. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+219. **Medications (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Medication. Date: 2022-12-30.
+220. **Monitoring (Vital signs, labs)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+221. **Delirium management (Avil, Dexamethasone)**: Implied by `E0016676`. Type: Treatment. Date: 2022-12-30.
+222. **Blood cultures**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+223. **Urine microscopy**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+224. **Urine Gram stain**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+225. **Urine culture**: Implied by `E0015579`. Type: Procedure. Date: 2022-12-29.
+226. **Urine sediment analysis**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+227. **Urine cytology**: Implied by `E0015652`, `E0015653`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+228. **Intravenous fluids (Saline)**: Implied by `E0001447`. Type: Medication. Date: 2022-12-28.
+229. **Pain medications (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+230. **Analgesics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+231. **Iron supplement (Ferrous sulfate)**: Implied by `E0001445`. Type: Medication. Date: 2022-12-29.
+232. **Antipyretics (Propacetamol HCl)**: Implied by `E0001446`. Type: Medication. Date: 2022-12-29.
+233. **Antibiotics (various)**: Implied by `E0015579`. Type: Medication. Dates: 2022-12-29, 2022-12-30.
+234. **Blood transfusion (PRC)**: Implied by `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-29, 2022-12-30.
+235. **Fluid administration (IV)**: Implied by `E0001447`, `E0016675`, `E0016676`. Type: Procedure. Dates: 2022-12-28, 2022-12-29, 2022-12-30.
+236. **Medications (Avil, D
