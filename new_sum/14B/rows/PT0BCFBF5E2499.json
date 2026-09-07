@@ -1,0 +1,401 @@
+{
+  "patient_id": "PT0BCFBF5E2499",
+  "rows": [
+    {
+      "id": "R0001504",
+      "source_file": "3_진단정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 진단일자: 2022-12-31 | 첫 진단일자: 2022-12-31 | 진단 진료과: 응급의학과 | 진단명: Anemia, unspecified | ICD10명: Anaemia, unspecified | 주상병여부: Y | 수술후진단여부: N | 확정상병여부: Y | 퇴원시점진단여부: Y"
+    },
+    {
+      "id": "R0021200",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Sod. chloride 0.9% 1000ml/PA | 약품명(일반명): 0.9% 생리식염주 1000ml(이노엔) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(1000ml/PA) | 처방단위: 포장 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 1 | 투약위치: 진료과 | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0021201",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): 10% Povidone iodine & Cotton stick (0.15g/1.5ml), 50EA/BX | 약품명(일반명): 포스틱스왑액 (퍼슨)비급여 | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(1EA/EA) | 처방단위: 함량 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 1 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021258",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Propacetamol HCl 1g/VI (=Acetaminophen 500mg) | 약품명(일반명): 파세타주 1g(신풍) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(1g/VI) | 처방단위: 규격 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 0 | 투약위치: 진료과"
+    },
+    {
+      "id": "R0021259",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Chlorpheniramine maleate 4mg/2ml/AM | 약품명(일반명): 클로르페니라민말렌산염주 4mg(제일제약) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(4mg/AM) | 처방단위: 포장 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 0 | 투약위치: 진료과"
+    },
+    {
+      "id": "R0021260",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Acetaminophen E.R 650mg/TA | 약품명(일반명): 써스펜8시간 이알서방정 650mg(한미)(집중) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(650mg/TA) | 처방단위: 규격 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 0 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021261",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Acetaminophen E.R 650mg/TA | 약품명(일반명): 써스펜8시간 이알서방정 650mg(한미)(집중) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(650mg/TA) | 처방단위: 규격 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 1 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021262",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Biodiastase2000 50mg, Lipase100 15mg 등/TA | 약품명(일반명): 베아제정(대웅)비급여 | 포장단위1일약품투여량: 3 | 포장단위1회약품투여량: 1*3(1TA/TA) | 처방단위: 함량 | 1일처방량: 3 | 1회처방량: 1*3 | 투약일수: 0 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021263",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA | 약품명(일반명): 코푸 시럽 20ml(유한) | 포장단위1일약품투여량: 3 | 포장단위1회약품투여량: 1*3(1PA/PA) | 처방단위: 함량 | 1일처방량: 3 | 1회처방량: 1*3 | 투약일수: 0 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021264",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Folic acid 1mg/TA | 약품명(일반명): 신일폴산정 1mg(신일) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(1mg/TA) | 처방단위: 규격 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 1 | 투약위치: 집으로"
+    },
+    {
+      "id": "R0021265",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Sod. chloride 0.9% 100ml/PA | 약품명(일반명): 0.9% 생리식염주 100ml(이노엔) | 포장단위1일약품투여량: 6 | 포장단위1회약품투여량: 1*6(100ml/PA) | 처방단위: 포장 | 1일처방량: 6 | 1회처방량: 1*6 | 투약일수: 1 | 투약위치: 진료과"
+    },
+    {
+      "id": "R0021266",
+      "source_file": "9_약품.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 약품처방일: 2022-12-31 | 약품명(성분명): Sod. chloride 0.9% 500ml/PA | 약품명(일반명): 엔에스주사액500ml(JW생명과학/JW중외) | 포장단위1일약품투여량: 1 | 포장단위1회약품투여량: 1*1(500ml/PA) | 처방단위: 포장 | 1일처방량: 1 | 1회처방량: 1*1 | 투약일수: 1 | 투약위치: 진료과"
+    },
+    {
+      "id": "R0061761",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:21:37 | 검사명: E-ADM3(Emergency Admission 15종) | 검사세부항목명: E-ADM3(Emergency Admission 15종) | 검사유형: Specimen | 처방전표분류: 내분비진단검사-위장관/췌장"
+    },
+    {
+      "id": "R0061762",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:20:51 | 검사명: PT(Prothrombin Time):응급검사실 | 검사세부항목명: PT(Prothrombin Time):응급검사실 | 검사유형: Specimen | 처방전표분류: 혈액질환검사-출혈·혈전질환"
+    },
+    {
+      "id": "R0061763",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:41:13 | 검사명: Band Nneutrophil(#) | 검사세부항목명: Band Nneutrophil(#) | 검사유형: Specimen | 처방전표분류: 일반진단검사-CBC | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061764",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:41:13 | 검사명: Band Neutrophil(%) | 검사세부항목명: Band Neutrophil(%) | 검사유형: Specimen | 처방전표분류: 일반진단검사-CBC | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061765",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:41:13 | 검사명: Emergency CBC & Differential Count(6종) | 검사세부항목명: Emergency CBC & Differential Count(6종) | 검사유형: Specimen | 처방전표분류: 일반진단검사-CBC | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061766",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:41:13 | 검사명: WBC Differential Count(Blood):응급검사실 | 검사세부항목명: WBC Differential Count(Blood):응급검사실 | 검사유형: Specimen | 처방전표분류: 일반진단검사-CBC | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061767",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 04:29:14 | 검사명: 응급실 EKG (Portable) | 검사세부항목명: 응급실 EKG (Portable) | 검사결과: HISFILE01/MS/ExamRsltImg/INF/20221231/0/20/255/50/INF/20221231042919255_02025550_001.jpg | 검사유형: Function | 처방전표분류: 응급의학과검사"
+    },
+    {
+      "id": "R0061768",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CdD.EE_RzR2(Enzyme) | 검사세부항목명: CdD.EE_RzR2(Enzyme) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061769",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.Ee_R2r(Enzyme) | 검사세부항목명: ccD.Ee_R2r(Enzyme) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061770",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccddee_rr(Enzyme) | 검사세부항목명: ccddee_rr(Enzyme) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061771",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.ee_Ror(Enzyme) | 검사세부항목명: ccD.ee_Ror(Enzyme) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061772",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccddEe_r\"r(Enzyme) | 검사세부항목명: ccddEe_r\"r(Enzyme) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061773",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: Ccddee_r'r(Enzyme) | 검사세부항목명: Ccddee_r'r(Enzyme) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061774",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CCD.ee_R1R1(Enzyme) | 검사세부항목명: CCD.ee_R1R1(Enzyme) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061775",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CwCD.ee_R1wR1(Enzyme) | 검사세부항목명: CwCD.ee_R1wR1(Enzyme) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061776",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CdD.EE_RzR2(LISS/Coombs) | 검사세부항목명: CdD.EE_RzR2(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061777",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.EE_R2R2(Enzyme) | 검사세부항목명: ccD.EE_R2R2(Enzyme) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061778",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.Ee_R2r(LISS/Coombs) | 검사세부항목명: ccD.Ee_R2r(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061779",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccddee_rr(LISS/Coombs) | 검사세부항목명: ccddee_rr(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061780",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.ee_Ror(LISS/Coombs) | 검사세부항목명: ccD.ee_Ror(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061781",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccddEe_r\"r(LISS/Coombs) | 검사세부항목명: ccddEe_r\"r(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061782",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: Ccddee_r'r(LISS/Coombs) | 검사세부항목명: Ccddee_r'r(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061783",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CCD.ee_R1R1(LISS/Coombs) | 검사세부항목명: CCD.ee_R1R1(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061784",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: CwCD.ee_R1wR1(LISS/Coombs) | 검사세부항목명: CwCD.ee_R1wR1(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 2+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061785",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: Irregular Ab Identification Test | 검사세부항목명: Irregular Ab Identification Test | 검사결과-음성양성: + | 검사결과: Conclusion\n\n1. 비예기항체 선별검사\n\n- I cell (LOT:8S981) : positive (3+)\n\n- II cell (LOT:8S981) : positive (3+)\n\n- Autocontrol : positive (3+) \n\n\n\n2. 비예기항체 동정검사\n\nCell No  반응결과(LISS/Coombs)   Enzyme\n\n1              2+                  3+\n\n2              2+                  3+\n\n3              1+                  3+\n\n4              2+                  4+\n\n5              2+                  4+ \n\n6              2+                  3+\n\n7              2+                  3+\n\n8              2+                  3+ \n\n9              2+                  3+\n\n10             2+                  4+ \n\n11             2+                  4+ \n\nauto           3+                  4+\n\n\n\n : R/O Presence of clinically important RBC antibodies with auto control(+)\n\n\n\n본 혈구 패널로 시행한 환자의 비예기항체 동정검사상 모두 혈구 세포와 반응하여 동정이 되지 않았습니다. ...(생략) | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061786",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 03:54:31 | 검사명: ccD.EE_R2R2(LISS/Coombs) | 검사세부항목명: ccD.EE_R2R2(LISS/Coombs) | 검사결과-음성양성: + | 검사결과: 1+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061787",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Auto-control | 검사세부항목명: Auto-control | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061788",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Diacell II | 검사세부항목명: Diacell II | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061789",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Diacell I | 검사세부항목명: Diacell I | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061790",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Irregular Ab Screening Test | 검사세부항목명: Irregular Ab Screening Test | 검사결과-음성양성: + | 검사결과: POSITIVE\n\n\n\nConclusion\n\nAntibody screening test\n\n\n\nI cell : positive (3+)\n\nII cell : positive (3+)\n\nAutocontrol : positive (3+)\n\n\n\nR/O Presence of clinically important RBC antibodies\n\n\n\ncomment) 한국인에서 비예기항체의 빈도는 수혈이나 임신력에 따라 약 0.6 ~ 1.2% 입니다.\n\n\n\nAntibody screening panel 상 I, II cell 모두에 양성인 경우 D, k, Kp^b, Js^b, Fy^b, Jk^a, s, M, N, P, Lu^b 에 대한 단일 비예기항체가 있거나, I cell 에 양성인 C, e, Jk^a, Xg^a, Le^a, S 항원에 대한 항체와 II cell 에 양성인 E, c, Fy^b, Jk^b, Xg^a, Le^b 항원에 대한 항체가 혼합되어 있을 수 있습니다. 비예기항체 동정검사를 통해 수혈자의 혈청에 존재하는 비예기항체를 밝히는 것이 필요하며, 자가항체의 존재가능성도 고려해야 합니다. \n\n\n\n\n\nComment\n\n항체선별검사는 수혈자의 혈청 내에 ABO 혈액형에 대한 항체 외에 임상적으로 용혈성 수혈부작용을 초래하는 중요한 적혈구 항체가 존재하는지를 판단하는 검사입니다. 항체선별검사는 수혈 전 시행함으로써 수혈 혈액 준비에 소요되는 시간을 단축할 수 있으며 항체선별검사 양성의 경우 반드시 항체동정검사를 통해 적혈구 항체를 밝히고 수혈 전 적정 혈액을 준비해야 합니다. | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061791",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Cell Type(Anti-D) | 검사세부항목명: Cell Type(Anti-D) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061792",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: RHo(D) 혈액형검사(A) | 검사세부항목명: RHo(D) 혈액형검사(A) | 검사결과-음성양성: + | 검사결과: + | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061793",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Serum Type(B cell) | 검사세부항목명: Serum Type(B cell) | 검사결과-음성양성: - | 검사결과: - | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061794",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Serum Type(A cell) | 검사세부항목명: Serum Type(A cell) | 검사결과-음성양성: + | 검사결과: 3+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061795",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Cell Type(Anti-B) | 검사세부항목명: Cell Type(Anti-B) | 검사결과-음성양성: + | 검사결과: 4+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061796",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Cell Type(Anti-A) | 검사세부항목명: Cell Type(Anti-A) | 검사결과-음성양성: - | 검사결과: - | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061797",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: ABO Serum Type | 검사세부항목명: ABO Serum Type | 검사결과: B | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061798",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: ABO 혈액형검사 (A) | 검사세부항목명: ABO 혈액형검사 (A) | 검사결과: B | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061799",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: 채혈자 이름 | 검사세부항목명: 채혈자 이름 | 검사결과: 남이진 | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061800",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: ABO/RH(D) typing(자동화법) | 검사세부항목명: ABO/RH(D) typing(자동화법) | 검사결과-음성양성: + | 검사결과: B+ | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061801",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: ABO Cell Type | 검사세부항목명: ABO Cell Type | 검사결과: B | 검사유형: Specimen | 처방전표분류: 수혈검사 | 반복기록: 2022-12-31~2022-12-31 (총 3회)"
+    },
+    {
+      "id": "R0061802",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 00:34:04 | 검사명: Chest PA(응급실) | 검사세부항목명: Chest PA(응급실) | 검사결과: [Conclusion]\n\n\n\n\n-----------------------------------\n\n□ 위탁기관\n\n광주미래의원(www.gmiraec.com)\n광주광역시 남구 용대로 208 2층,3층, Tel 062-681-6000\n\n[Finding]\n\nNonspecific. | 검사유형: Radiology | 처방전표분류: Chest"
+    },
+    {
+      "id": "R0061803",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 02:33:20 | 검사명: Microorganism Culture,ID,Sensitivity(혈액,체액;혐기성배양 포함) | 검사세부항목명: Microorganism Culture,ID,Sensitivity(혈액,체액;혐기성배양 포함) | 검사결과: No Growth after 1 day\n\nNo Growth after 2 day\n\nNo Growth after 3 day\n\nNo Growth after 4 day\n\nNo Growth after 5 day\n\nNO GROWTH | 검사유형: Specimen | 처방전표분류: 감염검사-일반미생물 | 반복기록: 2022-12-31~2022-12-31 (총 2회)"
+    },
+    {
+      "id": "R0061804",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:33:45 | 검사명: Irregular Ab Screening Test | 검사세부항목명: Irregular Ab Screening Test | 검사결과-음성양성: + | 검사결과: POSITIVE | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0061805",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:13:10 | 검사명: Hb cal(Hemoglobin)(현장검사) | 검사세부항목명: Hb cal(Hemoglobin)(현장검사) | 검사유형: Specimen | 처방전표분류: 내분비진단검사-당뇨병"
+    },
+    {
+      "id": "R0061806",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:13:10 | 검사명: BGA(Blood Gas Analysis)(현장검사) | 검사세부항목명: BGA(Blood Gas Analysis)(현장검사) | 검사유형: Specimen | 처방전표분류: 내분비진단검사-당뇨병"
+    },
+    {
+      "id": "R0061807",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:13:10 | 검사명: FiO2(현장검사) | 검사세부항목명: FiO2(현장검사) | 검사유형: Specimen | 처방전표분류: 내분비진단검사-당뇨병"
+    },
+    {
+      "id": "R0061808",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 01:13:10 | 검사명: O2(현장검사) | 검사세부항목명: O2(현장검사) | 검사유형: Specimen | 처방전표분류: 내분비진단검사-당뇨병"
+    },
+    {
+      "id": "R0061809",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 04:09:02 | 검사명: [신속][Xpert]SARS-CoV-2(COVID-19) | 검사세부항목명: [신속][Xpert]SARS-CoV-2(COVID-19) | 검사결과-음성양성: - | 검사결과: Negative | 검사유형: Specimen | 처방전표분류: 분자유전검사"
+    },
+    {
+      "id": "R0062013",
+      "source_file": "5_검사정보.xlsx",
+      "date": "2022-12-31",
+      "text": "환자번호: PT0BCFBF5E2499 | 검사시행일: 2022-12-31 08:35:33 | 검사명: 채혈자 이름 | 검사세부항목명: 채혈자 이름 | 검사결과: 정하연 | 검사유형: Specimen | 처방전표분류: 수혈검사"
+    },
+    {
+      "id": "R0064177",
+      "source_file": "4_의무기록.xlsx",
+      "date": "2022-12-31",
+      "text": "[병원공통_입원초진_기본서식] (2022-12-31)\n가족력: Uncheckable\n가족력: Nonspecific\n해당없음 <- 퇴원시 예상되는 요구내용 <- 초기퇴원계획 <- 초기퇴원계획: 1\nBody weight <- VS <- 신체검사: 62.3kg\nSmoking <- 사회력: No\n현재력: DM/HTN -/-\n\n\n\n2022/12/31-)\n\n숨 쉬기 답답하고 dyspnea 주소로 내원함.\n\n현재, 재생불량성 빈혈 감별 위해 건양대병원에서 검사 후 결과 기다리는 중이라고 함.\n초기퇴원계획 <- 초기퇴원계획: 검사후결정\nGeneral state of health <- GA <- 신체검사: Chronically ill looking\n치료계획 <- 초기퇴원계획: 검사후결정\nDM <- 과거력: -\nHT <- 과거력: -\nDiastolic BP <- VS <- 신체검사: 66mmHg\nSystolic BP <- VS <- 신체검사: 115mmHg\n진단계획 <- 초기퇴원계획: bm bx\nRespiration Rate <- VS <- 신체검사: 20/min\nBMI <- VS <- 신체검사: 25.37\nBody temperature <- VS <- 신체검사: 37.2℃\n퇴원 예정지 <- 초기퇴원계획 <- 초기퇴원계획: 자택\n퇴원예상 <- 초기퇴원계획 <- 초기퇴원계획: 예측불가\nAlcohol <- 사회력: No\nHeight <- VS <- 신체검사: 156.7cm\nPulse rate <- VS <- 신체검사: 100/min\nImpression <- 추정진단: known chronic allergic rhinitis\n\nr/o aplastic anemia\n\nr/o viral infection"
+    },
+    {
+      "id": "R0064178",
+      "source_file": "4_의무기록.xlsx",
+      "date": "2022-12-31",
+      "text": "[응급의학과_과별_중증환자 진료기록지] (2022-12-31)\nLabratory study <- Plan <- 과별서식기본: 1\nSx control <- Plan <- 과별서식기본: 1\nC/C <- 과별서식기본: dyspnea\nP/I <- 과별서식기본: 상기환자 호흡곤란으로 내원함\n\n건양대병원에서 aplastic anemia 검사중으로 결과 기다리는 중이라고 함\nRR <- V/S <- 과별서식기본: 20/min\nSBP <- V/S <- 과별서식기본: 98mmHg\nBT <- V/S <- 과별서식기본: 36.5℃\nPlan <- 과별서식기본: work up\nDBP <- V/S <- 과별서식기본: 78mmHg\nImpression <- 과별서식기본: r/o anemia\n\nr/o viral infection\n\nr/o HF\nSpO2 <- V/S <- 과별서식기본: 99%\nImaging study <- Plan <- 과별서식기본: 1\nPR <- V/S <- 과별서식기본: 120/min"
+    },
+    {
+      "id": "R0064179",
+      "source_file": "4_의무기록.xlsx",
+      "date": "2022-12-31",
+      "text": "[응급의학과_응급초진_기본서식] (2022-12-31)\n현재력: 숨 쉬기 답답하고 dyspnea 주소로 내원함.\n\n\n\n현재, 재생불량성 빈혈 감별 위해 건양대병원에서 검사 후 결과 기다리는 중이라고 함.\n\n\n\nC/S/R +/+/+ 만성적으로 있다고 하며 악화 소견은 없음. \n\nF/C -/-\n\n\n\nclear both lung sound\n\nanemic conjuctuva +\nSystolic BP <- VS <- 신체검사: 98mmHg\nPulse rate <- VS <- 신체검사: 120/min\nImpression <- 진단: known chronic allergic rhinitis\n\nr/o aplastic anemia\n\nr/o viral infection\nBody temperature <- VS <- 신체검사: 36.5℃\nRespiration Rate <- VS <- 신체검사: 20/min\nHT <- 과거력: -\n치료계획 <- 계획: 검사 후 결정.\nGeneral state of health <- GA <- 신체검사: Acutely ill looking\nDM <- 과거력: -\nDiastolic BP <- VS <- 신체검사: 78mmHg\n응급실도착시각 <- 응급의학과_응급초진_기본서식: 2022-12-31 00:12\nSBP <- 응급의학과_응급초진_기본서식: 98\nDBP <- 응급의학과_응급초진_기본서식: 78\nPR <- 응급의학과_응급초진_기본서식: 120\nRR <- 응급의학과_응급초진_기본서식: 20\nBT <- 응급의학과_응급초진_기본서식: 36.5\n내원경로 <- 응급의학과_응급초진_기본서식: 직접내원\n내원방법 <- 응급의학과_응급초진_기본서식: 기타자동차\n내원사유 <- 응급의학과_응급초진_기본서식: 질병"
+    },
+    {
+      "id": "R0064180",
+      "source_file": "4_의무기록.xlsx",
+      "date": "2022-12-31",
+      "text": "[병원공통_응급경과_기본서식] (2022-12-31)\n관찰(O): #CXR\nNo active lung lesion\n\n\n#Lab\n\ncbc 4.85-4.4-74k\n\n\n\n\nTB(n)\t2.89\n\n\n\nCRP\t0.1\n\nLactic acid\t1.4\n\nProcalcitonin(n)\t0.31\n\n\n\nabga 7.47-33-113-25.7(room air)\n\n\n\n상환 r/o aplastic anemia, r/o hemolytic anemia로 혈액종양내과 입원 치료필요할 것으로 사료됨. \n\n\n\n본원에서 검사 건양대에서 했던 검사 다시 해야할 수 있음을 설명함.\nImpression <- 진단(A): known chronic allergic rhinitis\n\nr/o aplastic anemia\n\nr/o hemolytic anemia"
+    }
+  ]
+}

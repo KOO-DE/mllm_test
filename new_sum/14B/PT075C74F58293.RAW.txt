@@ -1,0 +1,211 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Fracture of femur, intertrochanterclosed",
+      "onset_date": "2022-12-24",
+      "diagnosis_evidence_ids": ["R0000270", "R0000271", "R0048995", "R0048999"],
+      "treatments": [
+        {
+          "type": "surgery",
+          "name": "Closed reduction and internal fixation with gamma nail, femur",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0001935"]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014389"]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium sulfate 10% 2g/20ml/AM (16mEq)",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014390"]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl 10mg/10ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014391"]
+        },
+        {
+          "type": "medication",
+          "name": "Insulin aspart 1000unit/10ml/VI",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014392", "R0014393"]
+        },
+        {
+          "type": "medication",
+          "name": "Hydroxyethylstarch 6%, 500ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014394"]
+        },
+        {
+          "type": "medication",
+          "name": "Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014395"]
+        },
+        {
+          "type": "medication",
+          "name": "Polystyrene sulfonate calcium pow. 5g/PA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014397"]
+        },
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014590"]
+        },
+        {
+          "type": "medication",
+          "name": "Tramadol HCl 37.5mg, Acetaminophen 325mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014593"]
+        },
+        {
+          "type": "medication",
+          "name": "Nadroparin calcium 2,850unit/0.3ml/SYRN",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014584"]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014585"]
+        },
+        {
+          "type": "medication",
+          "name": "Buprenorphine 5mcg/hr/EA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0014589"]
+        },
+        {
+          "type": "medication",
+          "name": "Remifentanil 20mg/VI",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014623"]
+        },
+        {
+          "type": "medication",
+          "name": "Morphine sulfate 5mg/5ml/VI",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014634"]
+        },
+        {
+          "type": "medication",
+          "name": "Pethidine HCl 25mg/0.5ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014583", "R0014622"]
+        },
+        {
+          "type": "medication",
+          "name": "Haloperidol 5mg/1ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014630"]
+        },
+        {
+          "type": "medication",
+          "name": "Adenosine triphosphate disodium 20mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014631"]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride 3g/20ml/AM (40mEq)",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014632"]
+        },
+        {
+          "type": "medication",
+          "name": "Manganese chloride 1.08mg/3ml/AM (Mn 300mcg/AM)",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014633"]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl 10mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014636"]
+        },
+        {
+          "type": "medication",
+          "name": "Nefopam HCl 20mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014637", "R0014638"]
+        },
+        {
+          "type": "medication",
+          "name": "Phenylephrine HCl 10mg/1ml/VI",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014640"]
+        },
+        {
+          "type": "medication",
+          "name": "Ramosetron HCl 0.3mg/2ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014641", "R0014642", "R0014643"]
+        },
+        {
+          "type": "medication",
+          "name": "Zinc sulfate 88mg/20ml/VI (Zn 20mg)",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014644"]
+        },
+        {
+          "type": "medication",
+          "name": "Taurolidine 2% 250ml/BT",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014645"]
+        },
+        {
+          "type": "medication",
+          "name": "Tranexamic acid 500mg/5ml/AM",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0014646"]
+        },
+        {
+          "type": "medication",
+          "name": "Albumin 20% 100ml/BT",
+          "date": "2022-12-31",
+          "evidence_ids": ["R0014656"]
+        },
+        {
+          "type": "medication",
+          "name": "Ferrous sulfate 256mg/TA (Fe 80mg)",
+          "date": "2022-12-31",
+          "evidence_ids": ["R0014658"]
+        },
+        {
+          "type": "medication",
+          "name": "Losartan potassium 50mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": ["R0014600"]
+        },
+        {
+          "type": "medication",
+          "name": "Rosuvastatin calcium 10mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": ["R0014603"]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": ["R0014664"]
+        },
+        {
+          "type": "medication",
+          "name": "Rivaroxaban 10mg/TA",
+          "date": "2022-12-30",
+          "evidence_ids": ["R0014654"]
+        }
+      ]
+    }
+  ],
+  "narrative": "환자는 2022년 12월 24일에 Femur의 Intertrochanteric 부위에 골절(Fracture of femur, intertrochanterclosed) 진단을 받았습니다. 이후 2022년 12월 28일에 Closed Reduction 및 Internal Fixation with Gamma Nail 수술을 시행하였습니다. 또한 다양한 통증 관리 및 혈압 조절을 위한 약물을 복용하였으며, 수혈 검사를 통해 Rh阳性、ABO血型为B。此外，还进行了多项影像学检查和实验室检测，并接受了多种药物治疗以控制疼痛和其他症状。
+"

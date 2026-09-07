@@ -1,0 +1,187 @@
+{
+  "patient_id": "PT0BE5E6893C26",
+  "status": "ok",
+  "n_rows_available": 40,
+  "n_rows_used_in_prompt": 40,
+  "cited_evidence_ids": [
+    "R0000886",
+    "R0000887",
+    "R0000888",
+    "R0020670",
+    "R0020671",
+    "R0020672",
+    "R0020673",
+    "R0020674",
+    "R0020675",
+    "R0020676",
+    "R0020850",
+    "R0020851",
+    "R0020852",
+    "R0020853",
+    "R0020854",
+    "R0020855",
+    "R0020856",
+    "R0020857",
+    "R0020858",
+    "R0020859",
+    "R0020860",
+    "R0020861",
+    "R0064182",
+    "R0064184"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Internuclear ophthalmoplegia",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0000886",
+        "R0000888",
+        "R0064182",
+        "R0064184"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Pontine infarction",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0000887",
+        "R0064182",
+        "R0064184"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Diazepam",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020670"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020671",
+            "R0020854",
+            "R0020855"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylsalicylic acid enteric coated pellet",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020672",
+            "R0020859",
+            "R0020860"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Clopidogrel",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020673"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Rosuvastatin calcium",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020676",
+            "R0020860"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020850"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lorazepam",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020851"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020852"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Haloperidol",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020853"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020855"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Labetalol HCl",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020856"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Porcine brain peptide",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020858"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium Chloride solution",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020674",
+            "R0020675",
+            "R0020857",
+            "R0020861"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0060678",
+    "R0060679",
+    "R0060680",
+    "R0060681",
+    "R0060682",
+    "R0060683",
+    "R0060684",
+    "R0060685",
+    "R0060686",
+    "R0060687",
+    "R0060688",
+    "R0060689",
+    "R0060690",
+    "R0060691",
+    "R0064181",
+    "R0064183"
+  ],
+  "narrative": "환자는 2022-12-30에 응급의학과와 신경과에서 Internuclear ophthalmoplegia와 Pontine infarction이라는 진단을 받았습니다. 또한, 다양한 약물을 처방받았는데, Diazepam, Metoclopramide HCl, Acetylsalicylic acid enteric coated pellet, Clopidogrel, Rosuvastatin calcium, Propacetamol HCl, Lorazepam, Furosemide, Haloperidol, Nicardipine HCl, Labetalol HCl, Porcine brain peptide 그리고 Sodium Chloride solution 등을 포함하였습니다."
+}

@@ -1,0 +1,337 @@
+{
+  "patient_id": "PT002D53616A4B",
+  "status": "ok",
+  "n_rows_available": 178,
+  "n_rows_used_in_prompt": 161,
+  "cited_evidence_ids": [
+    "R0001564",
+    "R0001565",
+    "R0018515",
+    "R0018516",
+    "R0018731",
+    "R0018732",
+    "R0018734",
+    "R0018738",
+    "R0018740",
+    "R0018743",
+    "R0018744",
+    "R0018745",
+    "R0018748",
+    "R0055288",
+    "R0055289",
+    "R0055290",
+    "R0055291",
+    "R0055292",
+    "R0055293",
+    "R0055294",
+    "R0055331",
+    "R0055337",
+    "R0055833",
+    "R0055834",
+    "R0062342",
+    "R0062343",
+    "R0062344",
+    "R0062345",
+    "R0062346",
+    "R0062347",
+    "R0062348"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Chronic kidney disease, unspecified",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0001564",
+        "R0001565"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Acute pyelonephritis",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0001564"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Ceftriaxone sodium 2g/VI",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018515"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 600mg/6ml/AM",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018516"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018731",
+            "R0018732"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Atorvastatin 20mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018738"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Edoxaban 30mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018740"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mosapride citrate 5mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018743"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Choline alfoscerate 400mg/CA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018744"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018745"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Triamcinolone acetonide 10g/TB",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018748"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0055331"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Multiple low attenuation lesions in right kidney, R/O acute pyelonephritis",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0055290"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Ciprofloxacin HCl 200mg/100ml/PA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018734"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Degenerative spondylosis",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": [
+        "R0055288",
+        "R0055289",
+        "R0055290",
+        "R0055291",
+        "R0055292",
+        "R0055293",
+        "R0055294"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Severe cardiomegaly with small amount of bilateral pleural effusion",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0055337",
+        "R0055833",
+        "R0055834"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Known atrial fibrillation",
+      "onset_date": "2022-12-28",
+      "diagnosis_evidence_ids": [
+        "R0062342",
+        "R0062343",
+        "R0062344",
+        "R0062345",
+        "R0062346",
+        "R0062347",
+        "R0062348"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Ciprofloxacin",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0062348"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0018512",
+    "R0018513",
+    "R0018514",
+    "R0018517",
+    "R0018733",
+    "R0018735",
+    "R0018736",
+    "R0018737",
+    "R0018739",
+    "R0018741",
+    "R0018742",
+    "R0018746",
+    "R0018747",
+    "R0018749",
+    "R0018750",
+    "R0018751",
+    "R0018752",
+    "R0055283",
+    "R0055284",
+    "R0055285",
+    "R0055286",
+    "R0055287",
+    "R0055295",
+    "R0055296",
+    "R0055297",
+    "R0055298",
+    "R0055299",
+    "R0055300",
+    "R0055301",
+    "R0055302",
+    "R0055303",
+    "R0055304",
+    "R0055305",
+    "R0055306",
+    "R0055307",
+    "R0055308",
+    "R0055309",
+    "R0055310",
+    "R0055311",
+    "R0055312",
+    "R0055313",
+    "R0055314",
+    "R0055315",
+    "R0055316",
+    "R0055317",
+    "R0055318",
+    "R0055320",
+    "R0055321",
+    "R0055322",
+    "R0055323",
+    "R0055324",
+    "R0055325",
+    "R0055326",
+    "R0055327",
+    "R0055328",
+    "R0055329",
+    "R0055330",
+    "R0055332",
+    "R0055333",
+    "R0055334",
+    "R0055335",
+    "R0055336",
+    "R0055338",
+    "R0055339",
+    "R0055340",
+    "R0055341",
+    "R0055342",
+    "R0055343",
+    "R0055344",
+    "R0055345",
+    "R0055346",
+    "R0055347",
+    "R0055348",
+    "R0055349",
+    "R0055350",
+    "R0055351",
+    "R0055352",
+    "R0055353",
+    "R0055354",
+    "R0055355",
+    "R0055356",
+    "R0055357",
+    "R0055358",
+    "R0055359",
+    "R0055360",
+    "R0055361",
+    "R0055362",
+    "R0055363",
+    "R0055364",
+    "R0055365",
+    "R0055366",
+    "R0055367",
+    "R0055368",
+    "R0055369",
+    "R0055370",
+    "R0055371",
+    "R0055814",
+    "R0055816",
+    "R0055828",
+    "R0055829",
+    "R0055830",
+    "R0055832",
+    "R0055835",
+    "R0055836",
+    "R0055837",
+    "R0055838",
+    "R0055839",
+    "R0055840",
+    "R0055841",
+    "R0055842",
+    "R0055843",
+    "R0055844",
+    "R0055845",
+    "R0055846",
+    "R0055847",
+    "R0055848",
+    "R0055849",
+    "R0055850",
+    "R0055851",
+    "R0055852",
+    "R0055853",
+    "R0055854",
+    "R0055855",
+    "R0055856",
+    "R0055858",
+    "R0055859",
+    "R0062339",
+    "R0062340",
+    "R0062341",
+    "R0062351"
+  ],
+  "narrative": "환자는 2022년 12월 28일에 허리 통증으로 인해 응급실에 방문했으며, 실험실 검사에서는 Hb 6.4, CRP 30 이상, BUN, Cr 상승 등의 결과가 나타났습니다. 이후 29일에 혈액 검사에서 Acute Pyelonephritis와 Chronic Kidney Disease를 진단받았습니다. 환자는 여러 가지 약물을 처방받아 치료되었으며, 특히 세프트리악손주, 알루미네이트 주, 프로카페타졸, 알파클로레시테인 등을 사용했습니다. 또한, MRI와 CT 스캔에서도 여러 개의 경추와 흉추 손상, 그리고 우측 신장의 낮은 밀도 결절이 발견되었습니다. 환자는 심장 크기가 크게 늘어난 상태이며, 좌, 우측 폐막에도 액적이 발견되었습니다."
+}

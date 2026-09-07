@@ -1,0 +1,61 @@
+{
+  "patient_id": "PT0C9E97886E41",
+  "status": "ok",
+  "n_rows_available": 7,
+  "n_rows_used_in_prompt": 7,
+  "cited_evidence_ids": [
+    "R0000261",
+    "R0001994",
+    "R0001995",
+    "R0001996",
+    "R0001997"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Malignant neoplasm of breast unspecified left",
+      "onset_date": "2022-12-05",
+      "diagnosis_evidence_ids": [
+        "R0000261"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Denosumab 60mg/SYRN (프롤리아 프리필드시린지)",
+          "date": "2022-12-05",
+          "evidence_ids": [
+            "R0001994"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Anastrozole 1mg/TA (에이덱스정 1mg)",
+          "date": "2022-12-05 - 2023-07-23",
+          "evidence_ids": [
+            "R0001995"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Alfacalcidol 0.5mcg/CA (알파본 연질캡슐 0.5mcg)",
+          "date": "2022-12-05 - 2023-03-15",
+          "evidence_ids": [
+            "R0001996"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylsalicylic acid 100mgTA (아스텍션 장용정 100mg)",
+          "date": "2022-12-05 - 2023-07-23",
+          "evidence_ids": [
+            "R0001997"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0021899",
+    "R0029367"
+  ],
+  "narrative": "환자는 2022년 12월 5일에 좌측 유방 미지정 부위의 악성 신생물을 진단받았습니다. 같은 날 Denosumab 60mg/SYRN (프롤리아 프리필드시린지)를 주사처치실에서 투여 받았으며, Anastrozole 1mg/TA (에이덱스정 1mg)를 200일 동안, Alfacalcidol 0.5mcg/CA (알파본 연질캡슐 0.5mcg)를 100일 동안, Acetylsalicylic acid 100mgTA (아스텍션 장용정 100mg)를 200일 동안 복용하였습니다."
+}

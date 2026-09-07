@@ -1,0 +1,378 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Subarachnoid hemorrhage, unspecified",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": ["R0000781", "R0000782"],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Heparin sodium 25000unit/5ml/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013013"]
+        },
+        {
+          "type": "medication",
+          "name": "Mannitol 20% 100ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013014"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 600mg/6ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013015"]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl 10mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013016"]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl 10mg/10ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013017"]
+        },
+        {
+          "type": "medication",
+          "name": "Nimodipine 10mg/50ml/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013018"]
+        },
+        {
+          "type": "medication",
+          "name": "Pantoprazole 40mg/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013019"]
+        },
+        {
+          "type": "medication",
+          "name": "Porcine brain peptide 215.2mg/ml, 10ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013022"]
+        },
+        {
+          "type": "medication",
+          "name": "Ceftriaxone sodium 2g/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013023"]
+        },
+        {
+          "type": "medication",
+          "name": "Diclofenac-B-dimethylaminoethanol 90mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013024"]
+        },
+        {
+          "type": "medication",
+          "name": "L-arginine hydrochloride 10%, 150ml/BAG",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013056"]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013058"]
+        },
+        {
+          "type": "medication",
+          "name": "Glutathione(reducted) 600mg/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013060"]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium sulfate 50% 10g/20ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013062"]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg/3ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013063"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 600mg/6ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013065"]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl 10mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013066"]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl 10mg/10ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013067"]
+        },
+        {
+          "type": "medication",
+          "name": "Ramosetron HCl 0.3mg/2ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013069"]
+        },
+        {
+          "type": "medication",
+          "name": "Ascorbic acid 100mg 외 11종/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013070"]
+        },
+        {
+          "type": "medication",
+          "name": "Labetalol HCl 100mg/20ml/AM",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013071"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013072"]
+        },
+        {
+          "type": "medication",
+          "name": "Chlorhexidin digluconate 0.12% 100ml/BT",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013073"]
+        },
+        {
+          "type": "medication",
+          "name": "Ipratropium bromide 500mcg/2ml/EA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013074"]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013075"]
+        },
+        {
+          "type": "medication",
+          "name": "Nimodipine 30mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013076"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 1000ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013077"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 1000ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013078"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 500ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013079"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 4ml/VI",
+          "date": "2022-12-23",
+          "evidence_ids": ["R0013080"]
+        },
+        {
+          "type": "medication",
+          "name": "NaCl 5.26g外 4种 1000ml/PA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013081"]
+        },
+        {
+          "type": "medication",
+          "name": "Dexmedetomidine 400mcg/100ml/BT",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013082"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013083"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylsalicylic acid enteric coated pellet 100mg/CA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013084"]
+        },
+        {
+          "type": "medication",
+          "name": "Clopidogrel 75mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013085"]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013086"]
+        },
+        {
+          "type": "medication",
+          "name": "Nimodipine 30mg/TA",
+          "date": "2022-12-24",
+          "evidence_ids": ["R0013087"]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-25",
+          "evidence_ids": ["R0013088"]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride SR 600mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": ["R0013089"]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride SR 600mg/TA",
+          "date": "2022-12-25",
+          "evidence_ids": ["R0013090"]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013091"]
+        },
+        {
+          "type": "medication",
+          "name": "Calcium gluconate 2g/20ml/AM",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013092"]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/VI",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013093"]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride 3g/20ml/AM (40mEq)",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013094"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 100ml/PA",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013095"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 20ml/AM",
+          "date": "2022-12-26",
+          "evidence_ids": ["R0013096"]
+        },
+        {
+          "type": "medication",
+          "name": "Chlorpheniramine maleate 4mg/2ml/AM",
+          "date": "2022-12-27",
+          "evidence_ids": ["R0013097"]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium 1000unit/10ml/VI (100unit/ml)",
+          "date": "2022-12-27",
+          "evidence_ids": ["R0013098"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-27",
+          "evidence_ids": ["R0013099"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 250ml/PA",
+          "date": "2022-12-27",
+          "evidence_ids": ["R0013100"]
+        },
+        {
+          "type": "medication",
+          "name": "Dexmedetomidine 200mcg/50ml/BT",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013101"]
+        },
+        {
+          "type": "medication",
+          "name": "Choline alfoscerate 400mg/10ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013102"]
+        },
+        {
+          "type": "medication",
+          "name": "Choline alfoscerate 400mg/10ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013103"]
+        },
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013104"]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/TA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013105"]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/TA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013106"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013107"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013108"]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride 0.9% 100ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0013109"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen 1g/100ml/BT",
+          "date": "2022-12-29",
+          "evidence_ids": ["R0013110"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen 1g/100ml/BT",
+          "date": "2022-12-29",
+          "evidence_ids": ["R0013111"]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen 0.75g/75ml/PA",
+          "date": "2022-12-29

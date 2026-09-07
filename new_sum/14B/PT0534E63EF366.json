@@ -1,0 +1,361 @@
+{
+  "patient_id": "PT0534E63EF366",
+  "status": "ok",
+  "n_rows_available": 287,
+  "n_rows_used_in_prompt": 138,
+  "cited_evidence_ids": [
+    "R0000915",
+    "R0000916",
+    "R0013286",
+    "R0013287",
+    "R0013288",
+    "R0013289",
+    "R0013290",
+    "R0013292",
+    "R0013293",
+    "R0013294",
+    "R0013295",
+    "R0013323",
+    "R0013324",
+    "R0013325",
+    "R0013328",
+    "R0013330",
+    "R0013331",
+    "R0013334",
+    "R0013335",
+    "R0013336",
+    "R0013337",
+    "R0013338",
+    "R0013343",
+    "R0013349",
+    "R0013350",
+    "R0013351",
+    "R0013364",
+    "R0013365",
+    "R0013366",
+    "R0013367",
+    "R0013368",
+    "R0013387",
+    "R0013390",
+    "R0013392",
+    "R0013393",
+    "R0013394",
+    "R0013395",
+    "R0013397",
+    "R0046724",
+    "R0046725"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Subarachnoid hemorrhage, unspecified",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "R0000915",
+        "R0000916",
+        "R0046724",
+        "R0046725"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Mannitol 20%",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013286"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nicardipine HCl",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013289"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nimodipine",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013290"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Labetalol HCl",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013343"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013335",
+            "R0013336"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013330",
+            "R0013331"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium sulfate",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013334"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013323"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ceftriaxone sodium",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013325"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Porcine brain peptide",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013324"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Glutathione(reducted)",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013328"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013287",
+            "R0013337"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Metoclopramide HCl",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013288",
+            "R0013338"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Pantoprazole",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013289"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Chlorhexidine gluconate and lidocaine monohydrate",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013292"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium chloride solution",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013293",
+            "R0013294",
+            "R0013295",
+            "R0013349",
+            "R0013350",
+            "R0013351",
+            "R0013367",
+            "R0013368",
+            "R0013394",
+            "R0013395"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Calcium gluconate",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0013364"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0013365"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Potassium chloride",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0013366"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Etizolam",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0013387"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Levetiracetam",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0013392",
+            "R0013393"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lorazepam",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0013390"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Diclofenac-B-dimethylaminoethanol",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0013397"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0013285",
+    "R0013291",
+    "R0013326",
+    "R0013327",
+    "R0013329",
+    "R0013332",
+    "R0013333",
+    "R0013339",
+    "R0013340",
+    "R0013341",
+    "R0013342",
+    "R0013344",
+    "R0013345",
+    "R0013346",
+    "R0013347",
+    "R0013348",
+    "R0013352",
+    "R0013353",
+    "R0013354",
+    "R0013355",
+    "R0013356",
+    "R0013357",
+    "R0013358",
+    "R0013359",
+    "R0013360",
+    "R0013361",
+    "R0013362",
+    "R0013363",
+    "R0013369",
+    "R0013370",
+    "R0013371",
+    "R0013372",
+    "R0013373",
+    "R0013374",
+    "R0013375",
+    "R0013376",
+    "R0013377",
+    "R0013378",
+    "R0013379",
+    "R0013380",
+    "R0013381",
+    "R0013382",
+    "R0013383",
+    "R0013384",
+    "R0013385",
+    "R0013386",
+    "R0013388",
+    "R0013389",
+    "R0013391",
+    "R0013396",
+    "R0013398",
+    "R0013399",
+    "R0013400",
+    "R0046722",
+    "R0046723",
+    "R0046726",
+    "R0046727",
+    "R0046728",
+    "R0046729",
+    "R0046730",
+    "R0046731",
+    "R0046732",
+    "R0046733",
+    "R0046734",
+    "R0046735",
+    "R0046736",
+    "R0046737",
+    "R0046738",
+    "R0046739",
+    "R0046740",
+    "R0046741",
+    "R0046742",
+    "R0046743",
+    "R0046744",
+    "R0046745",
+    "R0046746",
+    "R0046747",
+    "R0046748",
+    "R0046749",
+    "R0046750",
+    "R0046751",
+    "R0046752",
+    "R0046753",
+    "R0046754",
+    "R0046755",
+    "R0046756",
+    "R0046757",
+    "R0046758",
+    "R0046759",
+    "R0046760",
+    "R0046761",
+    "R0046762",
+    "R0046763",
+    "R0046764",
+    "R0046765",
+    "R0046766",
+    "R0046767",
+    "R0046768"
+  ],
+  "narrative": "환자는 2022년 12월 23일 Subarachnoid hemorrhage, unspecified 및 Subarachnoid hemorrhage from anterior communicating artery 진단을 받았습니다. 이후 다양한 치료를 받았으며, 이를 위해 Mannitol 20%, Nicardipine HCl, Nimodipine, Labetalol HCl, Midazolam, Furosemide, Magnesium sulfate, Propacetamol HCl, Ceftriaxone sodium, Porcine brain peptide, Glutathione(reducted), Acetylcysteine, Metoclopramide HCl, Pantoprazole, Chlorhexidine gluconate and lidocaine monohydrate, Sodium chloride solution, Calcium gluconate, Famotidine, Potassium chloride, Etizolam, Levetiracetam, Lorazepam, 그리고 Diclofenac-B-dimethylaminoethanol 등의 약물을 복용하였습니다."
+}

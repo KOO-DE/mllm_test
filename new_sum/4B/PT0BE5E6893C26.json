@@ -1,0 +1,69 @@
+{
+  "patient_id": "PT0BE5E6893C26",
+  "status": "ok",
+  "n_rows_available": 40,
+  "n_rows_used_in_prompt": 39,
+  "cited_evidence_ids": [
+    "R0000798",
+    "R0000799",
+    "R0000800"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Internuclear ophthalmoplegia",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0000798",
+        "R0000800"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Pontine infarction",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0000799"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0023503",
+    "R0023504",
+    "R0023505",
+    "R0023506",
+    "R0023507",
+    "R0023508",
+    "R0023509",
+    "R0023703",
+    "R0023704",
+    "R0023705",
+    "R0023706",
+    "R0023707",
+    "R0023708",
+    "R0023709",
+    "R0023710",
+    "R0023711",
+    "R0023712",
+    "R0023713",
+    "R0023714",
+    "R0093781",
+    "R0093782",
+    "R0093783",
+    "R0093784",
+    "R0093785",
+    "R0093786",
+    "R0093787",
+    "R0093788",
+    "R0093789",
+    "R0093790",
+    "R0093791",
+    "R0093792",
+    "R0093793",
+    "R0093794",
+    "R0097669",
+    "R0097670",
+    "R0097671"
+  ],
+  "narrative": "환자는 인테이너핵 오큘로플레기와 뇌간 경색을 진단받았습니다."
+}

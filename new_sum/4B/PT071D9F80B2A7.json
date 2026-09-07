@@ -1,0 +1,540 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "status": "ok",
+  "n_rows_available": 275,
+  "n_rows_used_in_prompt": 62,
+  "cited_evidence_ids": [
+    "R0000810",
+    "R0010244",
+    "R0010245",
+    "R0010246",
+    "R0010247",
+    "R0010248",
+    "R0011783",
+    "R0011784",
+    "R0011785",
+    "R0011786",
+    "R0011787",
+    "R0011788",
+    "R0011789",
+    "R0011790",
+    "R0011791",
+    "R0011792",
+    "R0011793",
+    "R0011794",
+    "R0011795",
+    "R0011796",
+    "R0011797",
+    "R0011798",
+    "R0011799",
+    "R0011800",
+    "R0011801",
+    "R0011802",
+    "R0011803",
+    "R0011804",
+    "R0011805",
+    "R0011806",
+    "R0011807",
+    "R0011808",
+    "R0011809",
+    "R0011810",
+    "R0011811",
+    "R0011812",
+    "R0011813",
+    "R0011814",
+    "R0011815",
+    "R0011816",
+    "R0011817",
+    "R0011818",
+    "R0011819",
+    "R0011820",
+    "R0011821",
+    "R0011822",
+    "R0011823",
+    "R0011824",
+    "R0011825",
+    "R0018522",
+    "R0018523",
+    "R0018524",
+    "R0018525",
+    "R0018526",
+    "R0018527",
+    "R0018528",
+    "R0018529",
+    "R0018530"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute lymphoblastic leukaemia [ALL]",
+      "onset_date": "2022-11-11",
+      "diagnosis_evidence_ids": [
+        "R0000810"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0010244"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0010245"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Fluconazole 50mg/CA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0010246"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ebastine 10mg, Pseudoephedrine 120mg/CA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0010247"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0010248"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0011783"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0011784"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium 1,000unit/10ml/VI",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0011785"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0011786"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0011787"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5% & NaCl 1000m/PA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011788"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Distilled water 1000ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011789"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium bicarbonate 500mg/TA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011790"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011791"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine 50mg/TA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011792"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cyclophosphamide 500mg/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011793"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium 500unit/5ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011794"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(향정)케타민염산염주 500mg",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011795"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mesna 400mg/4ml/AM",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011796"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(향정)미다졸람주 3mg",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011797"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(향정)미다졸람주 3mg",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011798"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Methotrexate 50mg/2ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011799"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Palonosetron 0.25mg/5ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011800"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cytarabine 100mg/5ml/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011801"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011802"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5% & NaCl 1000m/PA",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011803"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Distilled water 1000ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011804"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011805"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 20ml/AM",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011806"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011807"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011808"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011809"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0011810"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-21",
+          "evidence_ids": [
+            "R0011811"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine 50mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011812"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine 50mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011813"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011814"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011815"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011816"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dihydrocodeine bitartrate 500mcg 외 3종/ml. 20ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011817"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011818"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011819"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011820"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Distilled water 1000ml/BT",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011821"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011822"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ebastine 10mg, Pseudoephedrine 120mg/CA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011823"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium bicarbonate 500mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011824"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0011825"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Glucose 50g, Na 77mEq, K 20mEq, Cl 97mEq/1L/PA",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0018522"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 500ml/PA",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0018523"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Goserelin acetate 3.78mg/SYRN",
+          "date": "2022-12-27",
+          "evidence_ids": [
+            "R0018524"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(향정)케타민염산염주 500mg",
+          "date": "2022-12-27",
+          "evidence_ids": [
+            "R0018525"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Lidocaine 25mg, Prilocaine 25mg/g, 5g/TB",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0018526"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 500ml/PA",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0018527"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018528"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0018529"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0018530"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0000809",
+    "R0000811",
+    "R0000812",
+    "R0004297"
+  ],
+  "narrative": ""
+}

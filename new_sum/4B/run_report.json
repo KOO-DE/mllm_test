@@ -1,0 +1,22 @@
+{
+  "model": "../models/medgemma-1.5-4b-it",
+  "auto_select_columns": true,
+  "column_selection_used": true,
+  "max_input_chars": 18886,
+  "n_total_patients": 10,
+  "n_json_parse_fail": 0,
+  "n_problems_raw": 57,
+  "n_problems_dropped_ungrounded": 5,
+  "n_treatments_raw": 63,
+  "n_treatments_dropped_ungrounded": 0,
+  "n_hallucinated_ids": 1,
+  "n_rows_dropped_structured_total": 0,
+  "n_rows_dropped_narrative_total": 1358,
+  "n_narrative_language_flagged": 0,
+  "sampling": {
+    "repetition_penalty": 1.15,
+    "frequency_penalty": 0.0,
+    "retry_on_failure": 2,
+    "guided_json": false
+  }
+}

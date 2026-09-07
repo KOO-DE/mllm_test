@@ -1,0 +1,322 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "status": "ok",
+  "n_rows_available": 189,
+  "n_rows_used_in_prompt": 60,
+  "cited_evidence_ids": [
+    "R0001249",
+    "R0001250",
+    "R0001251",
+    "R0001252",
+    "R0001253",
+    "R0001254",
+    "R0001255",
+    "R0001256",
+    "R0059071",
+    "R0059072",
+    "R0059073",
+    "R0059074",
+    "R0059075",
+    "R0059076",
+    "R0059077",
+    "R0059078",
+    "R0059079",
+    "R0059080",
+    "R0059081",
+    "R0059082",
+    "R0059083",
+    "R0059084",
+    "R0059085",
+    "R0059086",
+    "R0059087",
+    "R0059088",
+    "R0059089",
+    "R0059090",
+    "R0059091",
+    "R0059092",
+    "R0059093",
+    "R0059094"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001249"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "General symptom and sign",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001250"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Vomiting alone",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001251"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Acute gastroenteritis",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001252"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001253",
+        "R0001255"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Fecal impaction",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001254"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other and unspecified constipation",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0001256"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Urinalysis (Stix10종+ Micro)",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059071"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Urine microscopy(응급)(이미지분석법)",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059072"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Yeast-like organism",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059073"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Trichomonas vaginalis",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059074"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Sperm",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059075"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Oval fat body",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059076"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Bacteria",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059077"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Multinucleated giant cell",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059078"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Mucous threads",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059079"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Mites",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059080"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Inclusion body",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059081"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Fat globules",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059082"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Eumycetes",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059083"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Enterobius vermicularis",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059084"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Uric acids",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059085"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Tyrosine crystal",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059086"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Triple phosphates",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059087"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Leucine crystal",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059088"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Hippuric acid",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059089"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Cystine crystal",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059090"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Cholesterol crystal",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059091"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Calcium oxalates",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059092"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Bilirubin crystal",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059093"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "WBC cast",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0059094"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0010765",
+    "R0010766",
+    "R0010767",
+    "R0010768",
+    "R0010769",
+    "R0010770",
+    "R0010771",
+    "R0023496",
+    "R0023497",
+    "R0023498",
+    "R0023499",
+    "R0023500",
+    "R0023501",
+    "R0023502",
+    "R0023923",
+    "R0023924",
+    "R0023925",
+    "R0023926",
+    "R0023927",
+    "R0023928",
+    "R0023929",
+    "R0023930",
+    "R0023931",
+    "R0023932",
+    "R0023933",
+    "R0023934",
+    "R0023935",
+    "R0023936"
+  ],
+  "narrative": "환자는 2022년 12월 17일에 신장요로 감염 증상이 나타났습니다. 이후 구토, 복통 등의 전반적인 증상을 보였습니다. 2022년 12월 17일 신장요로 검사를 통해 균 및 다양한 형태의 결정체들이 확인되었습니다. 2022년 12월 17일부터 12월 31일까지 14일간 탈수를 경험했습니다. 2022년 12월 17일 대변 누출증이 발견되었습니다. 2022년 12월 17일 신장요로 검사를 통해 균, 효모 유사 기질, 트리코모나스 vaginalis, 남성 고환 세포, oval fat body, 박테리아, multinucleated giant cell, mucous threads, mites, inclusion body, fat globules, eumycetes, enterobius vermicularis, uric acids, tyrosine crystal, triple phosphates, leucine crystal, hippuric acid, cystine crystal, cholesterol crystal, calcium oxalates, bilirubin crystal, WBC cast 등이 관찰되었습니다."
+}

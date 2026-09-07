@@ -1,0 +1,8 @@
+{
+  "patient_id": "PT89837D5BB3B8",
+  "status": "excluded_context_too_large",
+  "problems": [],
+  "unlinked_evidence_ids": [],
+  "narrative": "",
+  "reason": "진단/수술/약품(강제 포함)만으로 약 46,800토큰 필요, 가용 예산 28,572토큰(--max-model-len=32,768). --max-model-len을 늘리거나 이 환자를 별도 처리해야 함."
+}

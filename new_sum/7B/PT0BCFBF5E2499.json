@@ -1,0 +1,128 @@
+{
+  "patient_id": "PT0BCFBF5E2499",
+  "status": "ok",
+  "n_rows_available": 66,
+  "n_rows_used_in_prompt": 66,
+  "cited_evidence_ids": [
+    "R0001293",
+    "R0062525",
+    "R0062526",
+    "R0062527",
+    "R0062528"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Anemia, unspecified",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0001293"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Known chronic allergic rhinitis",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0062525",
+        "R0062526",
+        "R0062527",
+        "R0062528"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Refractory anemia",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0062525",
+        "R0062526",
+        "R0062527",
+        "R0062528"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Possible viral infection",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0062525",
+        "R0062526",
+        "R0062527",
+        "R0062528"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Possible hemolytic anemia",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0062528"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0020910",
+    "R0020911",
+    "R0020968",
+    "R0020969",
+    "R0020970",
+    "R0020971",
+    "R0020972",
+    "R0020973",
+    "R0020974",
+    "R0020975",
+    "R0020976",
+    "R0060115",
+    "R0060116",
+    "R0060117",
+    "R0060118",
+    "R0060119",
+    "R0060120",
+    "R0060121",
+    "R0060122",
+    "R0060123",
+    "R0060124",
+    "R0060125",
+    "R0060126",
+    "R0060127",
+    "R0060128",
+    "R0060129",
+    "R0060130",
+    "R0060131",
+    "R0060132",
+    "R0060133",
+    "R0060134",
+    "R0060135",
+    "R0060136",
+    "R0060137",
+    "R0060138",
+    "R0060139",
+    "R0060140",
+    "R0060141",
+    "R0060142",
+    "R0060143",
+    "R0060144",
+    "R0060145",
+    "R0060146",
+    "R0060147",
+    "R0060148",
+    "R0060149",
+    "R0060150",
+    "R0060151",
+    "R0060152",
+    "R0060153",
+    "R0060154",
+    "R0060155",
+    "R0060156",
+    "R0060157",
+    "R0060158",
+    "R0060159",
+    "R0060160",
+    "R0060161",
+    "R0060162",
+    "R0060163",
+    "R0060367"
+  ],
+  "narrative": "환자는 2022년 12월 31일 숨 쉬기 답답함(dyspnea)으로 내원하였으며, 재생불량성 빈혈 및 가능한 알레르기 비루스감염(viral infection)을 감별하기 위해 건양대병원에서 검사를 받았다고 한다. 현재 상태에서는 만성적인 알레르기 비루스감염(chronic allergic rhinitis)이 확인되었지만, 재생불량성 빈혈(refractory anemia)과 혈소胞溶性贫血(hemolytic anemia) 가능성이 제안되었다."
+}

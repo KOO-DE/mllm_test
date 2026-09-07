@@ -1,0 +1,436 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "status": "ok",
+  "n_rows_available": 158,
+  "n_rows_used_in_prompt": 143,
+  "cited_evidence_ids": [
+    "R0000897",
+    "R0000898",
+    "R0000899",
+    "R0000900",
+    "R0009132",
+    "R0009133",
+    "R0009134",
+    "R0009135",
+    "R0009136",
+    "R0010415",
+    "R0010416",
+    "R0010417",
+    "R0010418",
+    "R0010419",
+    "R0010420",
+    "R0010421",
+    "R0010422",
+    "R0010424",
+    "R0010425",
+    "R0010426",
+    "R0010427",
+    "R0010428",
+    "R0010429",
+    "R0010430",
+    "R0010431",
+    "R0010432",
+    "R0010435",
+    "R0010436",
+    "R0010437",
+    "R0010438",
+    "R0010439",
+    "R0010440",
+    "R0010441",
+    "R0010442",
+    "R0010443",
+    "R0010445",
+    "R0010446",
+    "R0010447",
+    "R0016207",
+    "R0016210",
+    "R0016212",
+    "R0016213",
+    "R0052015",
+    "R0052016",
+    "R0052017",
+    "R0052018"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Other specified disorders of white blood cells",
+      "onset_date": "2022-11-01",
+      "diagnosis_evidence_ids": [
+        "R0000897"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Acute lymphoblastic leukaemia [ALL]",
+      "onset_date": "2022-11-11",
+      "diagnosis_evidence_ids": [
+        "R0000898",
+        "R0000899"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Dasatinib 100mg/TA",
+          "date": "2022-12-16 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0009133",
+            "R0010419",
+            "R0010445",
+            "R0010446"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine 50mg/TA",
+          "date": "2022-12-19 ~ 2022-12-29",
+          "evidence_ids": [
+            "R0010424",
+            "R0010440",
+            "R0010441",
+            "R0010442"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim 80mg, Sulfamethoxazole 400mg/TA",
+          "date": "2022-12-16 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0009132",
+            "R0010442",
+            "R0010443"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-19 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010415"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide 20mg/2ml/AM",
+          "date": "2022-12-19 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010416",
+            "R0010439"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium 1,000unit/10ml/VI (100unit/ml)",
+          "date": "2022-12-19",
+          "evidence_ids": [
+            "R0010417"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen E.R 650mg/TA",
+          "date": "2022-12-19 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010418"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Fluconazole 50mg/CA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0009134"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ebastine 10mg, Pseudoephedrine 120mg/CA",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0009135"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid 100mg/TA",
+          "date": "2022-12-16 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0009136",
+            "R0010447"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg/3ml/AM",
+          "date": "2022-12-20 ~ 2022-12-27",
+          "evidence_ids": [
+            "R0010429"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Palonosetron 0.25mg/5ml/VI",
+          "date": "2022-12-20 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010431"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cytarabine 100mg/5ml/VI",
+          "date": "2022-12-20 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010432"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Methotrexate 50mg/2ml/VI",
+          "date": "2022-12-20 ~ 2022-12-27",
+          "evidence_ids": [
+            "R0010430"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ketamine HCl 500mg/10ml/VI",
+          "date": "2022-12-20 ~ 2022-12-27",
+          "evidence_ids": [
+            "R0010427"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mesna 400mg/4ml/AM",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0010428"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cyclophosphamide 500mg/VI",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0010425"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium 500unit/5ml/VI (100unit/ml)",
+          "date": "2022-12-20 ~ 2022-12-23",
+          "evidence_ids": [
+            "R0010426"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-29 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0016212",
+            "R0016213"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0010447"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5% & NaCl 1000m/PA",
+          "date": "2022-12-19 ~ 2022-12-20",
+          "evidence_ids": [
+            "R0010420"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Glucose 50g, Na 77mEq, K 20mEq, Cl 97mEq/1L/PA",
+          "date": "2022-12-26",
+          "evidence_ids": [
+            "R0016207"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium bicarbonate 500mg/TA",
+          "date": "2022-12-19 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010422"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Distilled water 1000ml/BT",
+          "date": "2022-12-19 ~ 2022-12-30",
+          "evidence_ids": [
+            "R0010421"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9%",
+          "date": "2022-12-20 ~ 2022-12-27",
+          "evidence_ids": [
+            "R0010435",
+            "R0010436",
+            "R0010437",
+            "R0010438"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 500ml/PA",
+          "date": "2022-12-29",
+          "evidence_ids": [
+            "R0016210"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Diacell II",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0052015"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Diacell I",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0052016"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Auto-control",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0052018"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Irregular Ab Screening Test",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0052017"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Persons encountering health services for chemotherapy session for neoplasm",
+      "onset_date": "2022-12-19",
+      "diagnosis_evidence_ids": [
+        "R0000900"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0004178",
+    "R0010423",
+    "R0010433",
+    "R0010434",
+    "R0010444",
+    "R0010448",
+    "R0016208",
+    "R0016209",
+    "R0016211",
+    "R0027300",
+    "R0027301",
+    "R0027302",
+    "R0027303",
+    "R0027304",
+    "R0027305",
+    "R0027306",
+    "R0027307",
+    "R0027308",
+    "R0027309",
+    "R0027310",
+    "R0027311",
+    "R0027312",
+    "R0027313",
+    "R0027314",
+    "R0027315",
+    "R0027316",
+    "R0027317",
+    "R0027318",
+    "R0027319",
+    "R0027320",
+    "R0027321",
+    "R0027322",
+    "R0027323",
+    "R0027324",
+    "R0027325",
+    "R0027326",
+    "R0027327",
+    "R0027328",
+    "R0027329",
+    "R0027330",
+    "R0027331",
+    "R0027332",
+    "R0027333",
+    "R0027334",
+    "R0027335",
+    "R0027336",
+    "R0027337",
+    "R0027338",
+    "R0027339",
+    "R0027340",
+    "R0027341",
+    "R0027342",
+    "R0027343",
+    "R0027344",
+    "R0027345",
+    "R0027346",
+    "R0027347",
+    "R0027348",
+    "R0027349",
+    "R0027350",
+    "R0027351",
+    "R0027352",
+    "R0027353",
+    "R0027354",
+    "R0027355",
+    "R0027356",
+    "R0027357",
+    "R0027358",
+    "R0027359",
+    "R0027360",
+    "R0027361",
+    "R0027362",
+    "R0041132",
+    "R0041133",
+    "R0041134",
+    "R0041135",
+    "R0041136",
+    "R0041137",
+    "R0041138",
+    "R0041139",
+    "R0041140",
+    "R0052000",
+    "R0052001",
+    "R0052002",
+    "R0052003",
+    "R0052004",
+    "R0052005",
+    "R0052006",
+    "R0052007",
+    "R0052008",
+    "R0052009",
+    "R0052010",
+    "R0052011",
+    "R0052012",
+    "R0052013",
+    "R0052014",
+    "R0064106"
+  ],
+  "narrative": "환자는 2022년 11월 1일부터 'other specified disorders of white blood cells' 진단을 받았으며, 2022년 11월 11일부터 'acute lymphoblastic leukaemia [ALL]' 진단을 받았다. 또한 2022년 12월 19일부터 'persons encountering health services for chemotherapy session for neoplasm' 진단을 받았다. 환자는 다양한 항암제 및 지원 치료를 받았는데, 대표적인 치료로는 dasatinib, mercaptopurine, trimethoprim-sulfamethoxazole, propacetamol, furosemide, heparin sodium, acetaminophen, fluconazole, ebastine, ursodesoxycholic acid, midazolam, palonosetron, cytarabine, methotrexate, ketamine, mesna, cyclophosphamide, magnesium oxide, acetylcysteine, dextrose, sodium bicarbonate, distilled water, sod. chloride 등을 포함한다."
+}

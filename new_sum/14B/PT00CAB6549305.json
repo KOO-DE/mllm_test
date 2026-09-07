@@ -1,0 +1,192 @@
+{
+  "patient_id": "PT00CAB6549305",
+  "status": "ok",
+  "n_rows_available": 119,
+  "n_rows_used_in_prompt": 119,
+  "cited_evidence_ids": [
+    "R0000939",
+    "R0000940",
+    "R0000941",
+    "R0000942",
+    "R0000944",
+    "R0000945",
+    "R0000946",
+    "R0000947",
+    "R0006818",
+    "R0012116"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Cervical myelopathy",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "R0000939",
+        "R0000944"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other spondylosis, cervical region",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "R0000940",
+        "R0000945"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Peripheral vascular disease, unspecified",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "R0000941"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Spinal stenosis, multiple sites in spine",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": [
+        "R0000942"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Perioperative cardiovascular evaluation",
+      "onset_date": "2022-12-21",
+      "diagnosis_evidence_ids": [
+        "R0000946",
+        "R0000947"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Fimasartan 30mg, Amlodipine 5mg",
+          "date": "2022-12-21",
+          "evidence_ids": [
+            "R0006818"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Fimasartan 30mg, Amlodipine 5mg",
+          "date": "2022-12-28",
+          "evidence_ids": [
+            "R0012116"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0000943",
+    "R0002553",
+    "R0023583",
+    "R0023584",
+    "R0023585",
+    "R0023586",
+    "R0023587",
+    "R0023588",
+    "R0023589",
+    "R0023590",
+    "R0023591",
+    "R0023592",
+    "R0023593",
+    "R0023594",
+    "R0023595",
+    "R0023596",
+    "R0023597",
+    "R0023598",
+    "R0023599",
+    "R0023600",
+    "R0023601",
+    "R0023602",
+    "R0023603",
+    "R0023604",
+    "R0023605",
+    "R0023606",
+    "R0023607",
+    "R0023608",
+    "R0023609",
+    "R0023610",
+    "R0023611",
+    "R0023612",
+    "R0023613",
+    "R0023614",
+    "R0023615",
+    "R0023616",
+    "R0023617",
+    "R0023618",
+    "R0023619",
+    "R0023620",
+    "R0023621",
+    "R0023622",
+    "R0023623",
+    "R0023624",
+    "R0023625",
+    "R0023626",
+    "R0023627",
+    "R0023628",
+    "R0023629",
+    "R0023630",
+    "R0023631",
+    "R0023632",
+    "R0023633",
+    "R0033603",
+    "R0033604",
+    "R0033740",
+    "R0044446",
+    "R0044447",
+    "R0044448",
+    "R0044449",
+    "R0044450",
+    "R0044451",
+    "R0044452",
+    "R0044453",
+    "R0044454",
+    "R0044455",
+    "R0044456",
+    "R0044457",
+    "R0044458",
+    "R0044459",
+    "R0044460",
+    "R0044461",
+    "R0044462",
+    "R0044463",
+    "R0044464",
+    "R0044465",
+    "R0044466",
+    "R0044467",
+    "R0044468",
+    "R0044469",
+    "R0044470",
+    "R0044471",
+    "R0044472",
+    "R0044473",
+    "R0044474",
+    "R0044475",
+    "R0044476",
+    "R0044477",
+    "R0044478",
+    "R0044479",
+    "R0044480",
+    "R0044481",
+    "R0044482",
+    "R0044483",
+    "R0044484",
+    "R0044485",
+    "R0044486",
+    "R0044487",
+    "R0044488",
+    "R0044489",
+    "R0044490",
+    "R0044491",
+    "R0044492",
+    "R0044493",
+    "R0064004",
+    "R0064005",
+    "R0064006",
+    "R0064007",
+    "R0064008"
+  ],
+  "narrative": "The patient was diagnosed with Cervical myelopathy, Other spondylosis, cervical region, Peripheral vascular disease, unspecified, and Spinal stenosis, multiple sites in spine on December 13, 2022. The patient also underwent perioperative cardiovascular evaluations on December 21 and December 28, 2022. Medications including Fimasartan 30mg and Amlodipine 5mg were prescribed starting from December 21."
+}

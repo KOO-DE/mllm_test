@@ -1,0 +1,317 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "status": "ok",
+  "n_rows_available": 135,
+  "n_rows_used_in_prompt": 135,
+  "cited_evidence_ids": [
+    "R0001177",
+    "R0001178",
+    "R0001179",
+    "R0001180",
+    "R0001181",
+    "R0001182",
+    "R0001183",
+    "R0009291",
+    "R0009293",
+    "R0009294",
+    "R0020374",
+    "R0020375",
+    "R0020376",
+    "R0020377",
+    "R0020378",
+    "R0020379",
+    "R0020753",
+    "R0038818",
+    "R0038870",
+    "R0038871",
+    "R0059031",
+    "R0059032",
+    "R0059033",
+    "R0059034",
+    "R0059035",
+    "R0059036",
+    "R0059038",
+    "R0059039",
+    "R0059040",
+    "R0059041",
+    "R0059042",
+    "R0059043",
+    "R0059044",
+    "R0059045",
+    "R0062357",
+    "R0062358",
+    "R0062359"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001177",
+        "R0038818",
+        "R0038870",
+        "R0038871"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Schpfaksapelle 100mg",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0020374"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol 1g",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0020375"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ketamine 500mg",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020376"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020377"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 10%",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020378"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium Chloride 0.9%",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020379"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001181",
+        "R0059035",
+        "R0059036"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "5% Glucose solution",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0009291"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0009293"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Saccharomyces boulardii",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0009294"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5%",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020378"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium Chloride 0.9%",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020379"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Acute gastroenteritis",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001180",
+        "R0059038",
+        "R0059039",
+        "R0059040",
+        "R0059041",
+        "R0059042",
+        "R0059043",
+        "R0059044",
+        "R0059045"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Fluid replacement therapy",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0059031",
+            "R0059032",
+            "R0059033",
+            "R0059034"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Vomiting alone",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001178",
+        "R0001179",
+        "R0062357",
+        "R0062358",
+        "R0062359"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Constipation",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001182",
+        "R0001183"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Polyethylene glycol electrolyte solution",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020753"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0009292",
+    "R0009295",
+    "R0009296",
+    "R0009297",
+    "R0020742",
+    "R0020743",
+    "R0020744",
+    "R0020745",
+    "R0020746",
+    "R0020747",
+    "R0020748",
+    "R0020749",
+    "R0020750",
+    "R0020751",
+    "R0020752",
+    "R0038819",
+    "R0038820",
+    "R0038821",
+    "R0038822",
+    "R0038823",
+    "R0038824",
+    "R0038825",
+    "R0038826",
+    "R0038827",
+    "R0038828",
+    "R0038829",
+    "R0038830",
+    "R0038831",
+    "R0038832",
+    "R0038833",
+    "R0038834",
+    "R0038835",
+    "R0038836",
+    "R0038837",
+    "R0038838",
+    "R0038839",
+    "R0038840",
+    "R0038841",
+    "R0038842",
+    "R0038843",
+    "R0038844",
+    "R0038845",
+    "R0038846",
+    "R0038847",
+    "R0038848",
+    "R0038849",
+    "R0038850",
+    "R0038851",
+    "R0038852",
+    "R0038853",
+    "R0038854",
+    "R0038855",
+    "R0038856",
+    "R0038857",
+    "R0038858",
+    "R0038859",
+    "R0038860",
+    "R0038861",
+    "R0038862",
+    "R0038863",
+    "R0038864",
+    "R0038865",
+    "R0038866",
+    "R0038867",
+    "R0038868",
+    "R0038869",
+    "R0058154",
+    "R0059037",
+    "R0059046",
+    "R0059047",
+    "R0059048",
+    "R0059049",
+    "R0059050",
+    "R0059901",
+    "R0059902",
+    "R0059903",
+    "R0059904",
+    "R0059905",
+    "R0059906",
+    "R0059907",
+    "R0059908",
+    "R0059909",
+    "R0059910",
+    "R0059911",
+    "R0059912",
+    "R0059913",
+    "R0059914",
+    "R0059915",
+    "R0059916",
+    "R0059917",
+    "R0059918",
+    "R0059919",
+    "R0062360",
+    "R0062361",
+    "R0062362",
+    "R0062363",
+    "R0062364",
+    "R0062365"
+  ],
+  "narrative": "환자는 2022년 12월 17일부터 구토와 발열 등의 증상을 호소하고 내원하였습니다. 이날 처음으로 유두염 감염(diagnosis: urinary tract infection, site not specified)이 진단되었습니다. 또한, 2022년 12월 30일에는 dehydratio, acute gastroenteritis, vomiting alone, constipation 등의 증상이 나타났습니다. 특히, 12월 30일에는 severe dehydration이 발견되어 수액 치료가 이루어졌습니다. 환자는 다양한 항생제(schpfaksapelle 100mg, propacetamol 1g, ketamine 500mg, midazolam 3mg)와 수액 치료(dextrose 10%, sodium chloride 0.9%) 등을 받았습니다."
+}

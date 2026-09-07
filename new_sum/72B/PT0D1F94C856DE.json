@@ -1,0 +1,162 @@
+{
+  "patient_id": "PT0D1F94C856DE",
+  "status": "ok",
+  "n_rows_available": 404,
+  "n_rows_used_in_prompt": 65,
+  "cited_evidence_ids": [
+    "R0001527",
+    "R0001528",
+    "R0001529",
+    "R0001530",
+    "R0013345",
+    "R0013349",
+    "R0013350",
+    "R0013796",
+    "R0013798",
+    "R0013805",
+    "R0013812",
+    "R0013815"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "R0001527",
+        "R0001529"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 1000ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013349"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5%  1000ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013796"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013350"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-23~2022-12-26",
+          "evidence_ids": [
+            "R0013805"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-25~2022-12-30",
+          "evidence_ids": [
+            "R0013812"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": [
+        "R0001528",
+        "R0001530"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Ciprofloxacin HCl 400mg/200ml/PA",
+          "date": "2022-12-23",
+          "evidence_ids": [
+            "R0013345"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ciprofloxacin HCl 400mg/200ml/PA",
+          "date": "2022-12-23~2022-12-25",
+          "evidence_ids": [
+            "R0013798"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Metronidazole  500mg/100ml/BAG",
+          "date": "2022-12-26~2022-12-31",
+          "evidence_ids": [
+            "R0013815"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0013346",
+    "R0013347",
+    "R0013348",
+    "R0013797",
+    "R0013799",
+    "R0013800",
+    "R0013801",
+    "R0013802",
+    "R0013803",
+    "R0013804",
+    "R0013806",
+    "R0013807",
+    "R0013808",
+    "R0013809",
+    "R0013810",
+    "R0013811",
+    "R0013813",
+    "R0013814",
+    "R0013816",
+    "R0013817",
+    "R0013818",
+    "R0013819",
+    "R0013820",
+    "R0069437",
+    "R0069438",
+    "R0069439",
+    "R0069440",
+    "R0069441",
+    "R0069442",
+    "R0069443",
+    "R0069444",
+    "R0069445",
+    "R0069446",
+    "R0069447",
+    "R0069448",
+    "R0069449",
+    "R0069450",
+    "R0069451",
+    "R0069452",
+    "R0069453",
+    "R0069454",
+    "R0069455",
+    "R0069456",
+    "R0069457",
+    "R0069458",
+    "R0069459",
+    "R0069460",
+    "R0069461",
+    "R0069462",
+    "R0069463",
+    "R0069464",
+    "R0069465",
+    "R0069466"
+  ],
+  "narrative": "환자는 2022년 12월 23일에 Dehydration 및 Urinary tract infection, site not specified라는 진단을 받았습니다. Dehydration에 대해 Sod. chloride 0.9% 1000ml/PA, Dextrose 5%  1000ml/PA, Sod. chloride 0.9% 100ml/PA 등의 약물을 처방받았으며, Urinary tract infection, site not specified에 대해서는 Ciprofloxacin HCl 400mg/200ml/PA, Metronidazole  500mg/100ml/BAG 등을 처방받았습니다."
+}

@@ -1,0 +1,200 @@
+{
+  "patient_id": "PT0BE5E6893C26",
+  "status": "ok",
+  "n_rows_available": 40,
+  "n_rows_used_in_prompt": 39,
+  "cited_evidence_ids": [
+    "R0000872",
+    "R0000873",
+    "R0000874",
+    "R0020597",
+    "R0020598",
+    "R0020599",
+    "R0020600",
+    "R0020601",
+    "R0020603",
+    "R0020776",
+    "R0020777",
+    "R0020778",
+    "R0020779",
+    "R0020780",
+    "R0020781",
+    "R0020782",
+    "R0020783",
+    "R0020784",
+    "R0020785",
+    "R0020786",
+    "R0020787"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Internuclear ophthalmoplegia",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0000872",
+        "R0000874"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Pontine infarction",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0000873"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "(향정)디아제팜주10mg(삼진)",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020597"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "멕쿨주 10mg(제일제약)",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020598"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "아스트릭스캡슐 100mg(보령바이오)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020599",
+            "R0020785"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "플라빅스정 75mg(한독/사노피)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020600"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "크레스토정 10mg(아스트라)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020603"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "파세타주 1g(신풍)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020776"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(향정)아티반주 2mg(일동)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020777"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "유리라세미 주(대한)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020778"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "(근육주사)할로페리돌주 5mg(명인)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020779"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "멕쿨주 10mg(제일제약)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020780"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "페르디핀주 10mg(동아/아스텔라스)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020781"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "베타신주 100mg(하나)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020782"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "0.9% 생리식염주 1000ml(이노엔)",
+          "date": "2022-12-30~2022-12-31",
+          "evidence_ids": [
+            "R0020601",
+            "R0020783"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "세레브로리진주 10ml(삼오)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020784"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "스토가정 10mg(보령)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020786"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "0.9% 생리식염주 100ml(이노엔)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020787"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0020602",
+    "R0089256",
+    "R0089257",
+    "R0089258",
+    "R0089259",
+    "R0089260",
+    "R0089261",
+    "R0089262",
+    "R0089263",
+    "R0089264",
+    "R0089265",
+    "R0089266",
+    "R0089267",
+    "R0089268",
+    "R0089269",
+    "R0093075",
+    "R0093076",
+    "R0093077"
+  ],
+  "narrative": "환자는 2022-12-30에 Internuclear ophthalmoplegia와 Pontine infarction으로 진단되었습니다. Internuclear ophthalmoplegia는 응급의학과와 신경과에서 확인되었으며, Pontine infarction은 응급의학과에서 확인되었습니다. Pontine infarction에 대한 치료로 (향정)디아제팜주10mg(삼진), 멕쿨주 10mg(제일제약), 아스트릭스캡슐 100mg(보령바이오), 플라빅스정 75mg(한독/사노피), 크레스토정 10mg(아스트라), 파세타주 1g(신풍), (향정)아티반주 2mg(일동), 유리라세미 주(대한), (근육주사)할로페리돌주 5mg(명인), 멕쿨주 10mg(제일제약), 페르디핀주 10mg(동아/아스텔라스), 베타신주 100mg(하나), 0.9% 생리식염주 1000ml(이노엔), 세레브로리진주 10ml(삼오), 스토가정 10mg(보령), 0.9% 생리식염주 100ml(이노엔)가 처방되었습니다."
+}

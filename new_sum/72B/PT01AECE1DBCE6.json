@@ -1,0 +1,308 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "status": "ok",
+  "n_rows_available": 186,
+  "n_rows_used_in_prompt": 78,
+  "cited_evidence_ids": [
+    "R0001344",
+    "R0001345",
+    "R0001346",
+    "R0001347",
+    "R0001348",
+    "R0001349",
+    "R0001350",
+    "R0001351",
+    "R0009510",
+    "R0009511",
+    "R0009516",
+    "R0020591",
+    "R0020592",
+    "R0020593",
+    "R0020594",
+    "R0020595",
+    "R0020596",
+    "R0020961",
+    "R0020963",
+    "R0020964",
+    "R0020966",
+    "R0020969"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001344"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Cefixime 100mg/CA",
+          "date": "2022-12-17 ~ 2022-12-20",
+          "evidence_ids": [
+            "R0009516"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0009511"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Glucose 50g, Na 77mEq, K 20mEq, Cl 97mEq/1L/PA",
+          "date": "2022-12-17 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0009510"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "General symptom and sign",
+      "onset_date": "2022-12-17 ~ 2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0001345"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Vomiting alone",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001346"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-17",
+          "evidence_ids": [
+            "R0009511"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Pantoprazole 40mg/VI",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020966"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Acute gastroenteritis",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001347"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Dextrose 10% 500ml/PA",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020591"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Propacetamol HCl 1g/VI (=Acetaminophen 500mg)",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020592"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ketamine HCl 500mg/10ml/VI",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020593"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam 3mg/3ml/AM",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020594"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 20ml/AM",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020596"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.45% 1000ml/PA",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020961"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020963",
+            "R0020964"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001348",
+        "R0001350"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Dextrose 10% 500ml/PA",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020591"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Dextrose 5% & NaCl 1000m/PA",
+          "date": "2022-12-30",
+          "evidence_ids": [
+            "R0020595"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 20ml/AM",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020596"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.45% 1000ml/PA",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020961"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 50ml/BT",
+          "date": "2022-12-30 ~ 2022-12-31",
+          "evidence_ids": [
+            "R0020963",
+            "R0020964"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Fecal impaction",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001349"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020969"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Other and unspecified constipation",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0001351"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Lactulose 1.34g/ml, 15ml/PA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0020969"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0009512",
+    "R0009513",
+    "R0009514",
+    "R0009515",
+    "R0020958",
+    "R0020959",
+    "R0020960",
+    "R0020962",
+    "R0020965",
+    "R0020967",
+    "R0020968",
+    "R0055439",
+    "R0055440",
+    "R0055441",
+    "R0055442",
+    "R0055443",
+    "R0055444",
+    "R0055445",
+    "R0055446",
+    "R0055447",
+    "R0055448",
+    "R0055449",
+    "R0055450",
+    "R0055451",
+    "R0055452",
+    "R0055453",
+    "R0055454",
+    "R0055455",
+    "R0055456",
+    "R0055457",
+    "R0055458",
+    "R0055459",
+    "R0055460",
+    "R0055461",
+    "R0055462",
+    "R0055463",
+    "R0055464",
+    "R0055465",
+    "R0055466",
+    "R0055467",
+    "R0055468",
+    "R0055469",
+    "R0055470",
+    "R0055471",
+    "R0055472",
+    "R0055473",
+    "R0055474",
+    "R0055475",
+    "R0055476",
+    "R0055477",
+    "R0055478",
+    "R0055479",
+    "R0055480",
+    "R0055481",
+    "R0055482",
+    "R0055483"
+  ],
+  "narrative": "환자는 2022년 12월 17일에 urinary tract infection, site not specified, vomiting alone 및 general symptom and sign 으로 진단받았습니다. 2022년 12월 30일에는 acute gastroenteritis, dehydration, fecal impaction 으로 진단되었으며, 2022년 12월 31일에는 other and unspecified constipation 으로 진단되었습니다."
+}

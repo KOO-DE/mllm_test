@@ -1,0 +1,110 @@
+{
+  "patient_id": "PT0CD0E8BD4A73",
+  "status": "ok",
+  "n_rows_available": 69,
+  "n_rows_used_in_prompt": 55,
+  "cited_evidence_ids": [
+    "R0001030",
+    "R0001031",
+    "R0001032"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Malignant neoplasm of rectum",
+      "onset_date": "2022-09-24",
+      "diagnosis_evidence_ids": [
+        "R0001030",
+        "R0001031"
+      ],
+      "treatments": [
+        {
+          "type": "surgery",
+          "name": "Rectal Lumpectomy",
+          "date": "2022-10-05",
+          "evidence_ids": [
+            "R0001030"
+          ]
+        },
+        {
+          "type": "surgery",
+          "name": "Low Anterior Resection",
+          "date": "2022-10-05",
+          "evidence_ids": [
+            "R0001030"
+          ]
+        },
+        {
+          "type": "surgery",
+          "name": "Low Anterior Lateral Dissection",
+          "date": "2022-10-05",
+          "evidence_ids": [
+            "R0001030"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Persons encountering health services for chemotherapy session for neoplasm",
+      "onset_date": "2022-12-01",
+      "diagnosis_evidence_ids": [
+        "R0001032"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0002730",
+    "R0002731",
+    "R0002732",
+    "R0002733",
+    "R0002734",
+    "R0002735",
+    "R0002736",
+    "R0002737",
+    "R0002738",
+    "R0002739",
+    "R0002740",
+    "R0002741",
+    "R0002742",
+    "R0002743",
+    "R0002744",
+    "R0002745",
+    "R0002746",
+    "R0002747",
+    "R0002748",
+    "R0002749",
+    "R0002750",
+    "R0002751",
+    "R0002752",
+    "R0002753",
+    "R0002754",
+    "R0002755",
+    "R0003055",
+    "R0003056",
+    "R0012558",
+    "R0012559",
+    "R0012560",
+    "R0012561",
+    "R0025898",
+    "R0025899",
+    "R0025900",
+    "R0025901",
+    "R0025902",
+    "R0029280",
+    "R0029281",
+    "R0029282",
+    "R0029283",
+    "R0029284",
+    "R0029285",
+    "R0029286",
+    "R0029287",
+    "R0029288",
+    "R0029289",
+    "R0029290",
+    "R0097673",
+    "R0097674",
+    "R0097675",
+    "R0097676"
+  ],
+  "narrative": "환자는 2022년 9월 24일부터 직장암 간전이 진단을 받았습니다. 2022년 10월 5일에 직장 절제술, 전방 저림절제술, 전방 측부 절제술을 수술했습니다. 이후 항암치료를 위해 입원하여 5-플루오로우라실, 데キスト로스, 폴리테이트 칼슘, 옥살리플라틴, 네튜피탄트/팔로네센트론, 사카로마이세스 세레브 시스 cerevisiae hansen, 카르니틴 오로테이트, 실콘정, L-트리토판, Phellinus Lintens 추출물, 비타민 C를 투여받았습니다. 2022년 12월 1일과 2022년 12월 20일 외래 진료 및 입원 치료를 받았습니다."
+}
