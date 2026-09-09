@@ -1,0 +1,16 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Anaemia, unspecified",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": ["R0001123"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "(A) Allergic Rhinitis Chronic",
+      "onset_date": null,
+      "diagnosis_evidence_ids":["R0086950","R0086951","R0086952"],"
+     "treatments"[] } ,
+    {("r") Aplastic Anemia"(추정진단임 )、"onset""null ""diagnosis_evidence_idss[]R0G869SO5()ET008695TWOCTORZTCONTRACEDANNOTATIONENUNSPECIFICSYMPTOMATICCHRONICALERTISFRARETHINUSEFULAPLASTICHEMOLYTICALLYNCERABSTAININGFROMTHEIRGENERALDIAGNOSISTHEORYALPHAAPLASTICKANCEROFBLOWERYCLOTHESANDHEADACHEWITHOUTANYOBJECTIVELABORATORYPATHOLOGICALNORMALIZATIONFORTHISCONDITIONREMAINSUNCONFIRMEDBY CURRENT TEST RESULTS."}} ] }, { narrative ": 환자는 숨이 차고 호흡곤란 증상으로 내원했다. 현재 재생불량성 빈혈 감별로 건양대병원에서 검사 중이다. 초기 퇴원 계획은 검사 후 결정될 예정이다.\n\n과거력에는 당뇨병 및 고혈압이 없었으나, 만성 알레르기 비염이 확인되었다. 검사 결과에서는 빈혈 가능성이 제기되었으며, 바이러스 감염 또는 심부전의 가능성도 배제할 수 없다.(R00K69KO', 'R00SKBOFO', '')}}}
+```

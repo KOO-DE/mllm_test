@@ -1,0 +1,6 @@
+{
+  "problems": [
+    {
+      "diagnosis": "Fracture of femur, intertrochanterical region close approach surgery indicated? Yes vs NO\"",
+      "onset_date": "\"YES\" \"NO?\"",\
+      "diagnosis_evidence_ids":[\"[R000`](https://example.org)\","PT0`,\"FRAC`)([R0])(\")(())()[]\\"","pt00f"`]]}}}}}{}{\"\""){\"Diagnose}\"): {\"(}({(}))({})}]}}\"))({\");\"#\"};}, \");}], \"narrative\": \"환자는 2022년 12월 24일 좌측 대퇴골 전자간 골절로 진단받았으며, 동일 날짜에 수술이 시행된 기록이 있습니다.\", null}}, {"testType:\": \"medication \", \text{: \"Neomycin Sulfate\", \"name \": \"Neomycin Sulfate\", \"startDate\": \"\", \"endDate\": \"2022-\">\"},\";\"><br/></span><strong></strong>;\"></div>', 'null']

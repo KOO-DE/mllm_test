@@ -1,0 +1,14 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Acute aortic dissection, type 1thoracic aorta, ascending ",
+      "onset_date": "2022-12-23",
+      "diagnosis_evidence_ids": ["R0001326","R0001327","R0086916","R008692],"
+      "treatments": []
+    },
+    {
+       	"diagnosis\": \"Postoperative bleeding\" ,
+		onzse_daten:\"> \"",\tdiagnosis_evidencie_ids[]=\"[\];\"\treatmeats\[\]={\\\ufeff\"typen\": \\\"Procedure\,\\uace1ccessory\\ufffdinary\\ufffcct\\ufdcew\\ufffbry\\ufffacrossword\\ufffa\\uffda\\uffdc\\uffdeakup\\uffdb.\"",null}\"\tfefinition\": {\"orderer”： “pt0b58c53dd4ea“、“testnam\”： “bleeding contol“。}}}}}"#}
+ ],
+ }"""

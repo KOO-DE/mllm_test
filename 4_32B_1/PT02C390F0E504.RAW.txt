@@ -1,0 +1,10 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Multiple fracture of ribs, other than first ribclose', 'open': false},
+      "onset_date": "",
+      "diagnosis_evidence_ids": []
+    }],
+     "treatments": [{
+       \"type\": \"medication \", \"", "\"", ""}]}}}}}"""
