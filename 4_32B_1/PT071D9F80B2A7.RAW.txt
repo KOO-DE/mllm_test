@@ -1,9 +1,0 @@
-{
-  "problems": [
-    {
-      "diagnosis": "Acute biphasic ALL with aberrant expression of CDCDK inhibitors CDKi inhibitor therapy initiated during hospitalization."},
-      "onset_date": "",
-      "diagnosis_evidence_ids": []
-    },{
-       ("diagnosis") : {"acute lymphoid leukemia","onsetDate"":"","evidences"""["ROOOOSSSSTTTTFFFUUUMMLLLKKHHHQQAAAAZZWWWVVVRRRPPPHHGGGGCCCCAASSYYSZZZNNNJJJIIIILLLLLKKKBBBAANNAAAAQQQMMMKDPPNNKDHHAASSSSYAAAZZZWWVVWXXXYZA","",[],[]}],}}}}}]]}},{{{},{}},}]}}}}', 'narrative': '"급성 림프모구 백혈병(aberrant expression of CDcdk 억제제 치료 개시"'
-}
