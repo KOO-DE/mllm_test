@@ -1,0 +1,134 @@
+{
+  "patient_id": "PT02C390F0E504",
+  "status": "ok",
+  "n_rows_available": 28,
+  "n_rows_used_in_prompt": 28,
+  "cited_evidence_ids": [
+    "R0001444",
+    "R0014861",
+    "R0014862",
+    "R0014864",
+    "R0014976",
+    "R0014977",
+    "R0014978",
+    "R0014979",
+    "R0014980",
+    "R0014981",
+    "R0014982",
+    "R0084667",
+    "R0086155",
+    "R0086156",
+    "R0086157"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Multiple fracture of ribs, other than first rib, closed",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0001444",
+        "R0084667",
+        "R0086155",
+        "R0086156",
+        "R0086157"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Tramadol hydrochloride 50㎎/㎖",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014862"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nefopam HCl 20 mg/2ml/AM",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014976"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mosapride citrate 5mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014977"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014978"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014979"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014980"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "NaCl 2.63g外 4种 500ml/PA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014861"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 100ml/PA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014864"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sod. chloride 0.9% 500ml/PA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014981"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Tramadol HCl 37.5mg, Acetaminophen 325mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0014982"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0014863",
+    "R0014975",
+    "R0084657",
+    "R0084658",
+    "R0084659",
+    "R0084660",
+    "R0084661",
+    "R0084662",
+    "R0084663",
+    "R0084664",
+    "R0084665",
+    "R0084666",
+    "R0086158"
+  ],
+  "narrative": "환자는 2022년 12월 31일 차대차 사고를 겪고 왼쪽 가슴벽 통증을 호소하며 병원에 내원했습니다. CT 결과는 왼쪽 3번째부터 9번째까지 갈비뼈 다발성 손상(Multiple fracture of ribs, other than first rib, closed)으로 확인되었습니다. 폐에서 미세한 혼합 현상(mild diffuse haziness)과 부분적인 대호흡절개(subsegmental atelectasis)가 발견되었으나 중등도 이상의 호흡곤란(dyspnea)은 나타나 있지 않았습니다. 환자는 현재 통증 관리를 위해 입원하였으며, 퇴원 시에는 경과 관찰 후 퇴원할 계획입니다."
+}

@@ -1,0 +1,134 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Fracture of femur, intertrochanter closed",
+      "onset_date": "2022-12-24",
+      "diagnosis_evidence_ids": ["R0000209", "R0000210"],
+      "treatments": [
+        {
+          "type": "surgery",
+          "name": "Closed reduction and internal fixation with gamma nail, femur",
+          "date": "2022-12-28",
+          "evidence_ids": ["R0066015"]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Arthritis, knee",
+      "onset_date": "Not specified",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Type 2 Diabetes Mellitus (T2DM)",
+      "onset_date": "Not specified",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "DiaBeta XL 1000 mg (Metformin Hydrochloride)",
+          "date": "As needed",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Gladiem 4 mg (Gliclazide)",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Tenelzia 20 mg (Teneligliptin)",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Losaral 50 mg (Losartan Potassium)",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Rosuva 10 mg (Rosuvastatin Calcium)",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Avocado Soya Unsaponifiables Capsule",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Zaojia 0.3 g (Herbal Extract)",
+          "date": "Twice daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Chondroitin Sodium Sulfate Capsule",
+          "date": "Twice daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "Artemisiae Argyi Folium Isopropanol Ext.",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        },
+        {
+          "type": "medication",
+          "name": "rivastigmine transdermal patch",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Hypercholesterolemia",
+      "onset_date": "Not specified",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Rosuva 10 mg (Rosuvastatin Calcium)",
+          "date": "Once daily",
+          "evidence_ids": ["R0086260"]
+        }
+      ]
+    },
+    {
+      "diagnosis": "History of Transient Ischemic Attack (TIA)",
+      "onset_date": "2008",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "History of Coronary Artery Disease (CAD)",
+      "onset_date": "2008",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "History of Aneurysm",
+      "onset_date": "2016",
+      "diagnosis_evidence_ids": ["R0086258", "R0086260"],
+      "treatments": []
+    }
+  ],
+  "narrative": "환자는 2022년 12월 24일 집에서 미끄러짐 사고로 인해 좌측 고관절 부상을 입었습니다. 즉시 응급실에 내원했으며, X선 검사 결과 좌측 대퇴골 중간 부분 간격 골절(K-G 유형 III)이 확인되었습니다. 환자는 당뇨병(T2DM), 고콜레스테롤혈증, 알츠하이머 질환, 안압증 등의 과거력을 가지고 있었으며, 현재 약물을 복용하고 있었습니다. 또한, 환자는 과거에 뇌졸중(TIA)과 심장 경색(CAD)을 경험한 역사가 있으며, 2016년에는 안압증을 위해 동맥瘤栓塞术。
+    
+    治疗计划：
+    - 手术治疗：闭合复位和使用γ钉内固定，手术日期为2022年12月28日。支持证据编号：R0066015
+    
+    主要诊断及检查结果总结如下：
+    - 骨折（左股骨大转子骨折）于2022年12月24日发生，并进行了闭合复位和使用γ钉内固定的手术治疗。
+    - 糖尿病、高胆固醇血症等慢性疾病正在通过药物进行管理。
+    - 过去有短暂性脑缺血发作史、冠状动脉疾病史以及安夹术历史。
+
+    总结：患者因摔倒导致左侧髋部疼痛入院，经影像学检查确诊为左股骨大转子骨折并接受了相应的手术治疗。同时，患者还存在多种慢性疾病的长期管理和监测需求。"
+}
+```

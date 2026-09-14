@@ -1,0 +1,27 @@
+{
+  "model": "../models/medgemma-1.5-4b-it",
+  "prompt_lang": "en",
+  "disable_thinking": false,
+  "patient_list_file": "patient_10.txt",
+  "auto_select_columns": true,
+  "column_selection_used": true,
+  "max_input_chars": 23074,
+  "n_total_patients": 10,
+  "n_json_parse_fail": 0,
+  "n_problems_raw": 74,
+  "n_problems_dropped_ungrounded": 1,
+  "n_problems_deduplicated": 1,
+  "n_treatments_raw": 14,
+  "n_treatments_dropped_ungrounded": 1,
+  "n_hallucinated_ids": 3,
+  "n_rows_dropped_structured_total": 0,
+  "n_rows_dropped_narrative_total": 1474,
+  "n_rows_dropped_medication_total": 444,
+  "n_narrative_language_flagged": 0,
+  "sampling": {
+    "repetition_penalty": 1.15,
+    "frequency_penalty": 0.0,
+    "retry_on_failure": 2,
+    "guided_json": false
+  }
+}

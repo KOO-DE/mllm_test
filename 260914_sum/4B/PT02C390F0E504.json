@@ -1,0 +1,161 @@
+{
+  "patient_id": "PT02C390F0E504",
+  "status": "ok",
+  "n_rows_available": 30,
+  "n_rows_used_in_prompt": 30,
+  "cited_evidence_ids": [
+    "R0002114",
+    "R0002115",
+    "R0017656",
+    "R0017657",
+    "R0017658",
+    "R0017659",
+    "R0017815",
+    "R0017816",
+    "R0017817",
+    "R0017818",
+    "R0017819",
+    "R0017820",
+    "R0017821",
+    "R0017822",
+    "R0017823",
+    "R0089348",
+    "R0089349",
+    "R0090866",
+    "R0090867"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Multiple fracture of ribs, other than first rib, closed",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0002114",
+        "R0002115",
+        "R0090866",
+        "R0090867",
+        "R0089349",
+        "R0089348"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Plasma Solution A",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017656"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Tramadol Hydrochloride",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017657"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Marobi Ben Ai",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017658"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "0.9% Physiological Saline Injection",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017659"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Methadone (Pethidine HCl)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017815"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acuphan (Nefopam HCl)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017816"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Gasmoitin (Mosapride Citrate)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017817"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Gastard (Famotidine)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017818"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magmil Es (Magnesium Oxide)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017819"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mutelan Capsule (Acetylcysteine)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017820"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "0.9% Physiological Saline Injection",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017821"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Enes Injection (Na Cl 0.9%)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017822"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Maxnophen Tablet (Tramadol HCl, Acetaminophen)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0017823"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0089339",
+    "R0089340",
+    "R0089341",
+    "R0089342",
+    "R0089343",
+    "R0089344",
+    "R0089345",
+    "R0089346",
+    "R0089347",
+    "R0090868",
+    "R0090869"
+  ],
+  "narrative": "환자는 자동차 사고 후 좌측 가슴 벽 통증으로 내원하여 CT 촬영 결과 좌측 3-9번 갈비뼈 골절 진단을 받았습니다. CT 영상에서는 좌측 3-9번 갈비뼈 골절 외에도 폐렴 소견, 좌측 3-9번 갈비뼈 골절 관련 늑연골 파열, 폐 실질의 부분적인 폐쇄성 폐렴 소견 등이 관찰되었습니다. 또한, 대동맥 및 협심증 이력이 있는 것으로 나타났습니다. 입원 당시에는 통증 완화를 위한 다양한 약물들이 처방되었습니다."
+}

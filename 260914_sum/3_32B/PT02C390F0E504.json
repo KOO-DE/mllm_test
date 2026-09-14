@@ -1,0 +1,127 @@
+{
+  "patient_id": "PT02C390F0E504",
+  "status": "ok",
+  "n_rows_available": 29,
+  "n_rows_used_in_prompt": 29,
+  "cited_evidence_ids": [
+    "R0001851",
+    "R0001852",
+    "R0015273",
+    "R0015274",
+    "R0015386",
+    "R0015387",
+    "R0015388",
+    "R0015389",
+    "R0015390",
+    "R0015391",
+    "R0015393",
+    "R0056451",
+    "R0056452",
+    "R0056453"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Multiple fracture of ribs, other than first rib, closed",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0001851",
+        "R0001852",
+        "R0056451",
+        "R0056452",
+        "R0056453"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Tramadol hydrochloride 50㎎/㎖",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015273"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Arnica tinc.calendula tinc.chamomilla tinc.외 15종 생약성분/2.2ml/AM",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015274"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Pethidine HCl 25mg/0.5ml/AM",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015386"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Nefopam HCl 20 mg/2ml/AM",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015387"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mosapride citrate 5mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015388"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Famotidine 20mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015389"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Magnesium oxide 250mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015390"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetylcysteine 200mg/CA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015391"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Tramadol HCl 37.5mg, Acetaminophen 325mg/TA",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015393"
+          ]
+        }
+      ]
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0015272",
+    "R0015275",
+    "R0015392",
+    "R0055088",
+    "R0055089",
+    "R0055090",
+    "R0055091",
+    "R0055092",
+    "R0055093",
+    "R0055094",
+    "R0055095",
+    "R0055096",
+    "R0055097",
+    "R0055098",
+    "R0056454"
+  ],
+  "narrative": "2022년 12월 31일, 환자는 왼쪽 가슴 통증으로 인해 응급실에 내원하였으며, CT 검사에서 왼쪽 3~9번 늑골 골절(Multiple fracture of ribs, other than first rib, closed)이 확인되었습니다. 이 진단은 응급의학과와 심장혈관흉부외과에서 각각 확인되었으며, 입원 후 보수적인 관리가 이루어졌습니다. 치료로는 트라마돌 하이드로클로라이드, 아르니카 성분 약물, 페티딘, 네폌암, 모사프리드 시트레이트, 팜오티딘, 마그네슘 산화물, 아세틸시스테인, 그리고 트라마돌과 아세타미노펜 복합제가 처방되었습니다."
+}

@@ -1,0 +1,27 @@
+{
+  "model": "../models/Qwen2.5-72B-Instruct",
+  "prompt_lang": "en",
+  "disable_thinking": false,
+  "patient_list_file": "patient_10.txt",
+  "auto_select_columns": true,
+  "column_selection_used": true,
+  "max_input_chars": 15600,
+  "n_total_patients": 10,
+  "n_json_parse_fail": 0,
+  "n_problems_raw": 50,
+  "n_problems_dropped_ungrounded": 0,
+  "n_problems_deduplicated": 0,
+  "n_treatments_raw": 12,
+  "n_treatments_dropped_ungrounded": 0,
+  "n_hallucinated_ids": 0,
+  "n_rows_dropped_structured_total": 0,
+  "n_rows_dropped_narrative_total": 1584,
+  "n_rows_dropped_medication_total": 435,
+  "n_narrative_language_flagged": 0,
+  "sampling": {
+    "repetition_penalty": 1.1,
+    "frequency_penalty": 0.0,
+    "retry_on_failure": 2,
+    "guided_json": false
+  }
+}

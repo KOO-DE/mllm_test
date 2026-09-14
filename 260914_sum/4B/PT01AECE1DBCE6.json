@@ -1,0 +1,297 @@
+{
+  "patient_id": "PT01AECE1DBCE6",
+  "status": "ok",
+  "n_rows_available": 190,
+  "n_rows_used_in_prompt": 71,
+  "cited_evidence_ids": [
+    "R0001578",
+    "R0001579",
+    "R0001580",
+    "R0001581",
+    "R0001582",
+    "R0001583",
+    "R0001584",
+    "R0001585",
+    "R0001586",
+    "R0052431",
+    "R0052432",
+    "R0052433",
+    "R0052434",
+    "R0052435",
+    "R0052436",
+    "R0052437",
+    "R0052438",
+    "R0052439",
+    "R0052440",
+    "R0052441",
+    "R0052442",
+    "R0052443",
+    "R0052444",
+    "R0052445",
+    "R0052446",
+    "R0052447",
+    "R0052448",
+    "R0052449",
+    "R0052450",
+    "R0052451",
+    "R0052452",
+    "R0052453",
+    "R0052454",
+    "R0052455",
+    "R0052456",
+    "R0052457",
+    "R0052458",
+    "R0052459",
+    "R0052460",
+    "R0052461",
+    "R0052462",
+    "R0052463",
+    "R0052464",
+    "R0052465",
+    "R0052466",
+    "R0052467",
+    "R0052468",
+    "R0052469",
+    "R0052470",
+    "R0052471",
+    "R0052472",
+    "R0052473",
+    "R0052474",
+    "R0052475",
+    "R0052476",
+    "R0052477",
+    "R0052478",
+    "R0052479",
+    "R0085727",
+    "R0085728",
+    "R0085729",
+    "R0087075",
+    "R0087076",
+    "R0087077",
+    "R0087078",
+    "R0087079",
+    "R0087080",
+    "R0087081",
+    "R0087082"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Urinary tract infection, site not specified",
+      "onset_date": "2021-10-08",
+      "diagnosis_evidence_ids": [
+        "R0001578"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "General symptom and sign",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001579",
+        "R0001581"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Vomiting alone",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0001580"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Acute gastroenteritis",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001582"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Dehydration",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001583",
+        "R0001585"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Fecal impaction in colon, still suggested.",
+      "onset_date": "2021-11-20",
+      "diagnosis_evidence_ids": [
+        "R0001584"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other and unspecified constipation",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0001586"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Urinalysis(Stix10종+ Micro)",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0052431",
+        "R0052432",
+        "R0052433",
+        "R0052434",
+        "R0052435",
+        "R0052436",
+        "R0052437",
+        "R0052438",
+        "R0052439",
+        "R0052440",
+        "R0052441",
+        "R0052442",
+        "R0052443",
+        "R0052444",
+        "R0052445",
+        "R0052446",
+        "R0052447",
+        "R0052448",
+        "R0052449",
+        "R0052450",
+        "R0052451",
+        "R0052452",
+        "R0052453",
+        "R0052454",
+        "R0052455",
+        "R0052456",
+        "R0052457",
+        "R0052458",
+        "R0052459",
+        "R0052460",
+        "R0052461",
+        "R0052462",
+        "R0052463",
+        "R0052464",
+        "R0052465",
+        "R0052466",
+        "R0052467",
+        "R0052468",
+        "R0052469",
+        "R0052470",
+        "R0052471",
+        "R0052472",
+        "R0052473",
+        "R0052474",
+        "R0052475",
+        "R0052476",
+        "R0052477",
+        "R0052478"
+      ],
+      "treatments": [],
+      "notes": "Multiple findings recorded."
+    },
+    {
+      "diagnosis": "[급여대상]SARS-CoV-2(COVID-19)(신속항원검사)",
+      "onset_date": "2022-12-17",
+      "diagnosis_evidence_ids": [
+        "R0052479",
+        "R0085729"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Abdomen Supine",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0085727"
+      ],
+      "treatments": [],
+      "notes": "Radiology finding."
+    },
+    {
+      "diagnosis": "Chest PA/AP",
+      "onset_date": "2022-12-29",
+      "diagnosis_evidence_ids": [
+        "R0085728"
+      ],
+      "treatments": [],
+      "notes": "Radiology finding."
+    },
+    {
+      "diagnosis": "SARS-CoV-2(COVID-19)(신속항원검사)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087075"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "BGA(Blood Gas Analysis)(현장검사)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087076"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "FiO2(현장검사)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087077"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "O2(현장검사)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087078"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "eGFR(CKD-EPI Creatinine):응급검사실",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087079"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "E-ADM3(Emergency Admission 15종)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087080"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "TFT2(Free T4,T3,TSH)검사 [핵의]",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087081"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    },
+    {
+      "diagnosis": "E-Urinalysis(Stix10종+ Micro)",
+      "onset_date": "2022-12-30",
+      "diagnosis_evidence_ids": [
+        "R0087082"
+      ],
+      "treatments": [],
+      "notes": "Repeat test."
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0052480",
+    "R0052481"
+  ],
+  "narrative": "환자는 2021년 10월 8일에 요로감염으로 진단받았습니다. 이후 여러 차례 전반적인 증상 및 구토를 경험했습니다. 2022년 12월 30일에는 급성 장염과 탈수를 진단받았으며, 같은 날 변비도 있었습니다. 2021년 11월 20일에는 대변 누출(fecal impaction)이 확인되었습니다. 2022년 12월 17일부터 12월 30일까지 다양한 형태의 소변 검사를 시행했으며, 여기에는 미생물, 결정, 세포, 혈구 등이 포함됩니다. 2022년 12월 17일에는 코로나19 신속 항원 검사가 음성으로 나왔습니다. 2022년 12월 29일과 30일 각각 복부와 가슴 X-레이 검사를 시행하여 이상 소견은 없었습니다. 2022년 12월 30일에는 혈가스 분석, 산소 농도(FiO2), 산소 투여량(O2) 측정 결과도 기록되어 있습니다. 또한, 갑상선 기능 검사 결과도 기록되어 있습니다."
+}

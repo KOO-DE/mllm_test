@@ -1,0 +1,59 @@
+```json
+{
+  "problems": [
+    {
+      "diagnosis": "Cervical myelopathy",
+      "onset_date": "2022-11-13~2022-12-13",
+      "diagnosis_evidence_ids": ["R0000713", "R0000718", "R0086141", "R0086143"],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Kanarb 30ng",
+          "date": "2022-12-21",
+          "evidence_ids": ["R0086142"]
+        },
+        {
+          "type": "medication",
+          "name": "Duquab 30/5mg",
+          "date": "2022-12-21",
+          "evidence_ids": ["R0086142", "R0004891"]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Peripheral vascular disease, unspecified",
+      "onset_date": "2022-11-13",
+      "diagnosis_evidence_ids": ["R0086143"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Other spondylosis, cervical region",
+      "onset_date": "2022-11-13",
+      "diagnosis_evidence_ids": ["R0086143"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Spinal stenosis, multiple site in spine",
+      "onset_date": "2022-11-13",
+      "diagnosis_evidence_ids": ["R0086143"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Examination and observation for expert evidence",
+      "onset_date": "2022-12-21",
+      "diagnosis_evidence_ids": ["R0000717"],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Perioperative cardiovascular evaluation",
+      "onset_date": "2022-12-13",
+      "diagnosis_evidence_ids": ["R0000718", "R0086141"],
+      "treatments": []
+    }
+  ],
+  "narrative": "환자는 2022년 11월부터 우측 손과 다리의 운동 기능 저하를 호소하며, 특히 오른쪽 다리는 걸을 때 힘이 없음을 보고하였습니다. 또한, 오른쪽 팔은 사용이 불편하였으며, 좌측 상지에도 저린 감이 있었습니다. CT 스캔과 MRI 검사에서는 C3-C6 الفقر"text truncated due to length"이며, 이러한 상태로 인해 정형외과 수술 예정임을 나타냈습니다."
+}
+```
+
+Note:
+The provided text was cut off near the end regarding the imaging studies and clinical examination details. Therefore, the last part of the `narrative` field has been left incomplete (`text truncated due to length`). In practice, you would need to complete these details based on the full information available.

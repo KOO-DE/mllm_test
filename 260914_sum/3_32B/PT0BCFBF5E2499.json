@@ -1,0 +1,154 @@
+{
+  "patient_id": "PT0BCFBF5E2499",
+  "status": "ok",
+  "n_rows_available": 65,
+  "n_rows_used_in_prompt": 65,
+  "cited_evidence_ids": [
+    "R0001504",
+    "R0015127",
+    "R0015172",
+    "R0015173",
+    "R0015174",
+    "R0015175",
+    "R0015176",
+    "R0015177",
+    "R0056610",
+    "R0056611",
+    "R0056612",
+    "R0056613"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Anemia, unspecified",
+      "onset_date": "2022-12-31",
+      "diagnosis_evidence_ids": [
+        "R0001504"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "0.9% 생리식염주 1000ml(이노엔)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015127"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "파세타주 1g(신풍)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015172"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "클로르페니라민말렌산염주 4mg(제일제약)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015173"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "써스펜8시간 이알서방정 650mg(한미)(집중)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015174"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "베아제정(대웅)비급여",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015175"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "코푸 시럽 20ml(유한)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015176"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "신일폴산정 1mg(신일)",
+          "date": "2022-12-31",
+          "evidence_ids": [
+            "R0015177"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "known chronic allergic rhinitis",
+      "onset_date": null,
+      "diagnosis_evidence_ids": [
+        "R0056610",
+        "R0056611",
+        "R0056612",
+        "R0056613"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0015128",
+    "R0015178",
+    "R0015179",
+    "R0054200",
+    "R0054201",
+    "R0054202",
+    "R0054203",
+    "R0054204",
+    "R0054205",
+    "R0054206",
+    "R0054207",
+    "R0054208",
+    "R0054209",
+    "R0054210",
+    "R0054211",
+    "R0054212",
+    "R0054213",
+    "R0054214",
+    "R0054215",
+    "R0054216",
+    "R0054217",
+    "R0054218",
+    "R0054219",
+    "R0054220",
+    "R0054221",
+    "R0054222",
+    "R0054223",
+    "R0054224",
+    "R0054225",
+    "R0054226",
+    "R0054227",
+    "R0054228",
+    "R0054229",
+    "R0054230",
+    "R0054231",
+    "R0054232",
+    "R0054233",
+    "R0054234",
+    "R0054235",
+    "R0054236",
+    "R0054237",
+    "R0054238",
+    "R0054239",
+    "R0054240",
+    "R0054241",
+    "R0054242",
+    "R0054243",
+    "R0054244",
+    "R0054245",
+    "R0054246",
+    "R0054247",
+    "R0054248",
+    "R0054452"
+  ],
+  "narrative": "2022년 12월 31일, 환자는 호흡곤란 및 dyspnea 증상을 호소하며 응급의학과에 내원하였다. 진단 정보에 따르면 'Anemia, unspecified'가 확인되었으며, 이 진단은 응급의학과에서 확정된 것으로 2022-12-31에 기록되었다. 관련 진단 검사로는 E-ADM3(Emergency Admission 15종), PT(Prothrombin Time), Emergency CBC & Differential Count(6종), WBC Differential Count(Blood), Band Neutrophil(#), Band Neutrophil(%) 등의 검사가 수행되었다. 또한, 비예기항체 선별검사 및 동정검사에서 여러 항체 반응이 관찰되었으나, 임상적으로 중요하다고 판단되지 않았다. 혈액형 검사에서는 B형, Rh(D) 양성이 확인되었다. 치료로는 0.9% 생리식염주 1000ml, 파세타주 1g, 클로르페니라민말렌산염주 4mg, 써스펜8시간 이알서방정 650mg, 베아제정, 코푸 시럽, 신일폴산정 1mg 등이 처방되었다. 또한, 알려진 만성 알레르기 성비염(know chronic allergic rhinitis) 병력이 있으며, 재생불량성 빈혈(r/o aplastic anemia) 및 용혈성 빈혈(r/o hemolytic anemia)을 배제하기 위한 추가 평가가 필요하다는 의견이 있었다."
+}

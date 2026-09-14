@@ -1,0 +1,330 @@
+{
+  "patient_id": "PT071D9F80B2A7",
+  "status": "ok",
+  "n_rows_available": 142,
+  "n_rows_used_in_prompt": 142,
+  "cited_evidence_ids": [
+    "R0000897",
+    "R0000898",
+    "R0000899",
+    "R0000900",
+    "R0003614",
+    "R0006767",
+    "R0006768",
+    "R0006769",
+    "R0006771",
+    "R0007593",
+    "R0007594",
+    "R0007598",
+    "R0007599",
+    "R0007600",
+    "R0007601",
+    "R0007602",
+    "R0007603",
+    "R0007604",
+    "R0007605",
+    "R0007606",
+    "R0007607",
+    "R0011505",
+    "R0056539",
+    "R0056540",
+    "R0056541",
+    "R0056542",
+    "R0056545",
+    "R0056546",
+    "R0056547",
+    "R0056548",
+    "R0056549",
+    "R0056551",
+    "R0056552"
+  ],
+  "problems": [
+    {
+      "diagnosis": "Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33",
+      "onset_date": "2022-11-11",
+      "diagnosis_evidence_ids": [
+        "R0000898",
+        "R0000899",
+        "R0056539",
+        "R0056540",
+        "R0056541",
+        "R0056542",
+        "R0056547",
+        "R0056548",
+        "R0056549",
+        "R0056551",
+        "R0056552",
+        "R0056545",
+        "R0056546"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "name": "Dasatinib",
+          "date": "2022-12-16~2022-12-30",
+          "evidence_ids": [
+            "R0006768"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mercaptopurine",
+          "date": "2022-12-20~2022-12-29",
+          "evidence_ids": [
+            "R0007599"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Methotrexate",
+          "date": "2022-12-20~2022-12-27",
+          "evidence_ids": [
+            "R0007605"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cytarabine",
+          "date": "2022-12-20~2022-12-30",
+          "evidence_ids": [
+            "R0007607"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Cyclophosphamide",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0007600"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Mesna",
+          "date": "2022-12-20",
+          "evidence_ids": [
+            "R0007603"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Fluconazole",
+          "date": "2022-12-16",
+          "evidence_ids": [
+            "R0006769"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Trimethoprim-Sulfamethoxazole",
+          "date": "2022-12-16~2022-12-30",
+          "evidence_ids": [
+            "R0006767"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Acetaminophen",
+          "date": "2022-12-07~2022-12-30",
+          "evidence_ids": [
+            "R0003614",
+            "R0007593"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Furosemide",
+          "date": "2022-12-19~2022-12-30",
+          "evidence_ids": [
+            "R0007594"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Palonosetron",
+          "date": "2022-12-20~2022-12-30",
+          "evidence_ids": [
+            "R0007606"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ketamine",
+          "date": "2022-12-20~2022-12-27",
+          "evidence_ids": [
+            "R0007602"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Midazolam",
+          "date": "2022-12-20~2022-12-27",
+          "evidence_ids": [
+            "R0007604"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Goserelin",
+          "date": "2022-12-27",
+          "evidence_ids": [
+            "R0011505"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Heparin sodium",
+          "date": "2022-12-19~2022-12-23",
+          "evidence_ids": [
+            "R0007601"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Sodium bicarbonate",
+          "date": "2022-12-19~2022-12-30",
+          "evidence_ids": [
+            "R0007598"
+          ]
+        },
+        {
+          "type": "medication",
+          "name": "Ursodesoxycholic acid",
+          "date": "2022-12-16~2022-12-30",
+          "evidence_ids": [
+            "R0006771"
+          ]
+        }
+      ]
+    },
+    {
+      "diagnosis": "Other specified disorders of white blood cells",
+      "onset_date": "2022-11-01",
+      "diagnosis_evidence_ids": [
+        "R0000897"
+      ],
+      "treatments": []
+    },
+    {
+      "diagnosis": "Persons encountering health services for chemotherapy session for neoplasm",
+      "onset_date": "2022-12-19",
+      "diagnosis_evidence_ids": [
+        "R0000900",
+        "R0056552"
+      ],
+      "treatments": []
+    }
+  ],
+  "unlinked_evidence_ids": [
+    "R0006770",
+    "R0007595",
+    "R0007596",
+    "R0007597",
+    "R0007608",
+    "R0007609",
+    "R0007610",
+    "R0007611",
+    "R0007612",
+    "R0011504",
+    "R0011506",
+    "R0011507",
+    "R0011508",
+    "R0020998",
+    "R0020999",
+    "R0021000",
+    "R0021001",
+    "R0021002",
+    "R0021003",
+    "R0021004",
+    "R0021005",
+    "R0021006",
+    "R0021007",
+    "R0021008",
+    "R0021009",
+    "R0021010",
+    "R0021011",
+    "R0021012",
+    "R0021013",
+    "R0021014",
+    "R0021015",
+    "R0021016",
+    "R0021017",
+    "R0021018",
+    "R0021019",
+    "R0021020",
+    "R0021021",
+    "R0021022",
+    "R0021023",
+    "R0021024",
+    "R0021025",
+    "R0021026",
+    "R0021027",
+    "R0021028",
+    "R0021029",
+    "R0021030",
+    "R0021031",
+    "R0021032",
+    "R0021033",
+    "R0021034",
+    "R0021035",
+    "R0021036",
+    "R0021037",
+    "R0021038",
+    "R0021039",
+    "R0021040",
+    "R0021041",
+    "R0021042",
+    "R0021043",
+    "R0021044",
+    "R0021045",
+    "R0021046",
+    "R0021047",
+    "R0021048",
+    "R0021049",
+    "R0021050",
+    "R0021051",
+    "R0021052",
+    "R0021053",
+    "R0021054",
+    "R0021055",
+    "R0021056",
+    "R0021057",
+    "R0021058",
+    "R0021059",
+    "R0021060",
+    "R0026512",
+    "R0034332",
+    "R0034333",
+    "R0034334",
+    "R0034335",
+    "R0034336",
+    "R0034337",
+    "R0034338",
+    "R0034339",
+    "R0034340",
+    "R0044728",
+    "R0044729",
+    "R0044730",
+    "R0044731",
+    "R0044732",
+    "R0044733",
+    "R0044734",
+    "R0044735",
+    "R0044736",
+    "R0044737",
+    "R0044738",
+    "R0044739",
+    "R0044740",
+    "R0044741",
+    "R0044742",
+    "R0044743",
+    "R0044744",
+    "R0044745",
+    "R0044746",
+    "R0056543",
+    "R0056544",
+    "R0056550",
+    "R0056553"
+  ],
+  "narrative": "환자는 2022년 11월 11일에 'Acute B lymphoblastic leukemia with aberrant expression of CD13 and CD33' 진단을 받았으며, 이 질환이 여러 의무기록(R0000898, R0000899, R0056539 등)에서 반복적으로 언급되었습니다. 환자는 2022년 12월 16일부터 2022년 12월 30일까지 다스타니브, 메르캅토퓨린, 메토트렉세이트, 사이타라빈, 사이클로포스파마이드, 메스나 등의 항암제를 처방받았으며, 다른 약물로는 플루코나졸, 트리메트로프림-설폰메톡살졸, 아세트아미노펜, 퓨로세미드, 팔로노세트론, 케타민, 미다졸람, 고세레린, 헤파린, 나트륨 비카르보네이트, 우르소데옥시콜산 등을 사용했습니다. 또한 2022년 11월 1일에는 'Other specified disorders of white blood cells' 진단이 기록되었으며, 2022년 12월 19일에는 'Persons encountering health services for chemotherapy session for neoplasm' 진단이 추가되었습니다."
+}

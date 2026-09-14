@@ -1,0 +1,27 @@
+{
+  "model": "../models/EXAONE-4.0-32B",
+  "prompt_lang": "en",
+  "disable_thinking": true,
+  "patient_list_file": "patient_10.txt",
+  "auto_select_columns": true,
+  "column_selection_used": true,
+  "max_input_chars": 43873,
+  "n_total_patients": 10,
+  "n_json_parse_fail": 0,
+  "n_problems_raw": 53,
+  "n_problems_dropped_ungrounded": 0,
+  "n_problems_deduplicated": 1,
+  "n_treatments_raw": 16,
+  "n_treatments_dropped_ungrounded": 0,
+  "n_hallucinated_ids": 4,
+  "n_rows_dropped_structured_total": 0,
+  "n_rows_dropped_narrative_total": 609,
+  "n_rows_dropped_medication_total": 353,
+  "n_narrative_language_flagged": 0,
+  "sampling": {
+    "repetition_penalty": 1.0,
+    "frequency_penalty": 0.0,
+    "retry_on_failure": 2,
+    "guided_json": false
+  }
+}
